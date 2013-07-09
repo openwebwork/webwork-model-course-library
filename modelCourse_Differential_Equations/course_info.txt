@@ -1,0 +1,23 @@
+<p align="center">
+<B> Ordinary Differential Equations  </B></p>
+<p align="center">
+<a href="http://en.wikipedia.org/wiki/Ordinary_differential_equation">
+<IMG SRC = "http://upload.wikimedia.org/wikipedia/commons/7/75/De_template.svg"> </a></p>
+<hr />
+
+This model set of homework assignments is for a generic Ordinary Differential Equations course which is not tied to any particular textbook.  It is expected that with some modification, this can be adapted to many formats of Ordinary Differential Equations courses.
+
+<hr />
+
+<p>
+<a href="http://webwork.maa.org/wiki/ModelCourses/Ordinary_Differential_Equations#.UTyUSNE-vcY"> Documentation and download</a> </p>
+
+<hr /> 
+
+<p>
+<a href="http://webwork.maa.org/wiki/Sample_Courses#.UTuN99E-vcY"> Sample courses</a> </p>
+
+<hr />
+
+<p>
+<a href="http://webwork.maa.org/wiki/Model_Courses#.UTuOT9E-vcY"> Other model courses</a> </p>
