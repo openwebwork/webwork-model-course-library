@@ -1,0 +1,38 @@
+###/setSet_16_Inference_about_a_Population_Mean_Header.pg
+
+DOCUMENT();
+loadMacros("PG.pl","PGbasicmacros.pl");
+
+BEGIN_TEXT
+<p align="center">
+$BBOLD Inference about a Population Mean$EBOLD </p>
+
+<hr />
+$PAR
+Due: $BBOLD 
+$formattedDueDate. $EBOLD
+
+$PAR 
+<hr />
+Students will be able to:
+<UL>
+<li> Perform a t-test </li>
+<li> Interpret levels of significance </li>
+<li> Perform a hypothesis test using a critical value</li>
+</UL> 
+
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \} 
+$PAR
+
+
+
+END_TEXT
+
+ENDDOCUMENT();

@@ -1,0 +1,39 @@
+###/setSet_19_Comparing_Two_Proportions_Header.pg
+
+DOCUMENT();
+loadMacros("PG.pl","PGbasicmacros.pl");
+
+BEGIN_TEXT
+<p align="center">
+$BBOLD Comparing Two Proportions $EBOLD </p>
+
+<hr />
+$PAR
+Due: $BBOLD 
+$formattedDueDate. $EBOLD
+
+$PAR 
+<hr />
+Students will be able to:
+<UL>
+<li> Perform a hypothesis test on two proportion </li>
+<li> Calculate a confidence interval for a two proportion </li>
+<li> Interpret levels of significance </li>
+<li> Perform a hypothesis test using a critical value </li>
+</UL> 
+
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \} 
+$PAR
+
+
+
+END_TEXT
+
+ENDDOCUMENT();

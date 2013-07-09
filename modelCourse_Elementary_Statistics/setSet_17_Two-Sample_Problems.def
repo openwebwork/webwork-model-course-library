@@ -1,0 +1,33 @@
+setNumber=Set_17_Two-Sample_Problems
+openDate          = 01/01/2012 at 08:00am MST
+dueDate           = 01/01/2020 at 05:00pm MST
+answerDate        = 01/01/2020 at 05:00pm MST
+paperHeaderFile = setSet_17_Two-Sample_Problems_Header.pg
+screenHeaderFile = setSet_17_Two-Sample_Problems_Header.pg
+problemList =
+Library/CollegeOfIdaho/setStatistics_Ch18CompareTwoMeans/18Stats_01_CompareTwoMeans.pg, 2
+Library/CollegeOfIdaho/setStatistics_Ch18CompareTwoMeans/18Stats_02_CompareTwoMeans.pg, 4
+Library/CollegeOfIdaho/setStatistics_Ch18CompareTwoMeans/18Stats_03_CompareTwoMeans.pg, 3
+Library/CollegeOfIdaho/setStatistics_Ch18CompareTwoMeans/18Stats_04_CompareTwoMeans.pg, 3
+Library/CollegeOfIdaho/setStatistics_Ch18CompareTwoMeans/18Stats_05_CompareTwoMeans.pg, 6
+Library/CollegeOfIdaho/setStatistics_Ch18CompareTwoMeans/18Stats_06_CompareTwoMeans.pg, 5
+Library/CollegeOfIdaho/setStatistics_Ch18CompareTwoMeans/18Stats_07_CompareTwoMeans.pg, 5
+Library/CollegeOfIdaho/setStatistics_Ch18CompareTwoMeans/18Stats_08_CompareTwoMeans.pg, 4
+Library/CollegeOfIdaho/setStatistics_Ch18CompareTwoMeans/18Stats_09_CompareTwoMeans.pg, 5
+Library/CollegeOfIdaho/setStatistics_Ch18CompareTwoMeans/18Stats_10_CompareTwoMeans.pg,2
+Library/CollegeOfIdaho/setStatistics_Ch18CompareTwoMeans/18Stats_11_CompareTwoMeans.pg,3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+setNumber=Set_05_Regression
+openDate          = 01/01/2012 at 08:00am MST
+dueDate           = 01/01/2020 at 05:00pm MST
+answerDate        = 01/01/2020 at 05:00pm MST
+paperHeaderFile   = setSet_05_Regression_Header.pg
+screenHeaderFile  = setSet_05_Regression_Header.pg
+problemList       = 
+Library/CollegeOfIdaho/setStatistics_Ch05Regression/05Stats_01_Regression.pg, 3, 3 
+Library/CollegeOfIdaho/setStatistics_Ch05Regression/05Stats_02_Regression.pg, 2  
+Library/CollegeOfIdaho/setStatistics_Ch05Regression/05Stats_03_Regression.pg, 1  
+Library/CollegeOfIdaho/setStatistics_Ch05Regression/05Stats_04_Regression.pg, 1  
+Library/CollegeOfIdaho/setStatistics_Ch05Regression/05Stats_05_Regression.pg, 2  
+Library/CollegeOfIdaho/setStatistics_Ch05Regression/05Stats_06_Regression.pg, 2  
+Library/CollegeOfIdaho/setStatistics_Ch05Regression/05Stats_07_Regression.pg, 5  
+Library/CollegeOfIdaho/setStatistics_Ch05Regression/05Stats_08_Regression.pg, 2  
+Library/CollegeOfIdaho/setStatistics_Ch05Regression/05Stats_09_Regression.pg, 1  
+Library/CollegeOfIdaho/setStatistics_Ch05Regression/05Stats_10_Regression.pg, 3  
+Library/CollegeOfIdaho/setStatistics_Ch05Regression/05Stats_11_Regression.pg, 3, 3 
+Library/CollegeOfIdaho/setStatistics_Ch05Regression/05Stats_12_Regression.pg, 3, 3 
+
