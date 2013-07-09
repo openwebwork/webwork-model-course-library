@@ -1,0 +1,13 @@
+
+openDate          = 08/01/2012 at 12:00am EDT
+dueDate           = 08/21/2015 at 12:00am EDT
+answerDate        = 08/21/2015 at 12:00am EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = defaultHeader
+problemList       = 
+Library/FortLewis/DiffEq/2-Higher-order/04-Mechanical-vibrations/Lebl-2-4-02.pg, 1, -1 
+Library/FortLewis/DiffEq/2-Higher-order/04-Mechanical-vibrations/Lebl-2-4-03.pg, 1, -1 
+Library/FortLewis/DiffEq/2-Higher-order/04-Mechanical-vibrations/Lebl-2-4-04.pg, 1, -1 
+Library/FortLewis/DiffEq/2-Higher-order/04-Mechanical-vibrations/pendulum/pendulum.pg, 1, -1 
+Library/FortLewis/DiffEq/2-Higher-order/04-Mechanical-vibrations/trig-identity.pg, 1, -1 
+
