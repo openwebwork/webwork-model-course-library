@@ -1,0 +1,32 @@
+setNumber=Set_03_The_Normal_Distribution_and_z-scores
+openDate          = 01/01/2012 at 08:00am MST
+dueDate           = 01/01/2020 at 05:00pm MST
+answerDate        = 01/01/2020 at 05:00pm MST
+paperHeaderFile = setSet_03_The_Normal_Distribution_and_z-scores_Header.pg
+screenHeaderFile = setSet_03_The_Normal_Distribution_and_z-scores_Header.pg
+problemList =
+Library/CollegeOfIdaho/setStatistics_Ch03NormalDistribution/03Stats_01_NormalDist/03Stats_01_NormalDist.pg , 6, 6
+Library/CollegeOfIdaho/setStatistics_Ch03NormalDistribution/03Stats_02_NormalDist.pg, 3, 3
+Library/CollegeOfIdaho/setStatistics_Ch03NormalDistribution/03Stats_03_NormalDist.pg, 3, 3
+Library/CollegeOfIdaho/setStatistics_Ch03NormalDistribution/03Stats_04_NormalDist.pg , 3
+Library/CollegeOfIdaho/setStatistics_Ch03NormalDistribution/03Stats_05_NormalDist.pg , 2
+Library/CollegeOfIdaho/setStatistics_Ch03NormalDistribution/03Stats_06_NormalDist.pg , 2
+Library/CollegeOfIdaho/setStatistics_Ch03NormalDistribution/03Stats_07_NormalDist.pg , 5
+Library/CollegeOfIdaho/setStatistics_Ch03NormalDistribution/03Stats_08_NormalDist.pg , 4
+Library/CollegeOfIdaho/setStatistics_Ch03NormalDistribution/03Stats_09_NormalDist.pg , 2
+Library/CollegeOfIdaho/setStatistics_Ch03NormalDistribution/03Stats_10_NormalDist.pg , 2
+Library/CollegeOfIdaho/setStatistics_Ch03NormalDistribution/03Stats_11_NormalDist.pg , 1
+Library/CollegeOfIdaho/setStatistics_Ch03NormalDistribution/03Stats_12_NormalDist.pg , 3
+
+
+
+
+
+
+
+
+
+
+
+
+

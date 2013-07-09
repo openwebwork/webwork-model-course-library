@@ -1,0 +1,18 @@
+setNumber=Set_04_Scatterplots_and_Correlation
+openDate          = 01/01/2012 at 08:00am MST
+dueDate           = 01/01/2020 at 05:00pm MST
+answerDate        = 01/01/2020 at 05:00pm MST
+paperHeaderFile   = setSet_04_Scatterplots_and_Correlation_Header.pg
+screenHeaderFile  = setSet_04_Scatterplots_and_Correlation_Header.pg
+problemList       = 
+Library/CollegeOfIdaho/setStatistics_Ch04ScatterplotsAndCorrelation/04Stats_01_ScatterCorrelation.pg, 4, 3 
+Library/CollegeOfIdaho/setStatistics_Ch04ScatterplotsAndCorrelation/04Stats_02_ScatterCorrelation/04Stats_02_ScatterCorrelation.pg, 4, 3 
+Library/CollegeOfIdaho/setStatistics_Ch04ScatterplotsAndCorrelation/04Stats_03_ScatterCorrelation.pg, 2  
+Library/CollegeOfIdaho/setStatistics_Ch04ScatterplotsAndCorrelation/04Stats_04_ScatterCorrelation.pg, 5  
+Library/CollegeOfIdaho/setStatistics_Ch04ScatterplotsAndCorrelation/04Stats_05_ScatterCorrelation.pg, 2  
+Library/CollegeOfIdaho/setStatistics_Ch04ScatterplotsAndCorrelation/04Stats_06_ScatterCorrelation/04Stats_06_ScatterCorrelation.pg, 3, 3 
+Library/CollegeOfIdaho/setStatistics_Ch04ScatterplotsAndCorrelation/04Stats_07_ScatterCorrelation.pg, 3, 3 
+Library/CollegeOfIdaho/setStatistics_Ch04ScatterplotsAndCorrelation/04Stats_08_ScatterCorrelation.pg, 3, 3 
+Library/CollegeOfIdaho/setStatistics_Ch04ScatterplotsAndCorrelation/04Stats_09_ScatterCorrelation.pg, 3, 3 
+Library/CollegeOfIdaho/setStatistics_Ch04ScatterplotsAndCorrelation/04Stats_10_ScatterCorrelation.pg, 2, 3 
+

@@ -1,0 +1,45 @@
+###/setSet_10_Sampling_Distributions_Header.pg
+
+DOCUMENT();
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+$BBOLD Sampling Distributions $EBOLD </p>
+
+<hr />
+
+$PAR
+Due: $BBOLD 
+$formattedDueDate. $EBOLD
+
+$PAR 
+<hr />
+
+Students will be able to:
+<UL>
+<li> Apply the Central Limit Theorem </li>
+<li> Analyze sampling distributions</li>
+<li> Explain the effect of sample size on sampling distributions </li>
+<li> Comprehend the concept of sampling variation </li>
+</UL> 
+
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \} 
+$PAR
+
+
+
+END_TEXT
+
+ENDDOCUMENT();

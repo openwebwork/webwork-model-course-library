@@ -1,0 +1,46 @@
+
+
+DOCUMENT();
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+$BBOLD Elemeantary Statistics $EBOLD </p>
+
+<hr />
+
+$PAR
+Due: $BBOLD 
+$formattedDueDate. $EBOLD
+
+$PAR 
+<hr />
+
+These problem sets have been used in a 3 credit 12 week course using David Moore's Introduction to Statistics.
+
+$PAR
+<hr />
+
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/MAA_-_Elementary_Statistics#.UTuFe9E-vcZ!, "Documentation and download") \} 
+
+$PAR
+<hr /> 
+
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/A_Gallery_of_Courses#.UTuJGdE-vcY!,"Gallery of courses ") \} 
+<hr />
+
+
+
+
+END_TEXT
+
+ENDDOCUMENT();
+
+
+
