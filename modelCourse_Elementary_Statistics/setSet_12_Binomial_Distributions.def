@@ -1,0 +1,13 @@
+setNumber=Set_12_Binomial_Distributions
+openDate          = 01/01/2013 at 08:00am EST
+dueDate           = 01/01/2020 at 07:12pm EST
+answerDate        = 01/01/2020 at 07:12pm EST
+paperHeaderFile   = setSet_12_Binomial_Distributions_Header.pg
+screenHeaderFile  = setSet_12_Binomial_Distributions_Header.pg
+problemList       = 
+Library/NAU/setProbability/binoprob1.pg, 5, -1 
+Library/NAU/setProbability/binoprob3.pg, 1, -1 
+Library/Rochester/setProbability8BinomialDist/ur_pb_8_1.pg, 4, -1 
+Library/Rochester/setProbability8BinomialDist/ur_pb_8_3.pg, 6, -1 
+Library/Rochester/setProbability8BinomialDist/ur_pb_8_5.pg, 4, -1 
+

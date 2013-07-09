@@ -1,0 +1,42 @@
+###/setSet_17_Two-Sample_Problems_Header.pg
+
+DOCUMENT();
+loadMacros("PG.pl","PGbasicmacros.pl");
+
+BEGIN_TEXT
+<p align="center">
+$BBOLD Two-Sample Problems$EBOLD </p>
+
+<hr />
+$PAR
+Due: $BBOLD 
+$formattedDueDate. $EBOLD
+
+$PAR 
+<hr />
+Students will be able to:
+<UL>
+<li> Write a null and alternate hypothesis for two sample problems </li>
+<li>Perform a two sample means test</li>
+<li>Perform a paired means test </li>
+<li>Distinguish a two sample means test from a paired means</li>
+<li>Interpret levels of significance </li>
+<li>Perform a hypothesis test using a critical value
+</li>
+</UL> 
+
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \} 
+$PAR
+
+
+
+END_TEXT
+
+ENDDOCUMENT();

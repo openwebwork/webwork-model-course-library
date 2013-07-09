@@ -1,0 +1,47 @@
+###/setSet_03_The_Normal_Distribution_and_z-scores_Header.pg
+
+DOCUMENT();
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+$BBOLD The Normal Distribution and z-scores $EBOLD </p>
+
+<hr />
+
+$PAR
+Due: $BBOLD 
+$formattedDueDate. $EBOLD
+
+$PAR 
+<hr />
+
+Students will be able to:
+
+
+
+<UL>
+<li> Recognize characteristics of the normal distribution </li>
+<li> Calculate z-scores </li>
+<li>  Interpret z-scores </li>
+</UL> 
+
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \} 
+$PAR
+
+
+
+END_TEXT
+
+ENDDOCUMENT();

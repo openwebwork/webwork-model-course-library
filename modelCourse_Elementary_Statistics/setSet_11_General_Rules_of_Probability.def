@@ -1,0 +1,17 @@
+
+openDate          = 01/01/2013 at 08:00am EST
+dueDate           = 01/01/2020 at 07:11pm EST
+answerDate        = 01/01/2020 at 07:11pm EST
+paperHeaderFile   = ASimpleCombinedHeaderFile.pg
+screenHeaderFile  = setSet_11_General_Rules_of_Probability_Header.pg
+problemList       = 
+Library/NAU/setProbability/card.pg, 1, -1 
+Library/NAU/setProbability/compprob5.pg, 1, -1 
+Library/NAU/setProbability/replacement.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework03/stat212-HW03-06.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework03/stat212-HW03-18.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework03/stat212-HW03-11.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework03/stat212-HW03-17.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework03/stat212-HW03-15.pg, 1, -1 
+Library/Rochester/setProbability4Conditional/ur_pb_4_12.pg, 1, -1 
+

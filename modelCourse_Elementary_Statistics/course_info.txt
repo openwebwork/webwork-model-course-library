@@ -1,0 +1,21 @@
+<p align="center">
+<B> Elementary Statistics  </B></p>
+
+<hr />
+
+These problem sets have been used in a 3 credit 12 week course using David Moore's Introduction to Statistics.
+
+<hr />
+
+<p>
+<a href="http://webwork.maa.org/wiki/MAA_-_Elementary_Statistics#.UTuFe9E-vcZ"> Documentation and download</a> </p>
+
+<hr /> 
+
+<p>
+<a href="http://webwork.maa.org/wiki/Sample_Courses#.UTuN99E-vcY"> Sample courses</a> </p>
+
+<hr />
+
+<p>
+<a href="http://webwork.maa.org/wiki/Model_Courses#.UTuOT9E-vcY"> Other model courses</a> </p>
