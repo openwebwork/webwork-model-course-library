@@ -1,0 +1,44 @@
+###/1-First-order-equations_09-Eulers-methodHeader.pg
+
+DOCUMENT();
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+$BBOLD First order differential equations: Euler's method $EBOLD </p>
+
+<hr />
+
+$PAR
+Due: $BBOLD 
+$formattedDueDate. $EBOLD
+
+$PAR 
+<hr />
+
+Students will be able to:
+
+<UL>
+<li>Estimate solutions to differential equations using Euler’s method.
+<li> Identify the impact of step size of the accuracy of estimated solutions.
+<li> Identify  if the estimated solution is expected to be an overestimate or underestimate.
+<li> Estimate solutions using Improved Euler’s method. </li>
+</UL> 
+
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \} 
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();
