@@ -1,0 +1,19 @@
+
+openDate          = 08/01/2012 at 12:00am EDT
+dueDate           = 08/21/2015 at 12:00am EDT
+answerDate        = 08/21/2015 at 12:00am EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = defaultHeader
+problemList       = 
+Library/FortLewis/DiffEq/3-Linear-systems/07-Repeated-eigenvalues/KJ-4-7-03-multians.pg, 1, -1 
+Library/FortLewis/DiffEq/3-Linear-systems/07-Repeated-eigenvalues/KJ-4-7-06-multians.pg, 1, -1 
+Library/FortLewis/DiffEq/3-Linear-systems/07-Repeated-eigenvalues/KJ-4-7-08-multians.pg, 1, -1 
+Library/FortLewis/DiffEq/3-Linear-systems/07-Repeated-eigenvalues/KJ-4-7-28.pg, 1, -1 
+Library/FortLewis/DiffEq/3-Linear-systems/07-Repeated-eigenvalues/KJ-4-7-29.pg, 1, -1 
+Library/FortLewis/DiffEq/3-Linear-systems/07-Repeated-eigenvalues/KJ-4-7-30.pg, 1, -1 
+Library/FortLewis/DiffEq/3-Linear-systems/07-Repeated-eigenvalues/KJ-4-7-33.pg, 1, -1 
+Library/FortLewis/DiffEq/3-Linear-systems/07-Repeated-eigenvalues/Repeated-eigenvalues-01.pg, 1, -1 
+Library/FortLewis/DiffEq/3-Linear-systems/07-Repeated-eigenvalues/Repeated-eigenvalues-02.pg, 1, -1 
+Library/FortLewis/DiffEq/3-Linear-systems/07-Repeated-eigenvalues/Repeated-eigenvalues-03.pg, 1, -1 
+Library/FortLewis/DiffEq/3-Linear-systems/07-Repeated-eigenvalues/Repeated-eigenvalues-04.pg, 1, -1 
+
