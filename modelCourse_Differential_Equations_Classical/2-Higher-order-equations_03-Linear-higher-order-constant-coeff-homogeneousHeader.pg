@@ -1,0 +1,44 @@
+###/2-Higher-order-equations_03-Linear-higher-order-constant-coeff-homogeneousHeader.pg
+
+DOCUMENT();
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+$BBOLD  Higher order equations: Linear higher order homogeneous equation with constant coefficients $EBOLD </p>
+
+<hr />
+
+$PAR
+Due: $BBOLD 
+$formattedDueDate. $EBOLD
+
+$PAR 
+<hr />
+
+Students will be able to:
+
+<UL>
+<li> Determine if a given set of functions is a fundamental set of solutions of a homogeneous $BBOLD second or higher order $EBOLD linear equations with constant coefficients
+<li> Solve the auxiliary equation to create the fundamental set of solutions.
+<li> Recognize the type of general solution based on the roots of the auxiliary equation (real, complex, repeated)
+</li>
+</UL> 
+
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \} 
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

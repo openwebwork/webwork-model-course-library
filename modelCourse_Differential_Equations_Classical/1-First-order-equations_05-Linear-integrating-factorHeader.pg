@@ -1,0 +1,47 @@
+###/set1-First-order-equations_05-Linear-integrating-factorHeader.pg
+
+DOCUMENT();
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+$BBOLD First order differential equations: Linear integrating factor $EBOLD </p>
+
+<hr />
+
+$PAR
+Due: $BBOLD 
+$formattedDueDate. $EBOLD
+
+$PAR 
+<hr />
+
+Students will be able to:
+
+<UL>
+<li> Identify first order linear equations. 
+<li> Write a first order linear equation in standard form to be used with integrating factor
+<li> Use the method of integrating factor to solve first order linear equations.
+<li> Solve applications of first order linear equations.
+<li> Identify the largest domain where the initial value problem first order linear equation has unique solution.
+<li> Solve applications modeled by first order linear equations
+ </li>
+</UL> 
+
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \} 
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

@@ -1,0 +1,15 @@
+
+openDate          = 08/01/2012 at 12:00am EDT
+dueDate           = 08/21/2015 at 12:00am EDT
+answerDate        = 08/21/2015 at 12:00am EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = defaultHeader
+problemList       = 
+Library/FortLewis/DiffEq/3-Linear-systems/01-Intro-to-systems/KJ-4-1-08-multians.pg, 1, -1 
+Library/FortLewis/DiffEq/3-Linear-systems/01-Intro-to-systems/KJ-4-1-08-no-multians.pg, 1, -1 
+Library/FortLewis/DiffEq/3-Linear-systems/01-Intro-to-systems/KJ-4-1-13-multians.pg, 1, -1 
+Library/FortLewis/DiffEq/3-Linear-systems/01-Intro-to-systems/KJ-4-1-14-multians.pg, 1, -1 
+Library/FortLewis/DiffEq/3-Linear-systems/01-Intro-to-systems/KJ-4-1-22-multians.pg, 1, -1 
+Library/FortLewis/DiffEq/3-Linear-systems/01-Intro-to-systems/Lebl-3-1-02.pg, 1, -1 
+Library/FortLewis/DiffEq/3-Linear-systems/01-Intro-to-systems/Lebl-3-1-03.pg, 1, -1 
+

@@ -1,0 +1,45 @@
+###/set1- First-order-equations_02-Existence-and-Uniqueness-TheoremHeader.pg
+
+DOCUMENT();
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+$BBOLD First order differential equations: Existence and Uniqueness Theorem $EBOLD </p>
+
+<hr />
+
+$PAR
+Due: $BBOLD 
+$formattedDueDate. $EBOLD
+
+$PAR 
+<hr />
+
+Students will be able to:
+
+<UL>
+<li> Apply the theorem for existence and uniqueness of solutions to differential equations appropriately.
+<li> If necessary, re-write the first order equation in a form so the Existence and Uniqueness Theorem can be applied
+<li> Determine the largest domain where a given first order differential equation has unique solution
+<li> Check the sufficient conditions for a first order linear differential equation to have a unique solution about the initial value
+ </li>
+</UL> 
+
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+$PAR
+<hr /> 
+$PAR 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \} 
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();
