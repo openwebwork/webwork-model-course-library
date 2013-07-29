@@ -1,0 +1,108 @@
+## DESCRIPTION
+## Algebra
+## Tests a knowledge of translating an English phrase into an algebraic expression.
+## ENDDESCRIPTION
+
+## KEYWORDS('algebra')
+
+## DBsubject('WeBWorK')
+## Date('02/06/2013')
+## Author('')
+## Institution('Bronx Community College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+## Problem1('')
+
+
+###########################
+#  Initialization
+
+DOCUMENT();
+
+loadMacros("PG.pl",
+"PGstandard.pl",
+"MathObjects.pl",
+"PGcourse.pl",
+"unionTables.pl",
+"PGauxiliaryFunctions.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl",
+"PGgraphmacros.pl"
+);
+
+TEXT(beginproblem());
+
+###########################
+#  Setup
+
+## The Context object holds information about what variables are defined and their types and 
+## domains, what constants are available, what functions can be applied and what operations
+## performed, what words (like NONE and DNE) are available, and what interpretation to give to
+## the various symbols and delimiters that the student can type.
+
+
+Context("Numeric");
+#Context()->variables->add(a => "Real");
+#Context()->variables->add(z => "Real");
+#Context()->variables->add(t => "Real");
+
+@num1 = ('Twice','Three times','Four times','Five times','Six times','Seven times','Eight times','Nine times', 'Ten times', 'Eleven times', 'Twelve times', 'Thirteen times', 'Fourteen times', 'Fifteen times');
+@num2 = ('one','two','three','four','five','six','seven','eight','nine', 'ten');
+
+$a = random(2,15,1);
+$b= random(1,10,1);
+
+
+@f = ("$b -$a x", "-$b +$a x","-$b -$a x", "$b -$a x", "-$b -$a x");
+@question_phrase = ("$num1[$a-2] a number is subtracted from $num2[$b-1]", 
+                                  "$num1[$a-2] a number is more than negative $num2[$b-1]",
+                                  "$num1[$a-2] a number is subtracted from  negative $num2[$b-1]",
+                                  "$num1[$a-2] a number is less than $num2[$b-1]",
+                                  "$num1[$a-2] a number is less than negative $num2[$b-1]");
+$choose = random(0,4,1);
+
+
+######################################
+#  Main text
+
+BEGIN_TEXT
+Write the following English phrase as an algebraic expression. $BR 
+Let \(x\) represent the unknown number.
+
+$PAR
+$question_phrase[$choose].
+$PAR
+Answer:  \{ ans_rule(20) \} 
+$PAR
+
+END_TEXT
+
+######################################
+#  Answers
+
+$ans=Formula($f[$choose]);
+ANS($ans->cmp);
+
+## Set the following equal to 0 if you Do NOT want to show partial correct answers, 
+## otherwise set equal to 1.
+$showPartialCorrectAnswers = 0;
+
+############################
+#  Solution. Uncomment if you wish to show solutions
+
+#Context()->texStrings;
+#BEGIN_SOLUTION
+#$${PAR}SOLUTION:${PAR}
+#\( $f[$choose] \)
+#END_SOLUTION
+#Context()->normalStrings;
+
+## Uncomment this line if you want to include a comment to instructor 
+## visible in the library browser. Students are not able to see it. 
+#COMMENT(' Insert comment here!!!   '); 
+
+ENDDOCUMENT();

@@ -1,0 +1,25 @@
+
+openDate          = 07/08/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set08_Solving_Proportions_and_Applications_Header.pg
+problemList       = 
+Library/NewHampshire/unh_schoolib/Irrational_Numbers/irrtne801.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Miscellaneous_Contest_Problems/mcpsrc202.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set3_Linear_Equations_and_Inequalities/s3p21.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_5_2_4.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_5_2_30.pg, 1, -1 
+Library/Rochester/setAlgebra02ExponentsRadicals/srw1_2_80.pg, 1, -1 
+Library/Rochester/setAlgebra02ExponentsRadicals/srw1_2_9.pg, 1, -1 
+Library/maCalcDB/setAlgebra02ExponentsRadicals/Test1_10.pg, 1, -1 
+Library/maCalcDB/setAlgebra05RationalExpressions/Test1_9.pg, 1, -1 
+Library/ma117DB/set1/srw1_2_51.pg, 1, -1 
+Library/Rochester/setAlgebra02ExponentsRadicals/srw1_2_91.pg, 1, -1 
+Library/Utah/College_Algebra/set2_Functions_and_Their_Graphs/1050s2p11.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_5_3_34.pg, 1, -1 
+Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg, 1, -1 
+Library/ma117DB/set1/srw1_2_11.pg, 1, -1 
+Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-24-Fractional-exponents.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_5_3_72.pg, 1, -1 
+

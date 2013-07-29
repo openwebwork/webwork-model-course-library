@@ -1,0 +1,67 @@
+## DESCRIPTION
+## Algebra Divide signed numbers
+## ENDDESCRIPTION
+
+## KEYWORDS('algebra', 'signed numbers -multiplication')
+
+## DBsubject('algebra')
+## Date('01/26/2013')
+## Author('')
+## Institution('Bronx Community College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "contextLimitedNumeric.pl"
+);
+
+TEXT(&beginproblem);
+
+######################################
+#  Setup
+
+$ad = random(-7,-2,1);
+$an = $ad * random(-7,-2,1);
+
+$bd = random(-7,-2,1);
+$bn = $bd * random(20,50,1);
+
+######################################
+#  Main text
+
+BEGIN_TEXT
+Divide or state that the division is undefined. (In this case, enter $BITALIC
+undefined $EITALIC.)  
+ 
+$PAR
+a) \( \displaystyle \frac{$an}{$ad} = \)  \{ ans_rule(10) \} 
+$PAR
+b) \( \displaystyle \frac{$bn}{$bd} = \)  \{ ans_rule(10) \} 
+$BR
+
+END_TEXT
+
+######################################
+#  Answers
+
+Context("LimitedNumeric"); #Needs to be changed to require a reduced fraction
+Context()->strings->add("undefined"=>{}, "Does not exist"=>{alias=>'undefined'});
+
+$ans_a=Real($an/$ad)->reduce;
+&ANS($ans_a->cmp);
+
+$ans_b=Real($bn/$bd)->reduce;
+&ANS($ans_b->cmp);
+
+$showPartialCorrectAnswers = 1;
+
+######################################
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.

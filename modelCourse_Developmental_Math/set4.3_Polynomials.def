@@ -1,0 +1,17 @@
+
+openDate          = 06/10/2013 at 09:19am EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/4.3_Polynomials_Header.pg
+problemList       = 
+Library/CollegeOfIdaho/setAlgebra_01_01_AlgebraicExpressions/11IntAlg_05_AlgebraicExpressions.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_01_AlgebraicExpressions/11IntAlg_04_AlgebraicExpressions.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_01_AlgebraicExpressions/11IntAlg_06_AlgebraicExpressions.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_10_Polynomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_01_AlgebraicExpressions/11IntAlg_14_AlgebraicExpressions.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_02_Polynomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_04_Polynomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_07_PolyEqAndApplications/57IntAlg_26_PolyEq.pg, 1, -1 
+local/setPreAlgebraC03S04/UsingFormulas04.pg, , -1 
+

@@ -1,0 +1,67 @@
+###/set8-Radical-Expressions-Equations_05-Expressions-with-Several-Radical-Terms_Header.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+
+$BBOLD 8-Radical-Expressions-Equations_05-Expressions-with-Several-Radical-Terms $EBOLD </p>
+
+<hr />
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+<hr />
+
+Students will be able to:
+
+<UL>
+
+<li>         Add or subtract radical expressions </li>
+
+<li>        Find product of two or more radical terms </li>
+
+<li>        Rationalize denominators with two terms that contain radicals </li>
+
+<li>        Rationalize numerators with two terms that contain radicals </li>
+
+<li>        Multiply or divide radical expressions with different indices </li>
+
+<li>        Evaluate expressions/functions at values containing radical expressions </li>
+
+</UL>
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

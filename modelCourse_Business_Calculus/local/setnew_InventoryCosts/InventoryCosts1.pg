@@ -1,0 +1,105 @@
+# DESCRIPTION
+# Minimize inventory cost problem, common to Business Calculus
+# ENDDESCRIPTION
+
+## Tagged by tbf 06/18/13
+
+## DBsubject(Calculus - single variable)
+## DBchapter(Applications of Differentiation)
+## DBsection(Optimization - business and economics)
+## Author(Tim Flowers)
+## Level(5)
+
+## KEYWORDS('calculus', 'derivative', 'optimization', 'inventory cost')
+
+
+DOCUMENT();
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl",
+"MathObjects.pl",
+);
+ 
+Context("Numeric");
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+$a = random(3,12,1);
+$d = random(1,5,1);
+$q = random(2,7,1);
+$e = random(2,20,1);
+
+$b = Real("2*$q");
+
+$n = Real("4*$a*$b");		# total number for year
+$h = Real("$d*$q");		# storage/holding costs
+$r = Real("$a*$d");		# fixed reorder cost
+$p = Real("$e");		# variable handling costs
+
+$soln = Real("4*$a");		# lot size (solution)
+
+$cost = Formula("($h/2)x + ($r*$n)/x + $p*$n")->reduce;
+
+
+Context()->texStrings;
+BEGIN_TEXT
+
+
+The showroom manager of a dealership knows that they will sell $n mopeds over 
+the course of an entire year.  Their cost to store a moped for an entire year 
+is $DOLLAR$h.  To reorder mopeds from their supplier, there is a fixed reordering cost of $DOLLAR$r and a $DOLLAR$p handling charge for each moped ordered.  How often should the manager order mopeds, and in what lot size, in order to minimize the inventory costs?
+$BR$BR
+Note: Use the standard assumption that for a lot size \( x \), the average 
+inventory is \( x/2 \).
+$BR$BR
+For a lot size \( x \), the total inventory cost for a year is given by the 
+function:
+$BR
+\( C(x) \) = \{ ans_rule(40) \}
+$BR$BR
+What lot size will minimize inventory costs? 
+$BR
+lot size = \{ ans_rule(25) \} mopeds
+$BR$BR
+How many times during the year should the manager reorder mopeds?
+$BR
+number of orders = \{ ans_rule(25) \}
+
+END_TEXT
+Context()->normalStrings;
+
+
+ANS($cost->cmp);
+ANS($soln->cmp);
+ANS($b->cmp );
+
+Context()->texStrings;
+SOLUTION(EV3(<<'END_SOLUTION'));
+$PAR SOLUTION $PAR
+
+There are two types of inventory costs to consider:  the holding/storage 
+costs and the reorder/handling costs.  The total holding costs will be the 
+number of mopeds stored, on average, for an entire year times the cost to 
+store each.  This gives \( (x/2) $h \).  The cost of each order will be 
+\( \$ \) $r plus \( \$ \) $p for each moped ordered.  So, one order costs 
+\( ($r + $p x) \).  This needs to be multiplied by the total number of 
+orders placed during the year, which is the total needed during the year divided 
+by the number ordered each time or the lot size: \( $n/x \).  Thus,
+$PAR
+\( C(x) =  $h*(x/2) + ($r + $p*x)*($n/x) = ($h/2)x + ($r*$n)/x + $p*$n \).
+$PAR
+To minimize we need the derivative, \( C^{\prime}(x) = $h/2 - ($r*$n)/x^2 \).  Set 
+this equal to zero and solve for \( x \) to get \( x = $soln \).
+$PAR
+Thus, to minimize inventory costs, the lot size should be $soln mopeds and the 
+manager should place \( $n/$soln = $b\) orders.
+
+END_SOLUTION
+Context()->normalStrings;
+
+COMMENT('MathObject version');
+ENDDOCUMENT();

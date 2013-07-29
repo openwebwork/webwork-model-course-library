@@ -1,0 +1,20 @@
+
+openDate          = 07/18/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set16_ComplexNOs_Operations_w_ComplexNOs_Header.pg
+problemList       = 
+Library/maCalcDB/setAlgebra11ComplexNumbers/adding.pg, 1, -1 
+Library/maCalcDB/setAlgebra11ComplexNumbers/srw3_4_13.pg, 1, -1 
+Library/Rochester/setAlgebra11ComplexNumbers/Multiply.pg, 1, -1 
+Library/maCalcDB/setAlgebra11ComplexNumbers/Divide.pg, 1, -1 
+Library/maCalcDB/setAlgebra11ComplexNumbers/ur_cn_1_13.pg, 1, -1 
+Library/ma112DB/set5/sw3_4_45.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set8_Quadratic_Equations_Functions_and_Inequalities/s8p1.pg, 1, -1 
+Library/Rochester/setAlgebra11ComplexNumbers/beth1complex.pg, 1, -1 
+Library/Rochester/setAlgebra11ComplexNumbers/srw3_4_29.pg, 1, -1 
+Library/Rochester/setAlgebra11ComplexNumbers/srw3_4_47.pg, 1, -1 
+Library/Rochester/setAlgebra11ComplexNumbers/srw3_4_49.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set8_Quadratic_Equations_Functions_and_Inequalities/s8p8.pg, 1, -1 
+

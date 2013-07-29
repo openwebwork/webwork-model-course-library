@@ -1,0 +1,28 @@
+
+openDate          = 07/22/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set22_Geometric_Sequences_Series_Header.pg
+problemList       = 
+Library/ASU-topics/setSequenceandSeries/jj4.pg, 1, -1 
+Library/Rochester/setAlgebra36SeqSeries/ur_sq_5_2.pg, 1, -1 
+Library/Utah/Business_Algebra/set10_Matrices/p01.pg, 1, -1 
+Library/ASU-topics/setSequenceandSeries/jj7.pg, 1, -1 
+Library/ASU-topics/setSequenceandSeries/jj5.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_14_2_36.pg, 1, -1 
+Library/Utah/Business_Algebra/set10_Matrices/p02.pg, 1, -1 
+Library/Rochester/setAlgebra36SeqSeries/sequence4.pg, 1, -1 
+Library/maCalcDB/setAlgebra36SeqSeries/sequence7A.pg, 1, -1 
+Library/ASU-topics/setSequenceandSeries/p12.pg, 1, -1 
+Library/Rochester/setAlgebra36SeqSeries/p12.pg, 1, -1 
+Library/Rochester/setAlgebra36SeqSeries/srw10_1_33.pg, 1, -1 
+Library/ASU-topics/setSequenceandSeries/jj6.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_14_2_52.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_14_2_12.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_14_2_54.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_14_2_50.pg, 1, -1 
+Library/ASU-topics/setSequenceandSeries/jj12.pg, 1, -1 
+Library/ASU-topics/setSequenceandSeries/jj13.pg, 1, -1 
+Library/Rochester/setAlgebra36SeqSeries/sequence11.pg, 1, -1 
+

@@ -1,0 +1,18 @@
+
+openDate          = 07/11/2013 at 10:00am EDT
+dueDate           = 01/01/2020 at 07:06pm EST
+answerDate        = 01/08/2020 at 07:00pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/Set_06_HeaderFile.pg
+problemList       = 
+Library/Union/setDervProductQuotientRule/s2_2_13.pg, 1, -1 
+Library/maCalcDB/setDerivatives2Formulas/s2_2_6f.pg, 1, -1 
+Library/Rochester/setDerivatives2Formulas/s2_2_11a.pg, 1, -1 
+Library/ASU-topics/setProductQuotientRule/s2_2_11a.pg, 1, -1 
+Library/Union/setDervProductQuotientRule/3-5-47.pg, 1, -1 
+Library/Rochester/setDerivatives2Formulas/s2_2_11.pg, 1, -1 
+Library/Rochester/setDerivatives2Formulas/d3.pg, 1, -1 
+Library/Michigan/Chap3Sec3/Q51.pg, 1, -1 
+Library/Union/setDervProductQuotientRule/3-5-55.pg, 1, -1 
+Library/UCSB/Stewart5_3_2/Stewart5_3_2_40.pg, 1, -1 
+

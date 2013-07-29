@@ -1,0 +1,28 @@
+
+openDate          = 07/10/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set10_Multiplying_and_Dividing_Radical_Expressions_Header.pg
+problemList       = 
+Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-08-Fractional-exponents.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_5_4_6.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_5_4_20.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_5_4_52.pg, 1, -1 
+Library/ma117DB/set1/srw1_2_7b.pg, 1, -1 
+Library/ma117DB/set1/srw1_2_7a.pg, 1, -1 
+Library/ma117DB/set1/srw1_2_57a.pg, 1, -1 
+Library/ma117DB/set1/srw1_2_57c.pg, 1, -1 
+Library/ma117DB/set1/srw1_2_59a.pg, 1, -1 
+Library/ma117DB/set1/srw1_2_57b.pg, 1, -1 
+Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-10-Fractional-exponents.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_5_2_18.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_5_2_46.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_5_2_79.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_5_3_12.pg, 1, -1 
+Library/FortLewis/Algebra/1-3-Equivalent-expressions/MCH1-1-3-14-Equivalent-expressions.pg, 1, -1 
+Library/ma117DB/set1b/srw1_4_59.pg, 1, -1 
+Library/Rochester/setAlgebra05RationalExpressions/srw1_4_50.pg, 1, -1 
+Library/Rochester/setAlgebra02ExponentsRadicals/rational_denominator.pg, 1, -1 
+Library/Utah/Calculus_I/set1_Preliminaries/1210s1p30.pg, 1, -1 
+

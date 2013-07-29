@@ -1,0 +1,2 @@
+A one semester course in differential and integral calculus with applications tuned to
+business and economics.  No knowledge of Trigonometry is required. The prerequisite could be a traditional Precalculus or College Algebra course which includes exponential and logarithmic functions.

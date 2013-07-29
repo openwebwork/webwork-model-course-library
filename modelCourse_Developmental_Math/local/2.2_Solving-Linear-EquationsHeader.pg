@@ -1,0 +1,61 @@
+###/set2-Solving-Graphing-Linear-Equations_02-Solving-Linear-Equations_Header.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+
+$BBOLD 2-Solving-Graphing-Linear-Equations_02-Solving-Linear-Equations $EBOLD </p>
+
+<hr />
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+<hr />
+
+Students will be able to:
+
+<UL>
+
+<li>         Solve equations using the addition principle </li>
+
+<li>         Solve equations using the multiplication principle </li>
+
+<li>         Select the correct approach by identifying the operation to perform to an equation to isolate variable in a simple linear equation </li>
+
+</UL>
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

@@ -1,0 +1,69 @@
+###/set1-Real-Number_02-Fraction-Notation_Header.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+
+$BBOLD 1-Real-Number_02-Fraction-Notation $EBOLD </p>
+
+<hr />
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+<hr />
+
+Students will be able to:
+
+<UL>
+
+<li>        Write the prime factorization of a number </li>
+
+<li>        Identify a number as prime, composite, or neither </li>
+
+<li>        Multiply fractions and simplify </li>
+
+<li>        Divide fractions and simplify </li>
+
+<li>        Add fractions and simplify </li>
+
+<li>        Subtract fractions and simplify </li>
+
+<li>        Simplify fractions </li>
+
+</UL>
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

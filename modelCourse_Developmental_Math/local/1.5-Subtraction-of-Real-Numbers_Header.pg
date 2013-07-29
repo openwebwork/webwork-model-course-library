@@ -1,0 +1,69 @@
+###/set1-Real-Numbers_05-Subtraction-of-Real-Numbers_Header.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+
+$BBOLD 1-Real-Numbers_05-Subtraction-of-Real-Numbers $EBOLD </p>
+
+<hr />
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+<hr />
+
+Students will be able to:
+
+<UL>
+
+<li>         Find additive inverse of a number </li>
+
+<li>        Translate subtraction problem into words </li>
+
+<li>        Translate a phrase (with difference or subtract) into symbols and simplify </li>
+
+<li>        Subtract real numbers </li>
+
+<li>        Add and subtract series of numbers </li>
+
+<li>        Identify and combine like terms </li>
+
+<li>        Solve word problems involving adding and subtraction </li>
+
+</UL>
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

@@ -1,0 +1,20 @@
+
+openDate          = 06/10/2013 at 09:12am EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/4.1_Exponents-and-Properties_Header.pg
+problemList       = 
+Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_03_Exponents.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_09_Exponents.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_04_Exponents.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_11_Exponents.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_16_Exponents.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_18_Exponents.pg, 1, -1 
+local/set4.1_Exponents-and-Properties/fraction_to_power.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_22_Exponents.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_12_Exponents.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_07_Exponents.pg, 1, -1 
+local/set4.1_Exponents-and-Properties/neg_to_zero_is_one.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_08_Exponents.pg, 1, -1 
+

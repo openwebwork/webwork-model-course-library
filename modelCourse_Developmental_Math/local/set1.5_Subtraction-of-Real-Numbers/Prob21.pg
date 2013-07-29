@@ -1,0 +1,89 @@
+## DESCRIPTION
+## A problem that asks students to 
+## compute the sum of a set of integers.
+## ENDDESCRIPTION
+
+## KEYWORDS('integer arithmetic', 'tmat100')
+
+## DBsubject('College Algebra')
+## DBchapter('Integers')
+## DBsection('Arithmetic')
+## Author('Sandeep Bhargava')
+## Institution('Humber College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+## Problem1('')
+
+
+########################################################################
+# Initialization
+
+DOCUMENT();
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+);
+
+
+########################################################################
+# Setup
+
+# make sure we're in the context we want
+Context("Numeric");
+
+$beta = random(1,6,1);
+$jump2 = random(1,2,1);
+$alpha = $beta + $jump2;
+$jump3 = random(1,3,1);
+$gamma = $alpha + $jump3;
+$jump4 = random(1,4,1);
+$a = $gamma + $jump4;
+$jump5 = random(1,5,1);
+$b = $a + $jump5;
+
+$sum = $a - $alpha + $b - $beta - $gamma;
+
+########################################################################
+# Main Text
+
+TEXT(beginproblem());
+
+Context()->texStrings;
+BEGIN_TEXT
+
+Evaluate the following sum:
+$BR
+$BR
+\( $a + (-$alpha) - (-$b) - (+$beta) + (-$gamma)\) = \{ans_rule(15)\} 
+$BR
+$BR
+
+END_TEXT
+Context()->normalStrings;
+
+########################################################################
+# Answer Evaluation
+
+ANS(num_cmp($sum,
+     mode => 'strict',
+     tol => 0.0001, 
+     tolType => "absolute",
+));
+
+
+########################################################################
+# Solution
+
+Context()->texStrings;
+BEGIN_SOLUTION
+${BUL}Solution:${EUL}  We deal with the brackets first, and then carry out the addition and subtraction from left to right:
+$BR
+$BR
+\[ $a + (-$alpha) - (-$b) - (+$beta) + (-$gamma) = $a - $alpha + $b - $beta - $gamma = $sum \]
+END_SOLUTION
+Context()->normalStrings;
+
+ENDDOCUMENT();

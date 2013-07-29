@@ -1,0 +1,18 @@
+
+openDate          = 07/19/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set17_ComplexRoots_of_Quadratic_Functions_Header.pg
+problemList       = 
+Library/Rochester/setAlgebra10QuadraticEqns/sw3_3_31.pg, 1, -1 
+Library/Rochester/setAlgebra10QuadraticEqns/sw3_3_25.pg, 1, -1 
+Library/Rochester/setAlgebra10QuadraticEqns/sw3_3_37.pg, 1, -1 
+Library/maCalcDB/setAlgebra10QuadraticEqns/srw1_5_47.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set8_Quadratic_Equations_Functions_and_Inequalities/s8p26.pg, 1, -1 
+Library/ma117DB/set1b/srw1_5_17.pg, 1, -1 
+Library/ma117DB/set1b/srw1_5_19.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set8_Quadratic_Equations_Functions_and_Inequalities/s8p30.pg, 1, -1 
+Library/Rochester/setAlgebra12EqnsOtherTypes/srw1_5_59.pg, 1, -1 
+Library/Rochester/setAlgebra12EqnsOtherTypes/srw1_5_61.pg, 1, -1 
+

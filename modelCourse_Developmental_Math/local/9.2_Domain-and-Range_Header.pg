@@ -1,0 +1,62 @@
+###/set9.2 Domain-and-Range_Header.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl",
+"unionLists.pl");
+
+BEGIN_TEXT
+
+$PAR $BCENTER
+
+$BBOLD 9.2 Domain-and-Range $EBOLD
+
+$ECENTER
+
+$HR
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+$HR
+
+Students will be able to:
+
+   \{BeginList("UL")\}
+ $ITEM Find domain and range of a function
+ $ITEM Find domain and range of a function from a graph
+ $ITEM Find the domain of a function
+ $ITEM Find the domain of functions in applied problems
+ $ITEM Find function values of a piecewise defined function
+  \{EndList("UL")\}
+
+$PAR
+
+$HR
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+$HR
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

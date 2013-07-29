@@ -1,0 +1,25 @@
+
+openDate          = 06/10/2013 at 10:00am EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/5.3_Factoring-Trinomials-Leading-Coef-not-oneHeader.pg
+problemList       = 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_06_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_09_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_14_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_15_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_17_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_18_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_19_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_20_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_22_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_23_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_26_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_27_FactorTrinomial.pg, 1, -1 
+Library/FortLewis/Algebra/2-3-Expanding-and-factoring/MCH1-2-3-34-Expanding-and-factoring-old.pg, 1, -1 
+Library/FortLewis/Algebra/2-3-Expanding-and-factoring/MCH1-2-3-38-Expanding-and-factoring-old.pg, 1, -1 
+Library/Rochester/setAlgebra04ExpressionsFactoring/lhp4_51-54.pg, 1, -1 
+Library/Rochester/setAlgebra04ExpressionsFactoring/srw1_3_54.pg, 1, -1 
+Library/Rochester/setAlgebra04ExpressionsFactoring/sw1_4_53.pg, 1, -1 
+

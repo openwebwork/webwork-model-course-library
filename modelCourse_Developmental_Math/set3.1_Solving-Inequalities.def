@@ -1,0 +1,32 @@
+
+openDate          = 06/09/2013 at 04:30pm EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/3.1_Solving-Inequalities_Header.pg
+problemList       = 
+local/Library/NWMSU/ElemAlg/C3S1P9.pg, 1, -1 
+Library/Union/setAlgebraInequalities/pn1-3.pg, 1, -1 
+Library/Union/setAlgebraInequalities/pn2.pg, 1, -1 
+Library/Union/setAlgebraInequalities/pn3.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_01_LinearInequalities/41IntAlg_02_LinearIneq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_01_LinearInequalities/41IntAlg_01_LinearIneq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_01_LinearInequalities/41IntAlg_05_LinearIneq.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_04_01_LinearInequalities/41IntAlg_04_LinearIneq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_01_LinearInequalities/41IntAlg_07_LinearIneq.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_04_01_LinearInequalities/41IntAlg_08_LinearIneq.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_04_01_LinearInequalities/41IntAlg_10_LinearIneq.pg, , -1 
+local/Library/MC/PreAlgebra/setPreAlgebraC2S6/SolveIneqAddSubt43.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC02S10/SolveIneqMultDiv02.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC02S10/SolveIneqMultDiv04.pg, 1, -1 
+local/Library/MC/PreAlgebra/setPreAlgebraC02S10/SolveIneqMultDiv04.pg, 1, -1 
+Library/Utah/Business_Algebra/set3_Inequalities_and_Linear_Programming/p01.pg, 1, -1 
+Library/maCalcDB/setAlgebra13Inequalities/srw1_7_9.pg, 1, -1 
+Library/Utah/Business_Algebra/set3_Inequalities_and_Linear_Programming/p03.pg, 1, -1 
+Library/ASU-topics/setInequalities/srw1_7_15.pg, 1, -1 
+Library/Union/setAlgebraInequalities/srw1_7_13.pg, 1, -1 
+local/set3.1_Solving-Inequalities/graph_inequality_on_numberline.pg, 1, -1 
+Library/Utah/Business_Algebra/set3_Inequalities_and_Linear_Programming/p04.pg, 1, -1 
+Library/Utah/Business_Algebra/set3_Inequalities_and_Linear_Programming/p02.pg, 1, -1 
+Library/Union/setAlgebraInequalities/p13.pg, 1, -1 
+

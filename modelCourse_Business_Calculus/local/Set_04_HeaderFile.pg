@@ -1,0 +1,66 @@
+###/Set_04_HeaderFile.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl",
+
+"unionLists.pl");
+
+BEGIN_TEXT
+
+$PAR $BCENTER
+
+$BBOLD Set 04: The derivative $EBOLD
+
+$ECENTER
+
+$HR
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+$HR
+
+Students will be able to:
+
+   \{BeginList("UL")\}
+
+  $ITEM Compute the average rate of change of a function over an interval.
+  $ITEM Estimate the instantaneous rate of change of a function from its graph.
+  $ITEM Use the definition of the derivative to compute the derivative of simple power functions and polynomials.
+  $ITEM Solve business application problems involving finding the marginal of some function using differentiation.
+  $ITEM Compute the tangent line (a.k.a. best linear approximation) to the graph of a function at a point.
+
+
+  \{EndList("UL")\}
+
+$PAR
+
+$HR
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+$HR
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

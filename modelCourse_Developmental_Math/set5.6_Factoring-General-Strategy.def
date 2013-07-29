@@ -1,0 +1,23 @@
+
+openDate          = 06/10/2013 at 10:20am EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/5.6_Factoring-General-Strategy_Header.pg
+problemList       = 
+Library/CollegeOfIdaho/setAlgebra_05_03_FactoringByGrouping/53IntAlg_26_FactorGrouping.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_03_FactoringByGrouping/53IntAlg_27_FactorGrouping.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_03_FactoringByGrouping/53IntAlg_30_FactorGrouping.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_31_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_30_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_24_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_25_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_28_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_03_FactoringByGrouping/53IntAlg_30_FactorGrouping.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_26_Factor.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_29_Factor.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_13_Factor.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_28_Factor.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_07_Factor.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_32_Factor.pg, 1, -1 
+

@@ -1,0 +1,26 @@
+
+openDate          = 06/09/2013 at 03:09pm EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/1.7_Exponential-Notation-and-Order-of-OperationsHeader.pg
+problemList       = 
+Library/NewHampshire/unh_schoolib/Exponents/expsrs201.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC04S02/Exponents02.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC04S02/Exponents07.pg, 1, -1 
+local/set1.7_Exponential-Notation-and-Order-of-Operations/assocLawAddnInvolvingNegInts_version7.pg, 1, -1 
+local/set1.7_Exponential-Notation-and-Order-of-Operations/12IntAlg_19_OperationsWithReals.pg, 1, -1 
+local/set1.7_Exponential-Notation-and-Order-of-Operations/12IntAlg_20_OperationsWithReals.pg, 1, -1 
+local/set1.7_Exponential-Notation-and-Order-of-Operations/MCH1-6-1-08-Exponent-rules.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC04S06/RationalNumbers02.pg, 1, -1 
+local/set1.7_Exponential-Notation-and-Order-of-Operations/monomialTimesPolynomial_problem1_version1.pg, 1, -1 
+local/set1.7_Exponential-Notation-and-Order-of-Operations/EvaluateExpression.pg, 1, -1 
+local/set1.7_Exponential-Notation-and-Order-of-Operations/Problem5.pg, 1, -1 
+local/set1.7_Exponential-Notation-and-Order-of-Operations/Problem6.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_03_GraphingEquations/13IntAlg_20_Operations_Review.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_01_05_ProblemSolvingAndFormulas/15IntAlg_19_Operations_Review.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_01_02_OperationsWithRealNumbers/12IntAlg_19_OperationsWithReals.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_01_02_OperationsWithRealNumbers/12IntAlg_13_OperationsWithReals.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_01_02_OperationsWithRealNumbers/12IntAlg_01_OperationsWithReals.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_01_02_OperationsWithRealNumbers/12IntAlg_06_OperationsWithReals.pg, , -1 
+

@@ -1,0 +1,74 @@
+## DESCRIPTION
+## Algebra 
+## ENDDESCRIPTION
+
+## KEYWORDS('algebra', 'signed numbers -division')
+
+## DBsubject('algebra')
+## Date('01/26/2013')
+## Author('')
+## Institution('Bronx Community College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "PGchoicemacros.pl",
+  "MathObjects.pl",
+  "contextLimitedNumeric.pl"
+);
+
+TEXT(&beginproblem);
+
+######################################
+#  Setup
+
+@n = (random(-15,-2,1),0);
+@d = (0,random(-15,5,1));
+@choose = NchooseK(2,2);
+
+$an = $n[$choose[0]];
+$ad = $d[$choose[0]];
+
+$bn = $n[$choose[1]];
+$bd = $d[$choose[1]];
+
+######################################
+#  Main text
+
+BEGIN_TEXT
+Divide or state that the division is undefined. (In this case, enter $BITALIC
+undefined $EITALIC.)  
+$PAR
+a) \( \displaystyle \frac{$an}{$ad} = \)  \{ ans_rule(10) \} 
+$PAR
+b) \( \displaystyle \frac{$bn}{$bd} = \)  \{ ans_rule(10) \} 
+$BR
+
+END_TEXT
+
+######################################
+#  Answers
+
+Context("LimitedNumeric-StrictFraction"); 
+Context()->strings->add("undefined"=>{}, "Does not exist"=>{alias=>'undefined'});
+
+$ans_a = String("undefined");
+if ($ad!=0) {$ans_a=Real(0);}
+&ANS($ans_a->cmp);
+
+$ans_b = String("undefined");
+if ($bd!=0) {$ans_b=Real(0);}
+&ANS($ans_b->cmp);
+
+$showPartialCorrectAnswers = 1;
+
+
+######################################
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.

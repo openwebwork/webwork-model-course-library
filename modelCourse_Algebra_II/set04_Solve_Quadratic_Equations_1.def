@@ -1,0 +1,36 @@
+
+openDate          = 07/04/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/Solve_Quadratic_Equations_1_Header.pg
+problemList       = 
+Library/UMN/algebraKaufmannSchwitters/ks_6_2_52.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_3_5_60.pg, 1, -1 
+Library/ASU-topics/setQuadraticFunction/beth1.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_3_5_65.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_3_5_58.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_3_7_18.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_3_4_76.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_3_4_68.pg, 1, -1 
+Library/ASU-topics/setQuadraticFunction/sw3_3_1a.pg, 1, -1 
+Library/ma117DB/set1b/srw1_5_17.pg, 1, -1 
+Library/ma117DB/set1b/srw1_5_19.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_6_3_28.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_6_3_16.pg, 1, -1 
+Library/Rochester/setAlgebra10QuadraticEqns/sw3_3_17.pg, 1, -1 
+Library/Rochester/setAlgebra10QuadraticEqns/sw3_3_19.pg, 1, -1 
+Library/Rochester/setAlgebra10QuadraticEqns/sw3_3_25.pg, 1, -1 
+Library/Rochester/setAlgebra10QuadraticEqns/sw3_3_37.pg, 1, -1 
+Library/Rochester/setAlgebra10QuadraticEqns/srw1_5_47.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_6_4_42.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_6_4_18.pg, 1, -1 
+Library/Utah/Trigonometry/set2_Algebra/s2p17.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_6_5_4.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_6_5_12.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_6_5_17.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_6_4_56.pg, 1, -1 
+Library/Rochester/setAlgebra10QuadraticEqns/ur_ab_6_5.pg, 1, -1 
+Library/Rochester/setAlgebra10QuadraticEqns/sw3_3_69.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set9_Polynomials_and_Factoring/s9p1.pg, 1, -1 
+

@@ -1,0 +1,105 @@
+##DESCRIPTION
+##  Middle School problem:
+##ENDDESCRIPTION
+
+##KEYWORDS('prealgebra','common core','inequality')
+
+## DBsubject(Middle school)
+## DBchapter('Solving_Equation')
+## DBsection('Misc.')
+## Date('9/19/2012')
+## Author('John Travis')
+## Institution('Mississippi College')
+## ProblemTester('Laura Travis')
+## TitleText1('Pre-Algebra')
+## Publisher('Prentice Hall')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+## Problem1('')
+
+########################################################################
+
+DOCUMENT();      
+
+loadMacros(
+   "PGstandard.pl",     # Standard macros for PG language
+   "MathObjects.pl",
+);
+
+TEXT(beginproblem());
+
+
+# Show which answers are correct and which ones are incorrect
+$showPartialCorrectAnswers = 1;
+
+##############################################################
+#
+#  Setup
+#
+#
+
+Context("Numeric");
+
+$a = random(11,19,1);
+$b = random(151,159,1);
+$c = random(31,39,1);
+
+$a2 = Compute("$a / 1000");
+$b2 = Compute("$b / 1000");
+$c2 = Compute("$c / 1000");
+
+$EquL = "$a2";
+$EquR = "$b2 x + $c2";
+
+$power = Compute("3");
+
+$ClearL = Compute($a);
+
+$ClearR = Compute("$b*x+$c"); 
+
+$x = Compute("($a-$c)/$b");
+
+##############################################################
+#
+#  Text
+#
+#
+
+##    to disable arithmetic operations in the answer.  Student must simplify.
+
+Context()-texStrings;
+
+BEGIN_TEXT
+
+Consider the equation \(\displaystyle $EquL = $EquR\).  $BR $BR
+
+To clear the decimals, we multiply by \(10\wedge\)\{ans_rule(5)\}
+  $BR $BR
+
+When we clear the decimals, we get the following equation: $BR $BR
+
+\{ans_rule(30)\} = \{ans_rule(30)\}.  $BR $BR
+
+\(\displaystyle $EquL = $EquR\) has solution: \(x =\) \{ans_rule(30)\}
+
+$BR $BR
+
+END_TEXT
+
+
+Context()->normalStrings;
+
+##############################################################
+#
+#  Answers
+#
+#
+
+ANS($power->cmp);
+ANS($ClearL->cmp);
+ANS($ClearR->cmp);
+ANS($x->cmp);
+
+
+ENDDOCUMENT();        

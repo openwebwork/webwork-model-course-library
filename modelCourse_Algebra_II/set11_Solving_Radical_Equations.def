@@ -1,0 +1,17 @@
+
+openDate          = 07/11/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set11_Solving_Radical_Equations_Header.pg
+problemList       = 
+Library/Rochester/setAlgebra12EqnsOtherTypes/SolveDualSqrt.pg, 1, -1 
+Library/Rochester/setAlgebra12EqnsOtherTypes/SolveSqrt.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_5_5_8.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_5_5_40.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_5_5_28.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_6_2_24.pg, 1, -1 
+Library/Rochester/setAlgebra12EqnsOtherTypes/lh1-6_36.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set7_Exponential_and_Logarithmic_Functions/p15.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_6_2_76.pg, 1, -1 
+

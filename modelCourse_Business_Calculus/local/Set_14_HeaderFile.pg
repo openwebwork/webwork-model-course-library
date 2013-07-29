@@ -1,0 +1,64 @@
+###/Set_14_HeaderFile.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl",
+
+"unionLists.pl");
+
+BEGIN_TEXT
+
+$PAR $BCENTER
+
+$BBOLD Set 14: Review of exponentials and logarithms $EBOLD
+
+$ECENTER
+
+$HR
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+$HR
+
+Students will be able to:
+
+   \{BeginList("UL")\}
+
+  $ITEM Identify graphs of exponential and logarithmic functions.
+  $ITEM Evaluate and simplify log expressions using log properties.
+  $ITEM Use the “change of base” formula to evaluate logs.
+  $ITEM Apply exponential models to solve application problems.
+
+  \{EndList("UL")\}
+
+$PAR
+
+$HR
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+$HR
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

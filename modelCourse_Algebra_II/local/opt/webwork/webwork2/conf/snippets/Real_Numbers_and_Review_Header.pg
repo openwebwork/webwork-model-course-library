@@ -1,0 +1,63 @@
+###/Real_Numbers_and_Review_Header.pg
+ 
+DOCUMENT();
+ 
+loadMacros(
+ 
+"PG.pl",
+ 
+"PGbasicmacros.pl",
+"unionLists.pl");
+ 
+BEGIN_TEXT
+ 
+$PAR $BCENTER
+ 
+$BBOLD Real_Numbers_and_Review $EBOLD
+ 
+$ECENTER
+ 
+$HR
+ 
+$PAR
+ 
+Due: $BBOLD
+ 
+$formattedDueDate. $EBOLD
+ 
+$PAR
+ 
+$HR
+ 
+Students will be able to:
+ 
+   \{BeginList("UL")\}
+  $ITEM Identify to which sets and subsets of the real number set a particular number belongs
+ $ITEM Perform operations on real numbers
+ $ITEM Identify inverses, reciprocals, opposites and identities within the real number set 
+ $ITEM Identify properties of real numbers
+ $ITEM Combine like terms and use the distributive property
+ $ITEM Identify equivalent expressions with variables 
+  \{EndList("UL")\}
+ 
+$PAR
+ 
+$HR
+ 
+$PAR
+ 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+ 
+$PAR
+ 
+$HR
+ 
+$PAR
+ 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+ 
+$PAR
+ 
+END_TEXT
+ 
+ENDDOCUMENT();

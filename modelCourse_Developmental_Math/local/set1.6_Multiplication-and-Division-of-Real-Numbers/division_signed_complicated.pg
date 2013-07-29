@@ -1,0 +1,78 @@
+## DESCRIPTION
+## Algebra
+## ENDDESCRIPTION
+
+## KEYWORDS('algebra', 'signed numbers -division')
+
+## DBsubject('algebra')
+## Date('01/26/2013')
+## Author('')
+## Institution('Bronx Community College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "PGauxiliaryFunctions.pl",
+  "Parser.pl",
+  "MathObjects.pl",
+  "contextLimitedNumeric.pl"
+);
+
+TEXT(&beginproblem);
+
+######################################
+#  Setup
+#  Note: Most of this is to get different denominators
+#        and reduces fractions.
+
+$d1 = list_random(2,3,5,7,9,11,13,17,19);  # Part a: 
+$n1 = $d1 - random(1,$ad1-1,1);
+
+
+$n2 = list_random(2,3,5,7,9,11,13,17,19);                # Part b: 
+$d = random(2,8,1);
+$d2 =  $d * random(2,5,1);
+$d3 =  $d2 + $d * random(2,5,1); 
+
+($n3,$d3) = reduce($n2,$d3);
+
+
+######################################
+#  Main text
+
+BEGIN_TEXT
+Divide or state that the division is undefined: (Note: Your answer must be a fraction.)
+$PAR
+a) \( \displaystyle \frac{\frac{$n1}{$d1}}{-$n1} = \) \{ ans_rule(10) \} 
+
+$PAR
+b) \( \displaystyle \frac{-\frac{$n2}{$d2}}{-\frac{$n3}{$d3}} = \) \{ ans_rule(10) \} 
+
+$BR
+
+END_TEXT
+
+######################################
+#  Answers
+
+Context("LimitedNumeric-StrictFraction"); #Better if a reduced fraction was required
+Context()->strings->add("undefined"=>{}, "Does not exist"=>{alias=>'undefined'});
+
+$ans_a = "-1/$d1";
+ANS(Compute($ans_a)->cmp);
+
+($ans_bn,$ans_bd)= reduce($d3, $d2);
+$ans_b = "$ans_bn/$ans_bd";
+ANS(Real($ans_b)->cmp);
+
+$showPartialCorrectAnswers = 1;
+
+######################################
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.

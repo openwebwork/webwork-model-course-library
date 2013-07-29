@@ -1,0 +1,44 @@
+
+openDate          = 08/03/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set33_Statistics_Part_1_Header.pg
+problemList       = 
+Library/ASU-topics/setStat/dueck3_2_1.pg, 1, -1 
+Library/ASU-topics/setStat/dueck3_2_2.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework02/stat212-HW02-13.pg, 1, -1 
+Library/maCalcDB/setStatistics2Measures/ur_stt_2_9.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework02/stat212-HW02-17.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework02/stat212-HW02-06.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework02/stat212-HW02-05.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework02/stat212-HW02-10.pg, 1, -1 
+Library/ASU-topics/setStat/dueck3_4_5.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework02/stat212-HW02-16.pg, 1, -1 
+Library/ASU-topics/setStat/dueck3_4_4.pg, 1, -1 
+Library/ASU-topics/setStat/dueck3_1_6.pg, 1, -1 
+Library/ASU-topics/setStat/dueck2_1.pg, 1, -1 
+Library/ASU-topics/setStat/kolossa22.pg, 1, -1 
+Library/CollegeOfIdaho/Intro_to_Statistics/setStatistics_Ch01PicturingDistributionsWithGraphs/01Stats_09_PictDistnsWGraphs/01Stats_09_PictDistnsWGraphs.pg, 1, -1 
+Library/Rochester/setStatistics2Measures/ur_stt_2_4.pg, 1, -1 
+Library/ASU-topics/setStat/kolossa2.pg, 1, -1 
+Library/ASU-topics/setStat/kolossa8.pg, 1, -1 
+Library/CollegeOfIdaho/setStatistics_Ch02DescribingData/02Stats_10_DescrData.pg, 1, -1 
+Library/ASU-topics/setStat/gust28.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework01/stat212-HW01-10.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework01/stat212-HW01-17.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework01/stat212-HW01-18.pg, 1, -1 
+Library/CollegeOfIdaho/setStatistics_Ch02DescribingData/02Stats_07_DescrData/02Stats_07_DescrData.pg, 1, -1 
+Library/CollegeOfIdaho/setStatistics_Ch02DescribingData/02Stats_08_DescrData/02Stats_08_DescrData.pg, 1, -1 
+Library/NAU/setStatistics/BoxPlotPercentBetween.pg, 1, -1 
+Library/NAU/setStatistics/Boxplot.pg, 1, -1 
+Library/NAU/setStatistics/boxplot_problem.pg, 1, -1 
+Library/NAU/setStatistics/FiveNumAndPlot.pg, 1, -1 
+Library/NAU/setStatistics/FiveNumFromPlot.pg, 1, -1 
+Library/NAU/setStatistics/histogram2.pg, 1, -1 
+Library/NAU/setStatistics/histogram3.pg, 1, -1 
+Library/CollegeOfIdaho/Intro_to_Statistics/setStatistics_Ch01PicturingDistributionsWithGraphs/01Stats_07_PictDistnsWGraphs/01Stats_07_PictDistnsWGraphs.pg, 1, -1 
+Library/CollegeOfIdaho/setStatistics_Ch02DescribingData/02Stats_01_DescrData/02Stats_01_DescrData.pg, 1, -1 
+Library/CollegeOfIdaho/Intro_to_Statistics/setStatistics_Ch01PicturingDistributionsWithGraphs/01Stats_08_PictDistnsWGraphs/01Stats_08_PictDistnsWGraphs.pg, 1, -1 
+Library/CollegeOfIdaho/Intro_to_Statistics/setStatistics_Ch01PicturingDistributionsWithGraphs/01Stats_11_PictDistnsWGraphs/01Stats_11_PictDistnsWGraphs.pg, 1, -1 
+

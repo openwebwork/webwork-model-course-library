@@ -1,0 +1,63 @@
+###/set7-Systems-Equations-Inequalities_03Applications-Systems-Two-Equations_Header.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+
+$BBOLD 7-Systems-Equations-Inequalities_03Applications-Systems-Two-Equations $EBOLD </p>
+
+<hr />
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+<hr />
+
+Students will be able to:
+
+<UL>
+
+<li>         Solve word problems using systems of two equations </li>
+
+<li>        Solve word problems involving mixture </li>
+
+<li>        Solve word problems involving investments </li>
+
+<li>        Solve word problems involving geometric figures </li>
+
+</UL>
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

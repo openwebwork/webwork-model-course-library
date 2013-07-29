@@ -1,0 +1,64 @@
+###/Set_13_HeaderFile.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl",
+
+"unionLists.pl");
+
+BEGIN_TEXT
+
+$PAR $BCENTER
+
+$BBOLD Set 13: Elasticity of demand  $EBOLD
+
+$ECENTER
+
+$HR
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+$HR
+
+Students will be able to:
+
+   \{BeginList("UL")\}
+
+  $ITEM Compute the elasticity of demand at a given price.
+  $ITEM Classify the elasticity of demand as elastic, inelastic, or unitary.
+  $ITEM Decide if price should be raised or lowered by using elasticity of demand.
+  $ITEM Use elasticity of demand to determine maximum revenue.
+
+  \{EndList("UL")\}
+
+$PAR
+
+$HR
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+$HR
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

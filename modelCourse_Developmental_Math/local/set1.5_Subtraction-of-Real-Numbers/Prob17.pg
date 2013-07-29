@@ -1,0 +1,73 @@
+## DESCRIPTION
+## Algebra
+## ENDDESCRIPTION
+
+## KEYWORDS('algebra', 'signed numbers -application')
+
+## DBsubject('algebra')
+## Date('01/26/2013')
+## Author('')
+## Institution('Bronx Community College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+
+
+###########################
+#  Initialization 
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"PGcourse.pl",
+"unionTables.pl",
+"PGauxiliaryFunctions.pl",
+"parserMultiAnswer.pl",
+"parserPopUp.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+);
+
+TEXT(beginproblem());
+
+
+
+Context("Numeric");
+
+######################################
+#  Setup
+
+do {$t1 = random(20,60,1);} until ($t1 != 1);
+
+do {$t2 = random(2,15,1);} until ($t1 > $t2);
+
+do {$t3 = random(2,15,1);} until ($t3 != $t2 );
+
+do {$t4 = random(2,15,1);} until (($t4 != $t3) && ($t4 != $t2) && ($t1 - $t2 + $t3 - $t4 > 0) );
+
+######################################
+#  Main text
+
+BEGIN_TEXT
+An elevator started at floor \( $t1 \). It then went down \( $t2 \) floors, then up \( $t3 \) floors and then down \( $t4 \) floors. The elevator is at floor \{ ans_rule(10) \}.
+ 
+$BR
+END_TEXT
+
+######################################
+#  Answers
+
+Context("LimitedNumeric");
+
+$ans = Real($t1 - $t2 + $t3 - $t4);
+ANS($ans->cmp);
+
+
+$showPartialCorrectAnswers = 1;
+
+######################################
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.

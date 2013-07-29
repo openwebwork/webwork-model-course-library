@@ -1,0 +1,88 @@
+## DESCRIPTION
+## This problem asks students to substitute numerical values in for given variables and to carry out the subsequent arithmetic.
+## ENDDESCRIPTION
+
+## KEYWORDS('tmat100')
+
+## DBsubject('College Algebra')
+## DBchapter('Real Numbers')
+## DBsection('Additive Inverses')
+## Author('Sandeep Bhargava')
+## Institution('Humber College')
+## TitleText1('Essentials of Technical Mathematics')
+## EditionText1('')
+## AuthorText1('')
+## Section1('Chp8')
+## Problem1('')
+
+
+########################################################################
+# Initialization
+
+DOCUMENT();
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+);
+
+
+########################################################################
+# Setup
+
+# make sure we're in the context we want
+Context("Numeric");
+
+$n = random(2,9,1);
+$m = random(10,19,1);
+$r = list_random(-1,1);
+
+$x = -2*$n;
+$y = 3*$m;
+
+$ans = Compute(-8*$n+9*$m);
+
+
+########################################################################
+# Main Text
+
+TEXT(beginproblem());
+
+Context()->texStrings;
+BEGIN_TEXT
+The height \( z \) of a particle is a function of its other spatial coordinates as follows:
+$BR
+$BR
+\[ z = a^2\,x^3 - b\,y^2  \]
+$BR
+$BR
+Determine the value of \( z \) when \( \displaystyle a = \frac{$r}{$n}, \quad x = $x, \quad b = \frac{-1}{$m}, \quad y = $y \). 
+$BR
+$BR
+Solution:  \( z \) = \{ ans_rule(15) \}
+END_TEXT
+Context()->normalStrings;
+
+########################################################################
+# Answer Evaluation
+
+ANS(num_cmp($ans,
+     mode => 'strict',
+     tol => 0.0001, 
+     tolType => "absolute",
+));
+
+
+########################################################################
+# Solution
+
+Context()->texStrings;
+BEGIN_SOLUTION
+$PAR
+${BUL}Solution:${EUL}  
+$BR
+\[ \displaystyle z = a^2\,x^3 - b\,y^2 = \left(\frac{$r}{$n}\right)^2\,($x)^3 - \left(\frac{-1}{$m}\right)\,($y)^3 = $ans \]
+END_SOLUTION
+Context()->normalStrings;
+
+ENDDOCUMENT();

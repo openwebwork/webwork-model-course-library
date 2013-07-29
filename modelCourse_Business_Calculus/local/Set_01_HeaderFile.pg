@@ -1,0 +1,67 @@
+###/Set_01_HeaderFile.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl",
+
+"unionLists.pl");
+
+BEGIN_TEXT
+
+$PAR $BCENTER
+
+$BBOLD Set 01: Review of Function Concepts $EBOLD
+
+$ECENTER
+
+$HR
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+$HR
+
+Students will be able to:
+
+   \{BeginList("UL")\}
+
+  $ITEM Distinguish between the graphs of functions and non-functional relations.
+  $ITEM Demonstrate understanding of the terminology: domain, range, independent variable, dependent variable, inverse function.
+  $ITEM Determine the domain and range of functions given algebraically and graphically.  Use interval notation and inequalities to express these sets.
+  $ITEM Be able to compose two functions and decompose a function into simpler components
+  $ITEM Identify vertical and horizontal shifts and reflections of a given function.
+  $ITEM Work with functions that are defined piecewise.
+  $ITEM Translate between graphical and tabular representations of the same function.
+
+  \{EndList("UL")\}
+
+$PAR
+
+$HR
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+$HR
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

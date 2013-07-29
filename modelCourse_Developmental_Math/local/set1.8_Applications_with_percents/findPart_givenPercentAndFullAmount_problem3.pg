@@ -1,0 +1,146 @@
+#######################################################################
+#######################################################################
+#Combined 4 Problems
+#######################################################################
+#######################################################################
+# -*- mode: Perl -*-
+## DESCRIPTION
+## Algebra
+## ENDDESCRIPTION
+
+## KEYWORDS('combine 4 problems, percentage/increase-decrease/original-new')
+
+## DBsubject('WeBWorK')
+## Date('04/01/2013')
+## Author('Nikos Apostolakis')
+## Institution('Bronx Community College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+
+DOCUMENT();
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"PGcourse.pl",
+"weightedGrader.pl",
+"parserPopUp.pl",
+"unionTables.pl",
+"PGgraphmacros.pl",
+"PGchoicemacros.pl",
+);
+
+TEXT(beginproblem());
+## Make a new checkbox multiple choice object
+$mc = new_multiple_choice();
+
+
+$sel = random(0, 3, 1);
+
+  if ($sel == 0) 
+	{  
+		$r = random(2, 15,1); #Rate of increase
+		$O = random(20000, 50000, 100); #Original salary
+		$N = $O + $O*$r/100; #New salary
+
+		# The correct answer: 
+		$mc -> qa("", "$DOLLAR \(  $N \)");
+
+		# The wrong responses:
+		@bogus = ($O*$r/100, $O - $O*$r/100, $O + $r, $O + $r*100);
+
+		$mc -> extra("$DOLLAR \($bogus[0] \)", 
+		"$DOLLAR \($bogus[1] \)", "$DOLLAR \($bogus[2] \)", 
+		"$DOLLAR \($bogus[3] \)",);
+
+		$qu="Angela gets a \( $r \) $PERCENT raise. 
+		Her original salary was $DOLLAR
+		\( $O \) per year. What is her new salary?"; 
+		}
+  elsif ($sel == 1) 
+	{	$r = random(2, 15,1); #Rate of increase
+		$O = random(20000, 50000, 100); #Original salary
+		$N = $O - $O*$r/100; #New salary
+
+		# The correct answer: 
+		$mc -> qa("", "$DOLLAR \(  $N \)");
+
+		# The wrong responses:
+		@bogus = ($O*$r/100, $O + $O*$r/100, $O - $r, $O - $r*100);
+
+		$mc -> extra("$DOLLAR \($bogus[0] \)", 
+		"$DOLLAR \($bogus[1] \)", "$DOLLAR \($bogus[2] \)", 
+		"$DOLLAR \($bogus[3] \)",);
+
+		$qu ="Angela gets a \( $r \) $PERCENT cut. 
+		Her original salary was $DOLLAR
+		\( $O \) per year. What is her new salary?"; 
+		}
+  elsif ($sel == 2) 
+	{	
+		$r = random(2, 15,1); #Rate of increase
+		$N = random(20000, 50000, 100); #New salary
+		$O = $N/(1+$r/100); #Old salary
+
+		# The correct answer: 
+		$mc -> qa("", "$DOLLAR \(  $N \)");
+
+		# The wrong responses:
+		@bogus = ($N*$r/100, $N - $N*$r/100, $N - $r, $N - $r*100);
+
+		$mc -> extra("$DOLLAR \($bogus[0] \)", 
+		"$DOLLAR \($bogus[1] \)", "$DOLLAR \($bogus[2] \)", 
+		"$DOLLAR \($bogus[3] \)",);
+
+		$qu="Angela gets a \( $r \) $PERCENT raise. 
+		Her new salary is $DOLLAR
+		\( $N \) per year. What was her old salary?"; 
+		}
+  else { 
+		$r = random(2, 15,1); #Rate of increase
+		$N = random(20000, 50000, 100); #New salary
+		$O = $N/(1-$r/100); #Old salary
+
+		# The correct answer: 
+		$mc -> qa("", "$DOLLAR \(  $N \)");
+
+		# The wrong responses:
+		@bogus = ($N*$r/100, $N + $N*$r/100, $N + $r, $N + $r*100);
+
+		$mc -> extra("$DOLLAR \($bogus[0] \)", 
+		"$DOLLAR \($bogus[1] \)", "$DOLLAR \($bogus[2] \)", 
+		"$DOLLAR \($bogus[3] \)",);
+
+		$qu="Angela gets a \( $r \) $PERCENT cut. 
+		Her new salary is $DOLLAR
+		\( $N \) per year. What was her old salary?"; 
+		}
+
+########################################################################
+install_problem_grader(~~&std_problem_grader);
+
+$showPartialCorrectAnswers = 0;
+
+TEXT(beginproblem());
+
+########################################################################
+
+
+###########################
+#  Main text
+
+Context("Numeric"); 
+
+BEGIN_TEXT
+$qu
+$BR
+\{ $mc -> print_q \}
+
+\{ $mc -> print_a \}
+$PAR
+END_TEXT
+ANS( radio_cmp( $mc -> correct_ans ));
+ENDDOCUMENT();
+

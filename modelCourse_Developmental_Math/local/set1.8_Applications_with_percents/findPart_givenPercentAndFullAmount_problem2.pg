@@ -1,0 +1,148 @@
+##DESCRIPTION
+##  Algebra problem: polynomial functions
+##ENDDESCRIPTION
+
+##KEYWORDS('algebra', 'polynomials')
+
+
+## DBsubject('Algebra')
+## DBchapter('Percents and Proportions')
+## DBsection('')
+## Author('04/07/2013')
+## Institution('Bronx Community College')
+
+DOCUMENT();  # This should be the first executable line in the problem.
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"PGcourse.pl",
+"unionTables.pl",
+"PGauxiliaryFunctions.pl",
+"parserMultiAnswer.pl",
+"parserRadioButtons.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+);
+
+sub price{
+my $value = $_[0];
+if ($displayMode eq 'TeX'){
+'$'."\( $value \)"}
+else{ $DOLLAR."\( $value \)"}};
+
+sub round {
+
+    my($float, $prec) = @_;
+    int($float*10**$prec + .5)*10**-$prec};
+
+## Make a new multiple choice object
+$mc = new_multiple_choice();
+
+# here we the formula A/B = 100/P is used
+
+do
+{$a = random(20000,40000,1000); # pick A
+$b = random(1000,20000,500); # pick B
+$p = random(10,90,5);} # pick P
+until ( $a * $p == 100 * $b && $p != 50 && ($a/$b)%10 != 0);
+
+$choice = random(0,2,1);
+
+# Answer composition
+$xa = (100 * $b)/$p;
+$xb = ( $a * $p)/100;
+$xp = (100 * $b)/$a; 
+
+if ($choice == 0) # need to find A
+{
+$question_phrase = ("Over four years the price of a car decreased to  ".$DOLLAR."\( $b\)".", which is "."\( $p \)".$PERCENT." of the original price.  What was the original price of the car?");
+
+$tmp = ($b * $p)/100;
+$tmpr = round($tmp,2);
+#$bogus1 = $DOLLAR."\($tmpr\)";
+$bogus1 = price($tmpr);
+
+$tmp = (100 * $b)/(100-$p);
+$tmpr = round($tmp,2);
+#$bogus2 = (" ".$DOLLAR."\($tmpr\)");
+$bogus2 = price($tmpr);
+
+$tmp = ($b * (100-$p))/100;
+$tmpr = round($tmp,2);
+#$bogus3 = (" ".$DOLLAR."\($tmpr\)");
+$bogus3 = price($tmpr);
+
+$x = round($xa,2);
+#$x = (" ".$DOLLAR."\($x\)");
+$x = price($x);
+}
+elsif ($choice == 1) # need to find B
+{
+$p_ = 100 - $p;
+$question_phrase = ("Over four years the price of a car decreased from ".$DOLLAR."\( $a \)"." by "." \( $p_ \)".$PERCENT.". What is the price of the car now?");
+
+$tmp = ($a * 100)/$p;
+$tmpr = round($tmp,2);
+#$bogus1 = (" ".$DOLLAR."\($tmpr\)");
+$bogus1 = price($tmpr);
+
+$tmp = (100 * $a)/(100-$p);
+$tmpr = round($tmp,2);
+#$bogus2 = (" ".$DOLLAR."\($tmpr\)");
+$bogus2 = price($tmpr);
+
+$tmp = ($a * (100-$p))/100;
+$tmpr = round($tmp,2);
+#$bogus3 = (" ".$DOLLAR."\($tmpr\)");
+$bogus3 = price($tmpr);
+
+$x = round($xb,2);
+#$x = (" ".$DOLLAR."\($x\)");
+$x = price($x);
+}
+else
+{
+$question_phrase = ("Over four years the price of a car decreased from ".$DOLLAR."\( $a \) to ".$DOLLAR."\( $b\). What is the percent decrease in price?");
+
+$tmp = (($a * 10)/$b);
+$tmpr = round($tmp,2);
+$bogus1 = "\($tmpr\)".$PERCENT;
+
+$tmp = $a /$b;
+$tmpr = round($tmp,2);
+$bogus2 = "\($tmpr\)".$PERCENT;
+
+$bogus3 = "\($xp\)".$PERCENT;
+
+$x = 100-$xp;
+$x = round($x,2);
+$x = ("\($x\)".$PERCENT);
+}
+
+## Insert a correct answer and three wrong answers
+
+$mc -> qa("",$x);
+$mc -> extra($bogus1, $bogus2, $bogus3);
+
+TEXT(beginproblem());
+
+install_problem_grader(~~&std_problem_grader);
+
+$showPartialCorrectAnswers = 0;
+
+
+Context()->texStrings;
+BEGIN_TEXT
+$question_phrase
+
+$BR
+\{ $mc -> print_q \}
+
+\{ $mc -> print_a \}
+$PAR
+END_TEXT
+
+ANS( radio_cmp( $mc -> correct_ans ));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.

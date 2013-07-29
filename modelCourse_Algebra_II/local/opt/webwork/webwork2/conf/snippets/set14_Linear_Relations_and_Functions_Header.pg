@@ -1,0 +1,61 @@
+###/set14_Linear_Relations_and_Functions_Header.pg
+ 
+DOCUMENT();
+ 
+loadMacros(
+ 
+"PG.pl",
+ 
+"PGbasicmacros.pl",
+"unionLists.pl");
+ 
+BEGIN_TEXT
+ 
+$PAR $BCENTER
+ 
+$BBOLD set14_Linear_Relations_and_Functions $EBOLD
+ 
+$ECENTER
+ 
+$HR
+ 
+$PAR
+ 
+Due: $BBOLD
+ 
+$formattedDueDate. $EBOLD
+ 
+$PAR
+ 
+$HR
+ 
+Students will be able to:
+ 
+   \{BeginList("UL")\}
+  $ITEM Find the slope or y-intercept of a line given as an equation or in a graph
+  $ITEM Find the equation of a line given various conditions
+  $ITEM Use the relationship between parallel and perpendicular lines
+  $ITEM Use the above concepts in solving application problems
+  \{EndList("UL")\}
+ 
+$PAR
+ 
+$HR
+ 
+$PAR
+ 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+ 
+$PAR
+ 
+$HR
+ 
+$PAR
+ 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+ 
+$PAR
+ 
+END_TEXT
+ 
+ENDDOCUMENT();

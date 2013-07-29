@@ -1,0 +1,19 @@
+
+openDate          = 06/10/2013 at 01:32pm EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/7.2_Solving-Substitution-or-Elimination_Header.pg
+problemList       = 
+Library/ASU-topics/set119LinearSystems/p18.pg, 1, -1 
+Library/maCalcDB/setLinearAlgebra1Systems/ur_la_1_4a.pg, 1, -1 
+Library/ASU-topics/setSystems2Variables/beth4sys2var.pg, 1, -1 
+Library/ASU-topics/set119LinearSystems/p6.pg, 1, -1 
+Library/ASU-topics/set119LinearSystems/p2.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_03_01_SystemOfLinearEq/31IntAlg_17_LinearSystem.pg, 1, -1 
+local/set7.2_Solving-Substitution-or-Elimination/sys_two_equations_multiple_choice.pg, 1, -1 
+Library/ASU-topics/setSystems2Variables/decs.pg, 1, -1 
+Library/ASU-topics/setSystems2Variables/sw7_2_15.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_03_01_SystemOfLinearEq/31IntAlg_16_LinearSystem.pg, 1, -1 
+Library/ASU-topics/setSystems2Variables/jj1.pg, 1, -1 
+

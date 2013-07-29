@@ -1,0 +1,109 @@
+##DESCRIPTION
+##  Algebra problem: Commutative property of addition
+##ENDDESCRIPTION
+
+##KEYWORDS('algebra', 'commutative', 'addition')
+
+## DBsubject('Algebra')
+## DBchapter('Introduction to Algebraic Expressions')
+## DBsection('Commutative, Associative and Distributive Laws')
+## Date('6/19/2013')
+## Author('Mary Shsepherd')
+## Institution('Northwest Missouri State University')
+## TitleText1('Elementary and Intermediate Algebra')
+## EditionText1('5')
+## AuthorText1('Bittinger, Ellenbogen, Johnson')
+## Section1('1.2')
+## Problem1('')
+
+########################################################################
+
+DOCUMENT();      
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"PGchoicemacros.pl",
+);
+
+# Print problem number and point value (weight) for the problem
+TEXT(beginproblem());
+
+# Show which answers are correct and which ones are incorrect
+$showPartialCorrectAnswers = 1;
+
+##############################################################
+#
+#  Setup
+#
+
+
+Context("Numeric");
+
+$a = random(2,15,1);
+do { $b = random(2,15,1); } until ($b != $a);
+$var1 = list_random('a', 'b', 'm', 'n', 't', 'x', 'y');
+$var2 = list_random('c', 'd', 'p', 'q', 's', 'w', 'z');
+Context()->variables->are($var1=>"Real",$var2=>"Real");
+
+$mc = new_checkbox_multiple_choice();
+
+$mc -> qa (
+"There may be more than one correct answer.", 
+"\(  ($a+$var1)+($var2+$b)  \) $BR",
+"\(  ($var1+$a)+($b+$var2)  \) $BR",
+"\(  ($var2+$b)+($var1+$a)  \) $BR",     
+);
+
+$mc -> extra(
+"\(  ($a+$var1)+($b+$var2)  \) $BR",
+"\(  ($b+$var2)+($var1+$a)  \) $BR",
+"\(  ($var2+$b)+($a+$var1)  \) $BR",
+);
+
+$mc -> makeLast("None of the above");
+
+
+
+##############################################################
+#
+#  Text
+#
+#
+
+Context()->texStrings;
+BEGIN_TEXT
+
+Select the expression(s) that are equivalent to \( ($var1+$a)+($var2+$b) \). with using the commutative property of addition EXACTLY once.
+
+$BR
+\{ $mc -> print_q() \}
+$BR
+\{ $mc -> print_a() \}
+END_TEXT
+Context()->normalStrings;
+
+
+############################
+#  Answer evaluation
+
+install_problem_grader(~~&std_problem_grader);
+
+$showPartialCorrectAnswers = 0;
+
+ANS( checkbox_cmp( $mc->correct_ans() ) );
+
+
+############################
+#  Solution
+
+Context()->texStrings;
+BEGIN_SOLUTION
+${PAR}SOLUTION:$PAR
+The correct answer is \{ $mc->correct_ans() \}
+END_SOLUTION
+Context()->normalStrings;
+
+COMMENT('MathObject version.');
+ENDDOCUMENT();
+

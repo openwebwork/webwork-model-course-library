@@ -1,0 +1,22 @@
+
+openDate          = 06/10/2013 at 10:04am EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/5.4_Factoring-Perfect-Square-Trinomials-Differences-of-Squares_Header.pg
+problemList       = 
+Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_02_Factor.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_18_Factor.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_05_FactoringSpecialForms/55IntAlg_20_FactorSpecial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_02_Factor.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_14_Factor.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_22_Factor.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_06_Factoring/56IntAlg_21_Factor.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_05_FactoringSpecialForms/55IntAlg_01_FactorSpecial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_05_FactoringSpecialForms/55IntAlg_05_FactorSpecial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_05_FactoringSpecialForms/55IntAlg_03_FactorSpecial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_05_FactoringSpecialForms/55IntAlg_08_FactorSpecial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_05_FactoringSpecialForms/55IntAlg_11_FactorSpecial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_05_FactoringSpecialForms/55IntAlg_07_FactorSpecial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_05_FactoringSpecialForms/55IntAlg_10_FactorSpecial.pg, 1, -1 
+

@@ -1,0 +1,99 @@
+#######################################################################
+#######################################################################
+#Combined 2 Problems: Population increase/decrease
+#######################################################################
+#######################################################################
+# -*- mode: Perl -*-
+## DESCRIPTION
+## Algebra
+## ENDDESCRIPTION
+
+## KEYWORDS('combine 2 problems, percent population increase/decrease')
+
+## DBsubject('WeBWorK')
+## Date('04/01/2013')
+## Author('Uma Iyer')
+## Institution('Bronx Community College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+
+DOCUMENT();
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"PGcourse.pl",
+"weightedGrader.pl",
+"parserPopUp.pl",
+"unionTables.pl",
+"PGgraphmacros.pl",
+"PGchoicemacros.pl",
+);
+
+TEXT(beginproblem());
+## Make a new checkbox multiple choice object
+$mc = new_multiple_choice();
+$A = list_random(0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9); #The percentage
+#increase/decrease.
+
+		
+$sel = random(0, 1, 1);
+  if ($sel == 0) 
+	{  
+		$O = random(11000,25000,1000); #Original population
+		$N = $O + $A*$O/100; #New population 
+
+		# The wrong responses:
+		@bogus = ($N/100, $O/100, ($N - $O)/100, 1+$A/100);
+
+		$qu="A town's population increased from \( $O \) to \( $N \).
+			By what percent did the population increase?"
+	}
+  else
+	{	$O = random(11000,25000,1000); #Original population
+		$N = $O - $A*$O/100; #New population 
+
+		# The wrong responses:
+		@bogus = ($N/100, $O/100, ($O - $N)/100, 1-$A/100);
+		
+		$qu="A town's population decreased from \( $O \) to \( $N \).
+			By what percent did the population decrease?"		
+	}
+		# The correct answer: 
+		$mc -> qa("", " \(  $A \)");
+		$mc -> extra("\($bogus[0] \)", 
+		"\($bogus[1] \)", 
+		"\($bogus[2] \)", 
+		"\($bogus[3] \)",);		# The bogus answer: 
+
+
+########################################################################
+install_problem_grader(~~&std_problem_grader);
+
+$showPartialCorrectAnswers = 0;
+
+TEXT(beginproblem());
+
+########################################################################
+
+
+###########################
+#  Main text
+
+Context("Numeric"); 
+
+BEGIN_TEXT
+$qu
+$BR
+\{ $mc -> print_q \}
+
+\{ $mc -> print_a \}
+$PAR
+END_TEXT
+ANS( radio_cmp( $mc -> correct_ans ));
+ENDDOCUMENT();
+
+
+

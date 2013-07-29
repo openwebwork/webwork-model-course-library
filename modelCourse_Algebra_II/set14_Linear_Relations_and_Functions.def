@@ -1,0 +1,27 @@
+
+openDate          = 07/14/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set14_Linear_Relations_and_Functions_Header.pg
+problemList       = 
+local/setLinear_Functions_and_Relations/TorF_Problem1.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_02_03_LinearFunctionsAndSlope/23IntAlg_03_Slope.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_02_03_LinearFunctionsAndSlope/23IntAlg_02_Slope.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_02_03_LinearFunctionsAndSlope/23IntAlg_20_Slope.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_02_03_LinearFunctionsAndSlope/23IntAlg_07_Slope.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_02_03_LinearFunctionsAndSlope/23IntAlg_15_Slope.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_02_03_LinearFunctionsAndSlope/23IntAlg_09_Slope.pg, 1, -1 
+Library/FortLewis/Algebra/5-4-Equations-for-lines/MCH1-5-4-11-Equations-for-lines.pg, 1, -1 
+Library/FortLewis/Algebra/5-2-Linear-expressions/MCH1-5-2-23b-Linear-expressions.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_02_04_PointSlopeFormofLine/24IntAlg_17_LinearFunction.pg, 1, -1 
+Library/NAU/setLinearModeling/linearmodeling1.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_02_04_PointSlopeFormofLine/24IntAlg_22_LinearFunction.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_02_04_PointSlopeFormofLine/24IntAlg_24_LinearFunction.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_02_04_PointSlopeFormofLine/24IntAlg_19_LinearFunction.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_02_04_PointSlopeFormofLine/24IntAlg_25_LinearFunction.pg, 1, -1 
+Library/FortLewis/Algebra/5-3-Linear-equations/MCH1-5-3-01-Linear-equations.pg, 1, -1 
+Library/FortLewis/Algebra/5-5-Linear-modeling/MCH1-5-5-01-Linear-modeling.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_02_04_PointSlopeFormofLine/24IntAlg_28a_LinearFunction.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_03_02_ProblemSolvingBusinessApp/32IntAlg_03_ProblemSolving.pg, 1, -1 
+

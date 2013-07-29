@@ -1,0 +1,70 @@
+###DESCRIPTION
+## This is a very slight modification of the Library file Homework16/problem 38 in file '[TMPL]/Library/CollegeOfIdaho/setAlgebra_05_02_MultiplyPolynomials/52IntAlg_07_MultPoly.pg'
+## This problem asks students to multiply two monomials.
+## 
+##ENDDESCRIPTION
+## DBsubject('Intermediate Algebra')
+## DBchapter('Ch 05: Polynomials, Polynomial Functions, and Factoring')
+## DBsection('Multiplication of Polynomials')
+## KEYWORDS('polynomials')
+## TitleText1('Essentials of Intermediate Algebra')
+## EditionText1('1')
+## AuthorText1('Blitzer')
+## Section1('5.2')
+## Problem1('')
+## Author('RA Cruz')
+## Institution('The College of Idaho')
+## Date: 2007/10
+
+DOCUMENT(); # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "contextLimitedPolynomial.pl",
+  "CofIdaho_macros.pl"
+);
+
+TEXT(beginproblem());
+
+######################################
+#  Setup
+
+Context("LimitedPolynomial-Strict");
+Context()->variables->are(a=>'Real',b=>'Real');
+
+$a= random(1,7,1);
+$b1 = random(-9,-1,1);
+
+$n1=random(2,4,1);
+$n2=random(2,4,1);
+$n3=random(2,4,1);
+
+$poly1 = nicestring([$a],["a b^$n1"]);
+$poly2 = nicestring([$b1],["a^$n2 b^$n3"]);
+
+######################################
+#  Main text
+
+BEGIN_TEXT
+Multiply the monomials:  \( $poly1 ( $poly2 ) \)
+$PAR
+Answer:  \{ ans_rule(40) \} 
+END_TEXT
+
+######################################
+#  Answer
+
+$c1 = $a*$b1;
+$ae1 = $n2+1;
+$be1 = $n1+$n3;
+$ans = Formula("$c1*a^$ae1*b^$be1")->reduce;
+ANS($ans->cmp); 
+
+$showPartialCorrectAnswers = 1;
+
+######################################
+
+
+COMMENT('MathObject version');
+ENDDOCUMENT();

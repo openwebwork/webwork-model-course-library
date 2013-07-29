@@ -1,0 +1,21 @@
+
+openDate          = 07/15/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set15_Combining_Functions_Header.pg
+problemList       = 
+Library/Utah/Business_Algebra/set4_Quadratic_and_Other_Special_Functions/p16.pg, 1, -1 
+Library/Utah/Business_Algebra/set4_Quadratic_and_Other_Special_Functions/p15.pg, 1, -1 
+Library/ma117DB/set4/srw2_8_23.pg, 1, -1 
+Library/maCalcDB/setAlgebra17FunComposition/s0_1_83.pg, 1, -1 
+Library/maCalcDB/setAlgebra17FunComposition/ur_fn_2_2.pg, 1, -1 
+Library/maCalcDB/setAlgebra17FunComposition/ur_fn_2_1.pg, 1, -1 
+Library/Union/setFunctionComposition/an1_4_47.pg, 1, -1 
+Library/ASU-topics/setAlgebraFunctions/beth2algfunb.pg, 1, -1 
+Library/Rochester/setAlgebra17FunComposition/ur_fn_2_2.pg, 1, -1 
+Library/NAU/setFunctionComposition/Composition2.pg, 1, -1 
+Library/NAU/setFunctionComposition/Composition.pg, 1, -1 
+local/setset15_Combining_Functions/AlgofRelations_prb2.pg, 1, -1 
+local/setset15_Combining_Functions/AlgofRelations_prb1.pg, 1, -1 
+

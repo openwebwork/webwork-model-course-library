@@ -1,0 +1,17 @@
+
+openDate          = 06/09/2013 at 03:38pm EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/2.3_Using-Addition-Multiplication-Principles-Together_Header.pg
+problemList       = 
+local/set2.2_Solving-Linear-Equations/SolveEquClearDecimal.pg, , -1 
+local/set2.2_Solving-Linear-Equations/SolveEquCombineLikeTerms.pg, , -1 
+local/set2.2_Solving-Linear-Equations/SolvingEquClearFraction.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_01_04_SolveLinearEq/14IntAlg_07_SolveLinear.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_01_04_SolveLinearEq/14IntAlg_08_SolveLinear.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_01_04_SolveLinearEq/14IntAlg_11_SolveLinear.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_01_04_SolveLinearEq/14IntAlg_13_SolveLinear.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_01_04_SolveLinearEq/14IntAlg_23_SolveLinear.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_01_04_SolveLinearEq/14IntAlg_15_SolveLinear.pg, , -1 
+

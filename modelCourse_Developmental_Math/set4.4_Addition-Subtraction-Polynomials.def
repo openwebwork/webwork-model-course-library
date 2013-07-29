@@ -1,0 +1,16 @@
+
+openDate          = 06/10/2013 at 09:24am EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/4.4_Addition-Subtraction-Polynomials_Header.pg
+problemList       = 
+local/set4.4_Addition-Subtraction-Polynomials/combiningLikeTerms_problem1.pg, 1, -1 
+Library/ma117DB/set1b/srw1_3_1.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_16_PolyAddSub.pg, 1, -1 
+Library/Utah/College_Algebra/set2_Functions_and_Their_Graphs/1050s2p6.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_21_PolyAddSub.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set3_Linear_Equations_and_Inequalities/s3p35.pg, 1, -1 
+local/set4.4_Addition-Subtraction-Polynomials/multiplyingMonomials_and_combiningLikeTerms_problem1.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_07_PolyEqAndApplications/57IntAlg_31_PolyEq.pg, 1, -1 
+
