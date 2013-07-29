@@ -1,0 +1,23 @@
+
+openDate          = 08/04/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/set34_Statistics_Part_2HeaderFile.pg
+problemList       = 
+Library/UVA-Stat/setStat212-Homework07/stat212-HW07-19.pg, 1, -1 
+Library/NAU/setStatistics/empirical_rule3.pg, 1, -1 
+Library/NAU/setStatistics/empirical_rule1.pg, 1, -1 
+Library/CollegeOfIdaho/setStatistics_Ch03NormalDistribution/03Stats_12_NormalDist.pg, 1, -1 
+Library/CollegeOfIdaho/setStatistics_Ch03NormalDistribution/03Stats_06_NormalDist.pg, 1, -1 
+Library/Rochester/setStatistics2Measures/ur_stt_2_10.pg, 1, -1 
+Library/CollegeOfIdaho/setStatistics_Ch03NormalDistribution/03Stats_04_NormalDist.pg, 1, -1 
+Library/ASU-topics/setStat/kolossa24.pg, 1, -1 
+Library/ASU-topics/setStat/kolossa7.pg, 1, -1 
+Library/Rochester/setProbability8BinomialDist/ur_pb_8_5.pg, 1, -1 
+Library/Rochester/setProbability8BinomialDist/ur_pb_8_3.pg, 1, -1 
+Library/Rochester/setProbability8BinomialDist/ur_pb_8_1.pg, 1, -1 
+Library/NAU/setStatistics/binostat3.pg, 1, -1 
+Library/NAU/setStatistics/binostat1.pg, 1, -1 
+Library/NAU/setProbability/binoprob3.pg, 1, -1 
+

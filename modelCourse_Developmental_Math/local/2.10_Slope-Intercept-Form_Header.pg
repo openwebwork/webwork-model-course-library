@@ -1,0 +1,69 @@
+###/set2-Solving-Graphing-Linear-Equations_10-Slope-Intercept-Form_Header.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+
+$BBOLD 2-Solving-Graphing-Linear-Equations_10-Slope-Intercept-Form $EBOLD </p>
+
+<hr />
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+<hr />
+
+Students will be able to:
+
+<UL>
+
+<li>         Use y-intercept and slope to graph a line </li>
+
+<li>        Find slope and y-intercept from a linear equation </li>
+
+<li>        Write an equation in slope-intercept form given the slope and y-intercept </li>
+
+<li>        Write an equation in slope-intercept form from a graph </li>
+
+<li>        Graph an equation given in slope-intercept form </li>
+
+<li>        Write the slope-intercept equation given a description of the graph </li>
+
+<li>        Determine whether a pair of lines are parallel, perpendicular or neither </li>
+
+</UL>
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

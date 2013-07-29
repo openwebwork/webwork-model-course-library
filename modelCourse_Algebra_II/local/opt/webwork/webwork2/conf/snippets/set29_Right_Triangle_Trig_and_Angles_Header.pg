@@ -1,0 +1,66 @@
+###/set29_Right_Triangle_Trig_and_Angles_Header.pg
+ 
+DOCUMENT();
+ 
+loadMacros(
+ 
+"PG.pl",
+ 
+"PGbasicmacros.pl",
+"unionLists.pl");
+ 
+BEGIN_TEXT
+ 
+$PAR $BCENTER
+ 
+$BBOLD set29_Right_Triangle_Trig_and_Angles $EBOLD
+ 
+$ECENTER
+ 
+$HR
+ 
+$PAR
+ 
+Due: $BBOLD
+ 
+$formattedDueDate. $EBOLD
+ 
+$PAR
+ 
+$HR
+ 
+Students will be able to:
+ 
+   \{BeginList("UL")\}
+  $ITEM Solve Right Triangles using the Pythagorean theorem or trig ratios
+  $ITEM Find ratios for all six trigonometric functions
+  $ITEM Solve applications of trig functions including angles of elevation or depression
+  $ITEM Place angles on the coordinate plane in order to evaluate trigonometric ratios
+  $ITEM Find reference angles
+  $ITEM Find the quadrant in which an angle terminates
+  $ITEM Find co-terminal angle measures
+
+* This set uses only degree units for angular rotation.
+  \{EndList("UL")\}
+ 
+$PAR
+ 
+$HR
+ 
+$PAR
+ 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+ 
+$PAR
+ 
+$HR
+ 
+$PAR
+ 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+ 
+$PAR
+ 
+END_TEXT
+ 
+ENDDOCUMENT();

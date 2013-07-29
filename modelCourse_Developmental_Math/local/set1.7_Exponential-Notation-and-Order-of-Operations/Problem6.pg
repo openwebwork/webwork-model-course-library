@@ -1,0 +1,90 @@
+##KEYWORDS('temperature conversion')
+
+##DBsubject('Algebra')
+## DBchapter('Basic Algebra')
+## DBsection('temperature conversion')
+## Date('5/29/2013')
+## Author('')
+## Institution('BCC')
+
+########################################################################
+
+DOCUMENT();      
+
+loadMacros(
+   "PGstandard.pl",     # Standard macros for PG language
+   "MathObjects.pl",
+   #"source.pl",        # allows code to be displayed on certain sites.
+   "PGcourse.pl",      # Customization file for the course
+  "unionTables.pl",
+"PGauxiliaryFunctions.pl",
+"parserAssignment.pl",
+"parserMultiAnswer.pl",
+"parserRadioButtons.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"contextFraction.pl"
+);
+
+########################################################################
+
+
+
+install_problem_grader(~~&std_problem_grader);
+
+$showPartialCorrectAnswers = 0;
+
+TEXT(beginproblem());
+
+########################################################################
+
+Context("Numeric");
+
+do{
+$C = 5*random(-4,7); 
+} until ($C != 0);
+
+$F = 9*$C/5 +32;
+
+## Insert a question, and all correct answers
+
+$choose = random(0,1,1);
+
+if($choose == 0)
+{
+$ques = "Use the formula \( F= \frac{9C}{5} +32 \) for converting degrees Celsius into degrees Fahrenheit. Find the Fahrenheit measure of the Celsius temperature \( C= $C \).";
+$ans= $F;
+@bogus = ( $F+128, (9*$C+32)/5, 9*$C+32,$C/5 + 32);
+}
+else
+{
+$ques = "Use the formula \( C= \frac{5}{9} (F -32) \) for converting degrees  Fahrenheit into degrees Celsius. Find the Celsius measure of the Fahrenheit temperature \( F = $F \).";
+$ans= $C;
+@bogus = ( ($F-32)*9/5, -$C, (32-$F)*9/5, ceil(5*$F/9 -32));
+}
+
+
+$mc=new_multiple_choice();
+
+$mc -> qa("", "\(  $ans\)" );
+$mc -> extra(" \(  $bogus[0] \)", " \( $bogus[1] \)"," \( $bogus[2] \)"," \( $bogus[3] \)");
+
+
+
+###########################
+#  Main text
+
+Context()->texStrings;
+BEGIN_TEXT 
+$ques
+
+$BR
+
+\{ $mc -> print_q \}
+\{ $mc -> print_a \}
+$PAR
+END_TEXT
+ANS( radio_cmp( $mc -> correct_ans ));
+
+
+ENDDOCUMENT();

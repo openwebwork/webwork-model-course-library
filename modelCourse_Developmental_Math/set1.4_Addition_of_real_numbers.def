@@ -1,0 +1,19 @@
+
+openDate          = 06/09/2013 at 02:35pm EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/1.4_Addition_of_real_numbers_Header.pg
+problemList       = 
+local/set1.4_Addition_of_real_numbers/addingSignedNumbers_withoutNumberLine_problem1.pg, 1, -1 
+local/set1.4_Addition_of_real_numbers/addingSignedNumbers_withoutNumberLine_problem2.pg, 1, -1 
+local/set1.4_Addition_of_real_numbers/addingSignedNumbers_withoutNumberLine_problem3.pg, 1, -1 
+local/set1.4_Addition_of_real_numbers/combiningLikeTerms_linearExpression_probem1.pg, 1, -1 
+local/set1.4_Addition_of_real_numbers/combiningLikeTerms_linearExpression_probem2.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Fractions/franns101.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Fractions/frasrs205.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Fractions/frasrm102.pg, 1, -1 
+local/set1.4_Addition_of_real_numbers/combiningLikeTerms_quadraticExpression_probem1.pg, 1, -1 
+local/set1.4_Addition_of_real_numbers/combiningLikeTerms_linearExpression_probem3.pg, 1, -1 
+Library/ma117DB/set1b/srw1_6_5.pg, , -1 
+

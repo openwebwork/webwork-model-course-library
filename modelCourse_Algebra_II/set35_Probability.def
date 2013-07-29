@@ -1,0 +1,34 @@
+
+openDate          = 08/05/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set35_Probability_Header_File.pg
+problemList       = 
+Library/ASU-topics/setCount/sw10_2_40.pg, 1, -1 
+Library/ASU-topics/setCount/sw10_1_7.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework03/stat212-HW03-12.pg, 1, -1 
+Library/NAU/setCounting/Counting_15.pg, 1, -1 
+Library/ASU-topics/setCount/pcount2.pg, 1, -1 
+Library/NAU/setCounting/Counting_1.pg, 1, -1 
+Library/ASU-topics/setCount/sw10_1_23.pg, 1, -1 
+Library/ASU-topics/setDiscrete/stefi4-5a.pg, 1, -1 
+Library/ASU-topics/setCount/sw10_1_33.pg, 1, -1 
+Library/ASU-topics/setCount/sw10_1_21.pg, 1, -1 
+Library/ASU-topics/setCount/pcount1.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework03/stat212-HW03-18.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework03/stat212-HW03-11.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework03/stat212-HW03-06.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework03/stat212-HW03-07.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework03/stat212-HW03-20.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework04/stat212-HW04-04.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework04/stat212-HW04-02.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework05/stat212-HW05-02.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework04/stat212-HW04-03.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework04/stat212-HW04-10.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework04/stat212-HW04-20.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework03/stat212-HW03-15.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework03/stat212-HW03-16.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework03/stat212-HW03-13.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework06/stat212-HW06-10.pg, 1, -1 
+

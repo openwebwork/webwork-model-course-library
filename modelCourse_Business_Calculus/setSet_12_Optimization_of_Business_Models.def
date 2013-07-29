@@ -1,0 +1,16 @@
+
+openDate          = 07/11/2013 at 10:00am EDT
+dueDate           = 01/01/2020 at 07:12pm EST
+answerDate        = 01/08/2020 at 07:00pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/Set_12_HeaderFile.pg
+problemList       = 
+Library/Michigan/Chap4Sec4/Q09.pg, 1, -1 
+Library/Indiana/Indiana_setDerivatives10_5Optim/dereco2.pg, 1, -1 
+Library/Michigan/Chap4Sec4/Q03.pg, 1, -1 
+Library/Union/setDervOptimization/4-5-47.pg, 1, -1 
+Library/UCSB/Stewart5_4_1/Stewart5_4_1_71.pg, 1, -1 
+Library/Indiana/Indiana_setDerivatives10_5Optim/nsc4_7_16.pg, 1, -1 
+Library/ASU-topics/setOptimization/dereco4.pg, 1, -1 
+Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP10.pg, 1, -1 
+

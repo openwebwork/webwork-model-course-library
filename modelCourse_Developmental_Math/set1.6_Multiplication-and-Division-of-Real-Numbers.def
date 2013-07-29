@@ -1,0 +1,27 @@
+
+openDate          = 06/09/2013 at 03:04pm EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/1.6-Multiplication-and-Division-of-Real-Numbers-Header.pg
+problemList       = 
+Library/NewHampshire/unh_schoolib/Multiplication_Division/mdpsrs302.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Multiplication_Division/mdpnrs101.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Multiplication_Division/mdpsrs204.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Multiplication_Division/mdpsrs301.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC05S03/SubtractingFractions01.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC05S03/SubtractingFractions02.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC05S04/DividingFractions01.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC05S04/MultiplyingFractions02.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC01S09/IntegerMultDiv01.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC01S09/IntegerMultDiv02.pg, 1, -1 
+local/set1.6_Multiplication-and-Division-of-Real-Numbers/problem12.pg, 1, -1 
+local/set1.6_Multiplication-and-Division-of-Real-Numbers/Problem13.pg, 1, -1 
+local/set1.6_Multiplication-and-Division-of-Real-Numbers/Problem14.pg, 1, -1 
+local/set1.6_Multiplication-and-Division-of-Real-Numbers/Problem15.pg, 1, -1 
+local/set1.6_Multiplication-and-Division-of-Real-Numbers/problem_signed_division.pg, 1, -1 
+local/set1.6_Multiplication-and-Division-of-Real-Numbers/division_with_zero.pg, 1, -1 
+local/set1.6_Multiplication-and-Division-of-Real-Numbers/division_signed_horizontal.pg, 1, -1 
+local/set1.6_Multiplication-and-Division-of-Real-Numbers/division_signed_complicated.pg, 1, -1 
+local/set1.6_Multiplication-and-Division-of-Real-Numbers/signed_reciprocal.pg, 1, -1 
+

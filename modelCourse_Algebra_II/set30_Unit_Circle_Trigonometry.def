@@ -1,0 +1,36 @@
+
+openDate          = 07/30/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set30_Unit_Circle_Trigonometry_Header.pg
+problemList       = 
+Library/Rochester/setTrig02FunctionsUnitCircle/srw5_1_1.pg, 1, -1 
+Library/ma117DB/set9/srw5_1_5.pg, 1, -1 
+Library/ASU-topics/setUnitCircle/srw5_1_9.pg, 1, -1 
+local/setset30_Unit_Circle_Trigonometry/p2.pg, 1, -1 
+Library/ASU-topics/setUnitCircle/p2.pg, 1, -1 
+Library/ASU-topics/setUnitCircle/srw5_2_47.pg, 1, -1 
+Library/ASU-topics/setUnitCircle/p8.pg, 1, -1 
+Library/ASU-topics/setUnitCircle/srw5_2_9.pg, 1, -1 
+Library/ASU-topics/setUnitCircle/p3.pg, 1, -1 
+Library/ASU-topics/setUnitCircle/srw5_2_23.pg, 1, -1 
+Library/ASU-topics/setUnitCircle/srw5_2_29.pg, 1, -1 
+Library/Rochester/setTrig04FunctionsAnyAngle/ur_tr_1_8.pg, 1, -1 
+Library/Rochester/setTrig04FunctionsAnyAngle/p3_mo.pg, 1, -1 
+local/Library/org.sparta/UnitCircle/p1.pg, 1, -1 
+Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/1_Precalculus_Review/1.4_Trigonometric_Functions/1.4.29.pg, 1, -1 
+Library/Utah/Trigonometry/set4_Trigonometry/s4p1.pg, 1, -1 
+Library/Utah/Trigonometry/set4_Trigonometry/s4p11.pg, 1, -1 
+Library/Utah/Trigonometry/set4_Trigonometry/s4p2.pg, 1, -1 
+Library/Union/setTrigBasicValues/ur_tr_1_4.pg, 1, -1 
+Library/Union/setTrigBasicValues/ur_tr_1_10.pg, 1, -1 
+Library/Union/setTrigBasicValues/ur_tr_1_13.pg, 1, -1 
+Library/Union/setTrigBasicValues/ur_tr_1_1.pg, 1, -1 
+Library/Rochester/setTrig01Angles/srw6_1_33.pg, 1, -1 
+Library/Rochester/setTrig09Laws/srw6_1_25.pg, 1, -1 
+Library/Rochester/setTrig09Laws/srw6_1_27.pg, 1, -1 
+Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/1_Precalculus_Review/1.4_Trigonometric_Functions/1.4.9.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap6Sec3/Q28.pg, , -1 
+Library/LoyolaChicago/Precalc/Chap6Sec3/Q20.pg, , -1 
+

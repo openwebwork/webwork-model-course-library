@@ -1,0 +1,87 @@
+##DESCRIPTION
+##  Algebra problem: Commutative property of addition
+##ENDDESCRIPTION
+
+##KEYWORDS('algebra', 'commutative', 'addition')
+
+## DBsubject('Algebra')
+## DBchapter('Introduction to Algebraic Expressions')
+## DBsection('Commutative, Associative and Distributive Laws')
+## Date('6/19/2013')
+## Author('Mary Shsepherd')
+## Institution('Northwest Missouri State University')
+## TitleText1('Elementary and Intermediate Algebra')
+## EditionText1('5')
+## AuthorText1('Bittinger, Ellenbogen, Johnson')
+## Section1('1.2')
+## Problem1('13')
+########################################################################
+
+DOCUMENT();      
+
+loadMacros(
+   "PGstandard.pl",     # Standard macros for PG language
+   "MathObjects.pl",
+   #"source.pl",        # allows code to be displayed on certain sites.
+   #"PGcourse.pl",      # Customization file for the course
+   "contextLimitedPolynomial.pl"
+);
+
+# Print problem number and point value (weight) for the problem
+TEXT(beginproblem());
+
+# Show which answers are correct and which ones are incorrect
+$showPartialCorrectAnswers = 1;
+
+##############################################################
+#
+#  Setup
+#
+#
+Context("LimitedPolynomial-Strict");
+
+$a = random(2,15,1);
+do { $b = random(2,15,1); } until ($b != $a);
+$var1 = list_random('a', 'b', 'm', 'n', 't', 'x', 'y');
+Context()->variables->are($var1=>"Real");
+
+$exp1 = Compute("$b * $var1 + $a");
+
+##############################################################
+#
+#  Text
+#
+#
+
+Context()->texStrings;
+BEGIN_TEXT
+
+Use the commutative property of addition  to write an equivalent expression for
+
+$BR
+\($a+ $b $var1 = \)  \{$exp1->ans_rule(15) \}
+
+
+END_TEXT
+Context()->normalStrings;
+
+##############################################################
+#
+#  Answers
+#
+#
+
+
+ ANS($exp1->cmp(checker => sub {
+      my ($correct,$student,$ans) = @_;
+      return 0 unless $correct == $student;
+      Value->Error("Check the order of your terms")
+        unless $correct->string eq $student->string;
+      return 1;
+    }));
+
+
+
+
+
+ENDDOCUMENT();        

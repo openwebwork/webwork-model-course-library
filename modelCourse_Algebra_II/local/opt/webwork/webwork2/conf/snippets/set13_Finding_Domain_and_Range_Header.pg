@@ -1,0 +1,64 @@
+###/set13_Finding_Domain_and_Range_Header.pg
+ 
+DOCUMENT();
+ 
+loadMacros(
+ 
+"PG.pl",
+ 
+"PGbasicmacros.pl",
+"unionLists.pl");
+ 
+BEGIN_TEXT
+ 
+$PAR $BCENTER
+ 
+$BBOLD set13_Finding_Domain_and_Range $EBOLD
+ 
+$ECENTER
+ 
+$HR
+ 
+$PAR
+ 
+Due: $BBOLD
+ 
+$formattedDueDate. $EBOLD
+ 
+$PAR
+ 
+$HR
+ 
+Students will be able to:
+ 
+   \{BeginList("UL")\}
+  $ITEM Find and manipulate equations representing linear relations and functions
+ $ITEM Find the domain and range of functions represented in graphs.
+ $ITEM Find the domain and range of functions represented in equations.
+ $ITEM Answer all domains and ranges using inequalities. The domain uses the variable "x", and the range uses the variable "y" within their respective inequalities.
+ $ITEM Solve problems that are applications that include the concept of domain, range, independent and dependent variables, interpreting functional notation and values within the application.
+ $ITEM This set addresses the CCSS F.IF.1 and F.IF.2.
+
+  \{EndList("UL")\}
+ 
+$PAR
+ 
+$HR
+ 
+$PAR
+ 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+ 
+$PAR
+ 
+$HR
+ 
+$PAR
+ 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+ 
+$PAR
+ 
+END_TEXT
+ 
+ENDDOCUMENT();

@@ -1,0 +1,19 @@
+
+openDate          = 07/11/2013 at 10:00am EDT
+dueDate           = 01/01/2020 at 07:15pm EST
+answerDate        = 01/08/2020 at 07:00pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = defaultHeader
+problemList       = 
+Library/Rochester/setDerivatives2Formulas/ur_dr_2_2.pg, 1, -1 
+Library/UCSB/Stewart5_3_1/Stewart5_3_1_33.pg, 1, -1 
+Library/Rochester/setDerivatives2Formulas/ur_dr_2_16.pg, 1, -1 
+Library/UCSB/Stewart5_3_5/Stewart5_3_5_21.pg, 1, -1 
+Library/Rochester/setDerivatives2Formulas/ns3_2_4.pg, 1, -1 
+Library/Rochester/setDerivatives7Log/sc3_7_2_mo.pg, 1, -1 
+Library/Rochester/setDerivatives7Log/mec6.pg, 1, -1 
+Library/maCalcDB/setDerivatives7Log/mec4.pg, 1, -1 
+Library/Rochester/setDerivatives7Log/mec8_mo.pg, 1, -1 
+Library/ASU-topics/setOptimization/5-2-63.pg, 1, -1 
+Library/ASU-topics/setFirstDerivative/5-2-67.pg, 1, -1 
+

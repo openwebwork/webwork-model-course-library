@@ -1,0 +1,68 @@
+###/set1-Real-Numbers_01-Commutative-Associative-Distributive-Laws_Header.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+
+$BBOLD 1-Real-Numbers_01-Commutative-Associative-Distributive-Laws $EBOLD </p>
+
+<hr />
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+<hr />
+
+Students will be able to:
+
+<UL>
+
+<li>  Use the commutative laws of addition and multiplication </li>
+
+ <li>   Use the associative laws of addition and multiplication </li>
+
+ <li>       Use the commutative and associative laws together </li>
+
+<li>        Use the distributive law to multiply </li>
+
+<li>        Use the distributive law to factor </li>
+
+<li>        List the terms in expressions </li>
+
+
+</UL>
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

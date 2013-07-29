@@ -1,0 +1,11 @@
+
+openDate          = 06/09/2013 at 04:09pm EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/2.8-Rates-of-Change_Header.pg
+problemList       = 
+local/setPreAlgebraC06S01/UnitRates01.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_02_03_LinearFunctionsAndSlope/23IntAlg_17_Slope.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_02_03_LinearFunctionsAndSlope/23IntAlg_18_Slope.pg, , -1 
+

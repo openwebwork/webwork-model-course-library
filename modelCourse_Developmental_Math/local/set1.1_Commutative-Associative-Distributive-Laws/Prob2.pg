@@ -1,0 +1,100 @@
+##DESCRIPTION
+##  Algebra problem: Commutative and Associative property of addition
+##ENDDESCRIPTION
+
+##KEYWORDS('algebra', 'commutative', 'associative', 'addition')
+
+## DBsubject('Algebra')
+## DBchapter('Introduction to Algebraic Expressions')
+## DBsection('Commutative, Associative and Distributive Laws')
+## Date('6/19/2013')
+## Author('Mary Shsepherd')
+## Institution('Northwest Missouri State University')
+## TitleText1('Elementary and Intermediate Algebra')
+## EditionText1('5')
+## AuthorText1('Bittinger, Ellenbogen, Johnson')
+## Section1('1.2')
+## Problem1('39')
+
+
+###########################
+#  Initialization
+
+DOCUMENT();  
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"PGchoicemacros.pl",
+);
+
+TEXT(beginproblem());
+
+
+###########################
+#  Setup
+
+Context("Numeric")->variables->add(y=>"Real");
+
+$a = random(11,65,1);
+
+$mc = new_checkbox_multiple_choice();
+
+$mc -> qa (
+"There may be more than one correct answer.", 
+"\( x + ($a + y) \) $BR",
+"\( (x + $a) + y \) $BR",
+"\( (y + $a) + x \) $BR",
+"\( y + (x + $a) \) $BR",
+"\( y + ($a + x) \) $BR",
+"\( ($a + x) + y \) $BR",
+"\( ($a + y) + x \) $BR",         
+);
+
+$mc -> extra(
+"\( x + (y + $a) \) $BR",
+"\( (y + x) + $a \) $BR",
+"\( $a + (x + y) \) $BR",
+"\( $a + (y + x) \) $BR",
+);
+
+$mc -> makeLast("None of the above");
+
+
+###########################
+#  Main text
+
+Context()->texStrings;
+BEGIN_TEXT
+All the expressions below are equivalent to \( (x + y) + $a \). Select all expressions that use BOTH the commutative and associative properties (at least once each) of addition to give the equivalent expression.  
+$BR
+\{ $mc -> print_q() \}
+$BR
+\{ $mc -> print_a() \}
+END_TEXT
+Context()->normalStrings;
+
+
+############################
+#  Answer evaluation
+
+install_problem_grader(~~&std_problem_grader);
+
+$showPartialCorrectAnswers = 0;
+
+ANS( checkbox_cmp( $mc->correct_ans() ) );
+
+
+############################
+#  Solution
+
+Context()->texStrings;
+BEGIN_SOLUTION
+${PAR}SOLUTION:$PAR
+The correct answer is \{ $mc->correct_ans() \}
+END_SOLUTION
+Context()->normalStrings;
+
+COMMENT('MathObject version.');
+
+ENDDOCUMENT();

@@ -1,0 +1,64 @@
+
+###/setS2-Solving-Graphing-Linear-Equations_05-Read-Graphs-Plot-Points-Scaling-Graphs_Header.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+
+$BBOLD 2-Solving-Graphing-Linear-Equations_05-Read-Graphs-Plot-Points-Scaling-Graphs $EBOLD </p>
+
+<hr />
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+<hr />
+
+Students will be able to:
+
+<UL>
+
+<li>         Solve problems with bar, circle and line graphs </li>
+
+<li>        plot ordered pairs </li>
+
+<li>        Number (and scale) axes appropriately </li>
+
+<li>        Identify quadrants </li>
+
+</UL>
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

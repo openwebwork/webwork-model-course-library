@@ -1,0 +1,89 @@
+## DESCRIPTION
+## Algebra Divide signed numbers
+## ENDDESCRIPTION
+
+## KEYWORDS('algebra', 'signed numbers - reciprocal')
+
+## DBsubject('algebra')
+## Date('07/11/2013')
+## Author('Kerry Ojakian')
+## Institution('Bronx Community College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "contextLimitedNumeric.pl",
+  "contextFraction.pl",
+  "AnswerFormatHelp.pl"
+);
+
+TEXT(&beginproblem);
+
+Context("LimitedFraction");
+Context() -> flags -> set(showMixedNumbers => 0,  # fractions display improper
+                                   reduceFractions=>0                  # fractions not reduced
+); 
+
+
+
+
+######################################
+#  Setup
+
+$N = random(-30,-2);
+$D = random(2, 30);
+$a = random(2, 5);
+$F1 = Fraction($a * $N, $a * $D);
+
+$M = random(-100, -2);
+$F2 = Fraction($M,1);
+
+######################################
+#  Main text
+
+BEGIN_TEXT
+
+Find the reciprocal of the number (your answer  should be in reduced form).
+
+ 
+
+ 
+
+
+$PAR
+
+$BR
+
+a) Reciprocal of  \( \{$F1->TeX\} = \) \{ ans_rule(10) \} 
+
+$PAR
+
+b) Reciprocal of \( \{$F2->TeX\} = \) \{ ans_rule(10) \} 
+$BR
+
+\{ AnswerFormatHelp("fractions") \}
+
+END_TEXT
+
+######################################
+#  Answers
+
+
+$ans_a = 1/$F1; 
+&ANS($ans_a->cmp);
+
+$ans_b = 1/$F2;
+&ANS($ans_b->cmp);
+
+$showPartialCorrectAnswers = 1;
+
+######################################
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.

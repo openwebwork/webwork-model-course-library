@@ -1,0 +1,198 @@
+# -*- mode: Perl -*-
+## DESCRIPTION
+## Algebra
+## ENDDESCRIPTION
+
+## KEYWORDS('algebra', 'graph of a linear inequality')
+
+## DBsubject('WeBWorK')
+## Date('04/01/2013')
+## Author('Nikos Apostolakis')
+## Institution('Bronx Community College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+
+DOCUMENT();
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"PGcourse.pl",
+"weightedGrader.pl",
+"parserPopUp.pl",
+"unionTables.pl",
+"PGgraphmacros.pl",
+"PGchoicemacros.pl",
+);
+
+TEXT(beginproblem());
+
+$refreshCachedImages=1;
+
+
+
+# Define a subroutine to print an integer with its sign.
+# This will be used when printing the iqequality.
+sub prsign {
+  my $x = shift;
+  if ($x > 0) {return "+$x";}
+  elsif ($x == 0) {return "";}
+  else { return "$x";}}
+
+# Subroutine to print coefficients nicely.  +1 shouldn't be printed
+# and -1 should be printed as -.
+sub prcoeff {
+  my $x = shift;
+  if ($x == 1) {return "";}
+  elsif ($x == -1) {return "-";}
+  else { return "$x";}}
+
+# Let's define a subroutine that returns the graph of a semi-infinite
+# interval.  Takes argumens the coordinate of the left end of the real
+# line, the coordinate of the right end, the root, a boolean argument
+# that decides wheter the interval is -oo, r or r, +oo, and a fourth
+# boolean argument that decides whether the interval is open or
+# closed.  The ends should be integers.
+
+sub graph_interval {
+
+  my ($a, $b, $r, $two, $zwein) = @_;
+
+  $gr = init_graph($a-.5,-1, $b+.5, 1, size=>[400,100]);
+  $gr->lb('reset');
+  $gr->moveTo($a-.5, 0);
+  $gr->lineTo($b+.5, 0,'black');
+
+  foreach my $i ($a..$b){
+    $gr->moveTo($i,-0.2);
+    $gr->lineTo($i,0.2);
+    $gr->lb( new Label($i, -0.45, $i, 'black', 'center', 'middle'));}
+
+  if ($two == 0) {
+    $gr->moveTo($r,0);
+    $gr->arrowTo($a-.5, 0, 'blue',6);}
+  else {
+    $gr->moveTo($r,0);
+    $gr->arrowTo($b+.5, 0, 'blue',6);}
+
+  if ($zwein == 0) {$gr->stamps( open_circle($r, 0, 'blue') );}
+  else {$gr->stamps( closed_circle($r, 0, 'blue') );}
+
+  $gr;}
+
+
+
+# Solving the inequality a x + b ? c x + d
+# First choose the root.
+# We chose a root in the interval [-5, 5] and make sure it's not 0.
+
+do {$r = random(-5, 5, 1);
+  } while ($r == 0);
+
+
+# Now we choose the three coefficients a, b, c.  We want them to be
+# single digits in the range [-9, 9], none of them 0 and so that we
+# don't have a degenerate situation, a =/= c.  We actually make sure
+# that a < c so that if all unknowns are transfered to the lhs we
+# get a negative coefficient.
+# Then d is determined as d = (a - c) r + b
+
+do { $a = random(-9, 9, 1); } until ($a != 0);
+do { $b = random(-9, 9, 1); } until ($b != 0);
+do { $c = random(-9, 9, 1); } until ($c != 0 && $c > $a);
+
+$d = ($a - $c)*$r + $b ;
+
+# Next we choose what kind of inequality we have.
+# 0 means <
+# 1 means \le
+# 2 means >
+# 3 means \ge
+
+$sel = random(0, 3, 1);
+@rel = ("<", "\le", ">", "\ge");
+
+# The TeX string for the inequality
+$qu = &prcoeff($a)." x".prsign($b).@rel[$sel].&prcoeff($c)." x".prsign($d);
+
+# Now let's define rp and rn to be the positive and negative r:
+$rp = abs($r);
+$rn = -$rp;
+
+# Now let's see if the inequality is strict or not.
+$is_strict = $sel % 2;
+
+# We then construct the four graphs that will be displayed as choices.
+# -oo, rn
+# rn, oo
+# -oo, rp
+# rp, oo
+
+
+$gr[0] = &graph_interval(-8, 8, $rn, 0, $is_strict);
+$gr[1] = &graph_interval(-8, 8, $rn, 1, $is_strict);
+$gr[2] = &graph_interval(-8, 8, $rp, 0, $is_strict);
+$gr[3] = &graph_interval(-8, 8, $rp, 1, $is_strict);
+
+foreach my $i (0..3) {
+  $gr[$i]=image(insertGraph($gr[$i]),
+		width=>400,height=>100,tex_size=>600);}
+
+
+# Now we need to find the solution interval.  We do this by checking
+# whether 0 is a solution or not.
+
+if ($r > 0) {
+  if ($sel < 2) {
+    if ($b < $d) {$solu = 2;}
+    else {$solu = 3;}}
+  else {if ($b < $d) {$solu = 3;}
+    else {$solu = 2;}}}
+else {
+  if ($sel < 2) {
+    if ($b < $d) {$solu = 1;}
+    else {$solu = 0;}}
+  else {if ($b < $d) {$solu = 0;}
+	else {$solu = 1;}}}
+
+# Now we have to setup the multiple choice for graphs.
+
+@letter = ("A", "B", "C", "D");
+
+$popup = PopUp(["?","A","B","C","D"], $letter[$solu]);
+
+
+BEGIN_TEXT
+Find the graph of the solution to the inequality.
+$PAR
+$BCENTER
+\($qu\) $SPACE $SPACE
+\{ $popup->menu() \}
+$ECENTER
+$BR
+$BR
+$PAR
+$BCENTER
+\{
+BeginTable().
+  AlignedRow(["A", $gr[0]]).
+  TableSpace(5,0).
+  AlignedRow(["B", $gr[1]]).
+  TableSpace(5,0).
+  AlignedRow(["C", $gr[2]]).
+  TableSpace(5,0).
+  AlignedRow(["D", $gr[3]]).
+EndTable();
+\}
+$ECENTER
+END_TEXT
+
+install_problem_grader(~~&std_problem_grader);
+$showPartialCorrectAnswers = 0;
+
+ANS( $popup->cmp() );
+
+
+ENDDOCUMENT();

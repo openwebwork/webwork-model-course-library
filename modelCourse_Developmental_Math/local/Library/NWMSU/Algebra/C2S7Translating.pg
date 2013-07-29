@@ -1,0 +1,133 @@
+## DESCRIPTION
+## Translating inequalities
+## ENDDESCRIPTION
+
+## KEYWORDS('matching', 'inequalities','translating')
+
+## DBsubject('Algebra')
+## DBchapter('Equations, Inequalities & Problem Solving')
+## DBsection('Solving Applications with Inequalities')
+## Date('07/24/2013')
+## Author('Mary Shepherd')
+## Institution('Northwest Missouri State University')
+## TitleText1('Elementary & Intermediate Algebra')
+## EditionText1('3rd')
+## AuthorText1('Bittinger, Ellenbogen & Johnson')
+## Section1('2.7')
+## Problem1('Translating for Success')
+
+
+###########################
+#  Initialization
+
+DOCUMENT();  
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"PGchoicemacros.pl",
+"PGgraders.pl",
+"unionTables.pl",
+);
+
+TEXT(beginproblem());
+
+
+###########################
+#  Setup
+
+#
+#  Create a matching list and use popups
+#
+
+$a = random(90,110,2);
+$b = random(4,8,1);
+$c = random(135,150,5);
+$d = Compute("$b - 1");
+
+$ml = new_match_list();
+$ml->rf_print_q(~~&pop_up_list_print_q);
+$ml->ra_pop_up_list([
+"No answer" => "?",
+"A" => "A", "B" => "B", "C" => "C", 
+"D" => "D", "E" => "E", "F" => "F",
+"G" => "G", "H" => "H", "I" => "I",
+]);
+
+#
+#  Add correct questions and answers
+#
+$ml->qa(
+"The sum of two consecutive even integers is at least \( $a \).", "\( x + (x + 2) \geq $a \)",
+"The length of a rectangle is \( $b \) in. more than the width.  The perimeter of the rectangle is more than \( $a \) in. ", "\( 2x + 2(x + $b) > $a \)",
+"Jaime has \( $b \) days to complete a \( $c\)-page reading assignment.  How many pages must he read the first day so that he has no more than \( $a \) pages left to read on the \( $d \) remaining days?", "\( $c - x \leq $a \)",
+"One number is \( $b \) more than twice another.  The sum of the numbers is \( $a \).", "\( x + (2x + $b) = $a \)",
+"Jesse has a total of \( $a \) points on the first \( $b \) quizzes in her sociology class.  How many total points must she earn on the remaining \( $d \) quizzes in order to have more than \( $c \) points for the semester?", "\( 102 + x > 150 \)",
+);
+$ml->choose(4);
+
+#
+#  Add extra incorrect answers
+#
+$ml->extra(
+"\( x + (x + $a) < $a \)", 
+"\( x + $d x > $c \)",
+"\( x + (x+1) \geq $a \)",
+"\($a + $d x > $c \)",
+"\(x + (x + $b) > $a \)",
+);
+$ml->choose_extra(4);
+  
+$ml->makeLast("None of the above");
+
+
+
+###########################
+#  Main text
+
+Context()->texStrings;
+BEGIN_TEXT
+Match each word problem statement with its correct algebraic translation.
+\{ ColumnMatchTable($ml) \}
+END_TEXT
+Context()->normalStrings;
+
+
+############################
+#  Answer evaluation
+
+$showPartialCorrectAnswers = 0;
+
+#
+#  Incremental grader
+#
+install_problem_grader(~~&custom_problem_grader_fluid);
+$ENV{'grader_numright'} = [2,3,4];
+$ENV{'grader_scores'} = [0.3,0.6,1];
+$ENV{'grader_message'} = "You can earn " .
+"30% partial credit for 1 - 2 correct answers, and ".
+"60% partial credit for 3 correct answers.";
+
+#
+#  All or nothing grader
+#  
+# install_problem_grader(~~&std_problem_grader);
+
+ANS( str_cmp( $ml->ra_correct_ans ) );
+
+
+############################
+#  Solution
+
+# @correct = @{$ml->ra_correct_ans()};
+# $answerstring = join(", ", @correct);
+# Context()->texStrings;
+# BEGIN_SOLUTION
+# ${PAR}SOLUTION:$PAR
+# The correct answers are $answerstring
+# END_SOLUTION
+# Context()->normalStrings;
+
+COMMENT('MathObject version.');
+
+ENDDOCUMENT();

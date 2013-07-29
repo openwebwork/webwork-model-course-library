@@ -1,0 +1,18 @@
+
+openDate          = 06/10/2013 at 02:23pm EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/8.7_Distance-Midpoint-Formulas-Applications_Header.pg
+problemList       = 
+Library/UMN/algebraKaufmannSchwitters/ks_5_2_79.pg, 1, -1 
+Library/Rochester/setAlgebra07PointsCircles/dist_between_2_pts.pg, 1, -1 
+Library/Rochester/setAlgebra07PointsCircles/midpoint_hard.pg, 1, -1 
+Library/Rochester/setAlgebra07PointsCircles/perimeter_of_triangle.pg, 1, -1 
+Library/Rochester/setAlgebra07PointsCircles/srw1_9_2-sol.pg, 1, -1 
+Library/Rochester/setAlgebra07PointsCircles/sw2_1_7.pg, 1, -1 
+Library/Rochester/setAlgebra07PointsCircles/sw2_1_25.pg, 1, -1 
+Library/Rochester/setTrig03FunctionsRightAngle/srw6_2_9.pg, 1, -1 
+Library/Rochester/setTrig03FunctionsRightAngle/srw6_2_11.pg, 1, -1 
+Library/NAU/setTrigRightTriangle/triangle2.pg, 1, -1 
+

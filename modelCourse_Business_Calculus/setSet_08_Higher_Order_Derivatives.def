@@ -1,0 +1,17 @@
+
+openDate          = 07/11/2013 at 10:00am EDT
+dueDate           = 01/01/2020 at 07:08pm EST
+answerDate        = 01/08/2020 at 07:00pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/Set_08_HeaderFile.pg
+problemList       = 
+Library/Rochester/setDerivatives13Higher/s2_7_3.pg, 1, -1 
+Library/Rochester/setDerivatives13Higher/ur_dr_13_6.pg, 1, -1 
+Library/UCSB/Stewart5_3_7/Stewart5_3_7_5.pg, 1, -1 
+Library/UCSB/Stewart5_3_7/Stewart5_3_7_15.pg, 1, -1 
+Library/UCSB/Stewart5_2_7/Stewart5_2_7_15/Stewart5_2_7_15.pg, 1, 4 
+Library/UMN/calculusStewartCCC/s_2_7_43.pg, 1, 2 
+Library/Utah/AP_Calculus_I/set3_Rates_of_Change_and_the_Chain_Rule/1210s5p7.pg, 1, 5 
+Library/UCSB/Stewart5_3_7/Stewart5_3_7_50.pg, 1, -1 
+Library/Rochester/setDerivatives3WordProblems/c2s7p2.pg, 1, -1 
+

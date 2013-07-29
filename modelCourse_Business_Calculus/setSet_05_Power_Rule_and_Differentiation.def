@@ -1,0 +1,22 @@
+
+openDate          = 07/11/2013 at 10:00am EDT
+dueDate           = 01/01/2020 at 07:05pm EST
+answerDate        = 01/08/2020 at 07:00pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/Set_05_HeaderFile.pg
+problemList       = 
+Library/Rochester/setDerivatives2Formulas/s2_2_1b.pg, 1, -1 
+Library/Rochester/setDerivatives2Formulas/ur_dr_2_7.pg, 1, -1 
+Library/Rochester/setDerivatives2Formulas/s2_2_22.pg, 1, -1 
+Library/Rochester/setDerivatives2Formulas/s2_2_4.pg, 1, -1 
+Library/UCSB/Stewart5_3_1/Stewart5_3_1_34.pg, 1, 2 
+Library/Rochester/setDerivatives2Formulas/s2_2_8.pg, 1, -1 
+Library/UCSB/Stewart5_3_1/Stewart5_3_1_4.pg, 1, -1 
+Library/UCSB/Stewart5_3_1/Stewart5_3_1_10.pg, 1, -1 
+Library/Michigan/Chap3Sec1/Q17.pg, 1, -1 
+Library/Michigan/Chap3Sec1/Q09.pg, 1, -1 
+Library/UVA-Stew5e/setUVA-Stew5e-C03S01-DerivPolyExps/3-1-12.pg, 1, -1 
+Library/Union/setDervTangentLine/3-4-51.pg, 1, -1 
+Library/Rochester/setDerivatives2Formulas/ur_dr_2_14.pg, 1, -1 
+Library/ASU-topics/setDerivativeBasicFunctions/3-7-17.pg, 1, -1 
+

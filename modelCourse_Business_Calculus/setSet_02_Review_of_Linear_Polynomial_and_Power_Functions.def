@@ -1,0 +1,30 @@
+
+openDate          = 07/11/2013 at 10:00am EDT
+dueDate           = 01/01/2020 at 07:02pm EST
+answerDate        = 01/08/2020 at 07:00pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = Set_02_HeaderFile.pg
+problemList       = 
+Library/FortLewis/Algebra/5-4-Equations-for-lines/MCH1-5-4-02-Equations-for-lines.pg, 1, -1 
+Library/FortLewis/Algebra/5-4-Equations-for-lines/MCH1-5-4-58-Equations-for-lines.pg, 1, -1 
+Library/FortLewis/Algebra/5-4-Equations-for-lines/MCH1-5-4-20-Equations-for-lines.pg, 1, -1 
+Library/FortLewis/Algebra/5-4-Equations-for-lines/MCH1-5-4-11-Equations-for-lines.pg, 1, -1 
+Library/FortLewis/Algebra/5-5-Linear-modeling/MCH1-5-5-08-Linear-modeling.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_03_02_ProblemSolvingBusinessApp/32IntAlg_03_ProblemSolving.pg, 1, -1 
+Library/NAU/setLines/line_application4.pg, 1, -1 
+Library/FortLewis/Algebra/5-3-Linear-equations/MCH1-5-3-54-Linear-equations.pg, 1, -1 
+Library/Utah/College_Algebra/set3_Polynomial_and_Rational_Functions/1050s3p6.pg, 1, -1 
+Library/Utah/College_Algebra/set3_Polynomial_and_Rational_Functions/1050s3p8.pg, 1, -1 
+Library/Utah/College_Algebra/set3_Polynomial_and_Rational_Functions/1050s3p9.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap9Sec2/Q06.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap9Sec2/Q01.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap9Sec2/polynomial-01.pg, 1, -1 
+Library/Utah/College_Algebra/set7_Polynomial_and_Rational_Functions/1050s7p12/1050s7p12.pg, 1, -1 
+Library/Utah/College_Algebra/set6_Polynomial_and_Rational_Functions/1050s6p27/1050s6p27.pg, 1, -1 
+Library/Utah/College_Algebra/set6_Polynomial_and_Rational_Functions/1050s6p26/1050s6p26.pg, 1, -1 
+Library/FortLewis/Algebra/7-1-Power-functions/MCH1-7-1-10-Power-functions.pg, 1, -1 
+Library/FortLewis/Algebra/7-1-Power-functions/MCH1-7-1-18-Power-functions.pg, 1, -1 
+Library/FortLewis/Algebra/7-1-Power-functions/MCH1-7-1-32-Power-functions.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_8_2_3.pg, 1, -1 
+local/Set_02_HeaderFile.pg, 1, -1 
+

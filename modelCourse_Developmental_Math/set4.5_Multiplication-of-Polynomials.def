@@ -1,0 +1,19 @@
+
+openDate          = 06/10/2013 at 09:29am EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/4.5_Multiplication-of-Polynomials_Header.pg
+problemList       = 
+Library/CollegeOfIdaho/setAlgebra_05_02_MultiplyPolynomials/52IntAlg_01_MultPoly.pg, 1, -1 
+local/set4.4_Addition-Subtraction-Polynomials/multiplying_monomialByPolynomial_problem1.pg, 1, -1 
+local/set4.4_Addition-Subtraction-Polynomials/multiplying_monomialByBinomialByMonomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_02_MultiplyPolynomials/52IntAlg_05_MultPoly.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_02_MultiplyPolynomials/52IntAlg_08_MultPoly.pg, 1, -1 
+Library/Rochester/setAlgebra03Expressions/lhp3_58.pg, 1, -1 
+Library/Rochester/setAlgebra03Expressions/lhp3_62.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set3_Linear_Equations_and_Inequalities/s3p31.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_02_MultiplyPolynomials/52IntAlg_09_MultPoly.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set3_Linear_Equations_and_Inequalities/s3p34.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_02_MultiplyPolynomials/52IntAlg_24_MultPoly.pg, 1, -1 
+

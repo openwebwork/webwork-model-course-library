@@ -1,0 +1,33 @@
+###/set35_Probability_Header.pg (change)
+DOCUMENT();
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"unionLists.pl");
+BEGIN_TEXT
+$PAR $BCENTER
+$BBOLD set35_Probability $EBOLD
+$ECENTER
+$HR
+$PAR
+Due: $BBOLD
+$formattedDueDate. $EBOLD
+$PAR
+$HR
+Students will be able to:
+   \{BeginList("UL")\}
+  $ITEM Count permutations, combinations and factorials
+  $ITEM Determine probability events, union, intersection and conditional probability events
+ $ITEM Determine dependent and independent events and calculate the probabilities
+  \{EndList("UL")\}
+$PAR
+$HR
+$PAR
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+$PAR
+$HR
+$PAR
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+$PAR
+END_TEXT
+ENDDOCUMENT();

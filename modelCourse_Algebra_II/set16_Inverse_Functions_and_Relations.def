@@ -1,0 +1,23 @@
+
+openDate          = 07/16/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set16_Inverse_Functions_and_Relations_Header.pg
+problemList       = 
+local/setset16_Inverse_Functions_and_Relations/TorF_inverse_prb1.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap8Sec2/Q40b.pg, 1, -1 
+Library/Utah/College_Algebra/set7_Polynomial_and_Rational_Functions/1050s7p1.pg, 1, -1 
+Library/Utah/College_Algebra/set7_Polynomial_and_Rational_Functions/1050s7p6.pg, 1, -1 
+Library/Utah/College_Algebra/set6_Polynomial_and_Rational_Functions/1050s6p20.pg, 1, -1 
+Library/Utah/College_Algebra/set7_Polynomial_and_Rational_Functions/1050s7p7.pg, 1, -1 
+Library/Utah/College_Algebra/set7_Polynomial_and_Rational_Functions/1050s7p8.pg, 1, -1 
+Library/Utah/College_Algebra/set7_Polynomial_and_Rational_Functions/1050s7p4.pg, 1, -1 
+Library/ASU-topics/setInverseFunctions/faris1.pg, 1, -1 
+Library/Utah/College_Algebra/set6_Polynomial_and_Rational_Functions/1050s6p28/1050s6p28.pg, 1, -1 
+Library/Union/setFunctionInverses/ur_inv_3.pg, 1, -1 
+Library/SUNYSB/WebWorkInverse2.pg, 1, -1 
+Library/ASU-topics/setInverseFunctions/pinv1_mo.pg, 1, -1 
+local/setset16_Inverse_Functions_and_Relations/TorF_inverse_prb2.pg, 1, -1 
+local/setset16_Inverse_Functions_and_Relations/FR_inverse_prb1.pg, 1, -1 
+

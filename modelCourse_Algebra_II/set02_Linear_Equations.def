@@ -1,0 +1,36 @@
+
+openDate          = 07/02/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/Linear_Equations_Header.pg
+problemList       = 
+Library/Utah/College_Algebra/set1_Preview/1050s1p17.pg, 1, -1 
+Library/FortLewis/Algebra/1-4-Equivalent-equations/MCH1-1-4-02-Equivalent-equations.pg, 1, -1 
+Library/FortLewis/Algebra/1-4-Equivalent-equations/MCH1-1-4-24-Equivalent-equations.pg, 1, -1 
+Library/FortLewis/Algebra/1-4-Equivalent-equations/MCH1-1-4-20-Equivalent-equations.pg, 1, -1 
+Library/FortLewis/Algebra/1-4-Equivalent-equations/MCH1-1-4-06-Equivalent-equations.pg, 1, -1 
+Library/FortLewis/Algebra/1-4-Equivalent-equations/MCH1-1-4-14-Equivalent-equations.pg, 1, -1 
+Library/FortLewis/Algebra/1-4-Equivalent-equations/MCH1-1-4-64-Equivalent-equations.pg, 1, -1 
+Library/FortLewis/Algebra/1-4-Equivalent-equations/MCH1-1-4-16-Equivalent-equations.pg, 1, -1 
+Library/Utah/College_Algebra/set2_Functions_and_Their_Graphs/1050s2p1.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set14_Review/s14p2.pg, 1, -1 
+Library/Utah/College_Algebra/set2_Functions_and_Their_Graphs/1050s2p7.pg, 1, -1 
+Library/Utah/College_Algebra/set2_Functions_and_Their_Graphs/1050s2p6.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set3_Linear_Equations_and_Inequalities/s3p20.pg, 1, -1 
+Library/FortLewis/Algebra/2-1-Reordering-and-regrouping/MCH1-2-1-01-06all-Reordering-and-regrouping.pg, 1, -1 
+Library/ma117DB/set1/srw1_1_61a.pg, 1, -1 
+Library/NAU/setLinearModeling/easylinearmodeling2.pg, 1, -1 
+Library/NAU/setLinearModeling/easylinearmodeling1.pg, 1, -1 
+Library/NAU/setLinearModeling/easylinearmodeling3.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set14_Review/s14p19.pg, 1, -1 
+Library/Utah/College_Algebra/set1_Preview/1050s1p30.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set4_Linear_Equations_and_Inequalities/s4p5.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set4_Linear_Equations_and_Inequalities/s4p6.pg, 1, -1 
+Library/Rochester/setAlgebra08LinearEqns/sw1_6_74.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set5_Graphs_and_Functions/s5p3.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set5_Graphs_and_Functions/s5p2.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set3_Linear_Equations_and_Inequalities/s3p14.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set3_Linear_Equations_and_Inequalities/s3p10.pg, 1, -1 
+Library/Rochester/setAlgebra13Inequalities/srw1_7_73.pg, 1, -1 
+

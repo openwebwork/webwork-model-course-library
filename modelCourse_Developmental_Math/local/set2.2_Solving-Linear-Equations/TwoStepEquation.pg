@@ -1,0 +1,87 @@
+##DESCRIPTION
+##  Middle School problem:
+##ENDDESCRIPTION
+
+##KEYWORDS('prealgebra','common core','inequality')
+
+## DBsubject(Middle school)
+## DBchapter('Solving_Equation')
+## DBsection('Misc.')
+## Date('9/19/2012')
+## Author('John Travis')
+## Institution('Mississippi College')
+## ProblemTester('Laura Travis')
+## TitleText1('Pre-Algebra')
+## Publisher('Prentice Hall')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+## Problem1('')
+
+########################################################################
+
+DOCUMENT();      
+
+loadMacros(
+   "PGstandard.pl",     # Standard macros for PG language
+   "MathObjects.pl",
+);
+
+TEXT(beginproblem());
+
+
+# Show which answers are correct and which ones are incorrect
+$showPartialCorrectAnswers = 1;
+
+##############################################################
+#
+#  Setup
+#
+#
+
+Context("Numeric");
+
+
+$a = random(2,8,1);
+$b = -$a - 5;
+$c = random(-20,-10,1);
+$d = random(-27,-13,1);
+
+$EquL = Compute("$a x + $c")->reduce;
+$EquR = Compute("$b x + $d")->reduce;
+
+
+$x = Compute("($d - $c) / ($a - $b)");
+
+
+ 
+##############################################################
+#
+#  Text
+#
+#
+
+##    to disable arithmetic operations in the answer.  Student must simplify.
+
+Context()-texStrings;
+
+BEGIN_TEXT
+
+$PAR
+\( \{$EquL->TeX\} = \{$EquR->TeX\} \) has solution: \(x =\) \{ans_rule(30)\}
+
+END_TEXT
+
+
+Context()->normalStrings;
+
+##############################################################
+#
+#  Answers
+#
+#
+
+ANS( $x->cmp);
+
+
+ENDDOCUMENT();        

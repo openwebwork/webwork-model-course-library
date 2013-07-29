@@ -1,0 +1,88 @@
+## DESCRIPTION
+## A problem that asks students to find what part a given percent is of a given base (whole) quantity.  
+## ENDDESCRIPTION
+
+## KEYWORDS('percent')
+
+## DBsubject('College Algebra')
+## DBchapter('Fractions')
+## DBsection('Applications of Fractions')
+## Author('Sandeep Bhargava')
+## Institution('Humber College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+## Problem1('')
+
+
+########################################################################
+# Initialization
+
+DOCUMENT();
+
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"contextFraction.pl",
+"AnswerFormatHelp.pl",
+);
+
+
+
+########################################################################
+# Setup
+
+# make sure we're in the context we want
+Context("Numeric");
+
+
+$rate = random(11,19,1);
+
+$base = list_random(11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97);
+
+$part = Compute(($rate*$base)/100);
+
+
+
+########################################################################
+# Main Text
+
+TEXT(beginproblem());
+
+Context()->texStrings;
+BEGIN_TEXT
+
+What volume is \( \ \  $rate \, $PERCENT \ \  \) of \( \ \  $base \ \) litres?
+$BR
+$BR
+Answer\( = \) \{ ans_rule(10) \} litres
+$BR
+
+END_TEXT
+Context()->normalStrings;
+
+########################################################################
+# Answer Evaluation
+
+ANS(num_cmp($part,
+     tol => 0.0001, 
+     tolType => "absolute",
+));
+
+
+########################################################################
+# Solution
+
+Context()->texStrings;
+BEGIN_SOLUTION
+$PAR
+${BUL}Solution:${EUL} We are looking for the part:
+$BR
+$BR
+\[ \displaystyle \text{part} \ = \ $rate \,$PERCENT \times $base \text{ litres } = $rate \times \frac{1}{100} \times $base \text{ litres } \ = \ \frac{$rate \times $base}{100} \text{ litres } \ = \ $part \text{ litres } \]
+END_SOLUTION
+Context()->normalStrings;
+
+ENDDOCUMENT();

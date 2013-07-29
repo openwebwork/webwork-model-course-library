@@ -1,0 +1,30 @@
+
+openDate          = 06/09/2013 at 02:00pm EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/1.2-Fraction-NotationHeader.pg
+problemList       = 
+Library/NewHampshire/unh_schoolib/Fractions/frasrs102.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Fractions/fraprs101.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Fractions/frasrs103.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Fractions/fradrs301.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Fractions/fradrs201x8-4.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Fractions/fradrs201.pg, 1, -1 
+local/Library/NewHampshire/unh_schoolib/Fractions/franns101.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Fractions/frannt301.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC04S06/RationalNumber02.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC04S03/CompositeNumbers01.pg, 1, -1 
+local/Library/MC/PreAlgebra/setPreAlgebraC04S01/NumericalFactors01.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC04S03/FactorTree02.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC04S03/FactorTree034pg.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC04S03/FactorTree01.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/GCF_LCM/gcfsrs201.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/GCF_LCM/gcfbrs301.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Fractions/frasrs301.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Fractions/frasrs203.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Fractions/frasrs302.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Fractions/frasrs201.pg, 1, -1 
+Library/NewHampshire/NECAP/grade11/gr11-2009/n11-2009-3s.pg, 1, -1 
+Library/NewHampshire/NECAP/grade8/gr8-2005/n8-2005-1s.pg, 1, -1 
+
