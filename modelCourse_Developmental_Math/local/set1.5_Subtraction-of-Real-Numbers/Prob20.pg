@@ -1,0 +1,85 @@
+## DESCRIPTION
+## This problem asks students for the additive inverse of a negative real number.
+## ENDDESCRIPTION
+
+## KEYWORDS('additive inverse','tmat100')
+
+## DBsubject('College Algebra')
+## DBchapter('Real Numbers')
+## DBsection('Additive Inverses')
+## Author('Sandeep Bhargava')
+## Institution('Humber College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+## Problem1('')
+
+
+########################################################################
+# Initialization
+
+DOCUMENT();
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+);
+
+
+########################################################################
+# Setup
+
+# make sure we're in the context we want
+Context("Numeric");
+
+$numStart = random(1,9,0.1);
+$numEnd = 0.01;
+$totalNum = $numStart + $numEnd;
+
+
+
+########################################################################
+# Main Text
+
+TEXT(beginproblem());
+
+Context()->texStrings;
+BEGIN_TEXT
+Simplify:
+$BR
+$BR
+
+\( - (-$totalNum) \) = \{ans_rule(15)\} 
+
+$BR
+$BR
+
+
+END_TEXT
+Context()->normalStrings;
+
+########################################################################
+# Answer Evaluation
+
+ANS(num_cmp($totalNum,
+     mode => 'strict',
+     tol => 0.0001, 
+     tolType => "absolute",
+));
+
+
+########################################################################
+# Solution
+
+Context()->texStrings;
+BEGIN_SOLUTION
+$PAR
+${BUL}Solution:${EUL}  The negative of a negative number is positive.  So
+$BR
+\[ -(-$totalNum) \ =  \ $totalNum \]
+END_SOLUTION
+Context()->normalStrings;
+
+ENDDOCUMENT();
+

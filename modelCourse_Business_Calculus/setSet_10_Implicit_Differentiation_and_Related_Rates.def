@@ -1,0 +1,14 @@
+
+openDate          = 07/11/2013 at 10:00am EDT
+dueDate           = 01/01/2020 at 07:10pm EST
+answerDate        = 01/08/2020 at 07:00pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/Set_10_HeaderFile.pg
+problemList       = 
+Library/UCSB/Stewart5_3_6/Stewart5_3_6_58.pg, 1, -1 
+Library/UVA-Stew5e/setUVA-Stew5e-C03S06-ImplicitDiff/3-6-22_mo.pg, 1, -1 
+Library/Utah/Quantitative_Analysis/set8_Indefinite_Integrals/pr_18.pg, 1, -1 
+Library/Union/setDervImplicit/ur_dr_25_10.pg, 1, -1 
+Library/ASU-topics/setImplicitDerivatives/5-5-25.pg, 1, -1 
+Library/ASU-topics/setImplicitDerivatives/5-5-29.pg, 1, -1 
+

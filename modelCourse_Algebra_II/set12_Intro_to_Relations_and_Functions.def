@@ -1,0 +1,22 @@
+
+openDate          = 07/12/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set12_Intro_to_Relations_and_Functions_Header.pg
+problemList       = 
+Library/Utah/Business_Algebra/set5_Quadratic_and_Other_Special_Functions/p17/p17.pg, 1, -1 
+Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/1_Precalculus_Review/1.1_Real_Numbers_Functions_and_Graphs/1.1.59.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_02_01_IntroFunctions/21IntAlg_02_function.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_02_01_IntroFunctions/21IntAlg_04_function.pg, 1, -1 
+Library/Utah/College_Algebra/set13_Review/1050s13p4.pg, 1, -1 
+Library/ma117DB/set3/srw2_1_29.pg, 1, -1 
+Library/ma117DB/set3/srw2_1_33.pg, 1, -1 
+Library/Rochester/setAlgebra15Functions/sw4_1_31.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap2Sec1/Connally3-2-1-23-Input-and-output.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap2Sec1/Connally3-2-1-09-Input-and-output.pg, 1, -1 
+Library/ma117DB/set3/srw2_1_23.pg, 1, -1 
+Library/Rochester/setAlgebra15Functions/ur_fn_1_6.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap2Sec1/Connally3-2-1-18-Input-and-output.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap2Sec1/Q30.pg, 1, -1 
+

@@ -1,0 +1,24 @@
+
+openDate          = 08/01/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set31_Trigonometric_Identities_Header.pg
+problemList       = 
+Library/Utah/Trigonometry/set9_Analytic_Trigonometry/s5.pg, 1, -1 
+Library/Utah/Trigonometry/set9_Analytic_Trigonometry/s2.pg, 1, -1 
+Library/Utah/Trigonometry/set9_Analytic_Trigonometry/s3.pg, 1, -1 
+Library/Utah/Trigonometry/set9_Analytic_Trigonometry/s7.pg, 1, -1 
+Library/Utah/Trigonometry/set9_Analytic_Trigonometry/s4.pg, 1, -1 
+Library/Union/setTrigBasicValues/ur_tr_1_11.pg, 1, -1 
+Library/Union/setTrigIdentities/p10.pg, 1, -1 
+Library/ASU-topics/setTrigIdentities/p11.pg, 1, -1 
+Library/ASU-topics/setTrigIdentities/p13.pg, 1, -1 
+Library/NAU/setTrigIdentity/Identity06.pg, 1, -1 
+Library/MC/Trigonometry/trig_identity_multipart-02.pg, 1, -1 
+Library/MC/Trigonometry/trig_identity_multipart-01.pg, 1, -1 
+Library/ASU-topics/setTrigEquations/p8.pg, 1, -1 
+Library/ASU-topics/setTrigEquations/p5.pg, 1, -1 
+Library/ASU-topics/setTrigEquations/p6-pc.pg, 1, -1 
+Library/NAU/setTrigEquations/MixSinCos.pg, 1, -1 
+

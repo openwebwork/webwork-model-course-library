@@ -1,0 +1,27 @@
+
+openDate          = 08/02/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set32_Trigonometry_Functions_and_Graphing_Header.pg
+problemList       = 
+Library/LoyolaChicago/Precalc/Chap6Sec1/Q04.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap6Sec1/Q08.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap6Sec1/Q07.pg, 1, -1 
+Library/MC/Trigonometry/Graphing04.pg, 1, -1 
+Library/Rochester/setTrig05Graphs/p6.pg, 1, -1 
+Library/Utah/Trigonometry/set7_Trigonometry/graphs/graphs.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap6Sec4/Q20.pg, 1, -1 
+Library/Utah/Trigonometry/set6_Trigonometry/q2.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap6Sec1/Q32.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap6Sec4/Q04.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap6Sec4/Q02.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap6Sec5/Q02.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap6Review/Q28.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap6Review/Q18.pg, 1, -1 
+Library/MC/Trigonometry/Graphing03.pg, 1, -1 
+Library/Rochester/setTrig05Graphs/c5s3p1_9/c5s3p1_9.pg, 1, -1 
+Library/Utah/Trigonometry/set6_Trigonometry/s6p8/s6p8.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap6Sec1/Q23.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap6Sec1/Q20.pg, 1, -1 
+

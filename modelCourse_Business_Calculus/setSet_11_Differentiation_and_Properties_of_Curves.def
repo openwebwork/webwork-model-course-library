@@ -1,0 +1,20 @@
+
+openDate          = 07/11/2013 at 10:00am EDT
+dueDate           = 01/01/2020 at 07:11pm EST
+answerDate        = 01/08/2020 at 07:00pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/Set_11_HeaderFile.pg
+problemList       = 
+Library/Rochester/setDerivatives10MaxMin/s3_3_6.pg, 1, -1 
+Library/Rochester/setDerivatives10MaxMin/s3_3_10.pg, 1, -1 
+Library/Rochester/setDerivatives10MaxMin/ur_dr_10_1.pg, 1, -1 
+Library/ASU-topics/setFirstDerivative/4-2-69.pg, 1, -1 
+Library/Rochester/setDerivatives10MaxMin/c3s3p1_mo.pg, 1, -1 
+Library/Michigan/Chap4Sec1/Q39.pg, 1, 2 
+Library/Rochester/setDerivatives10MaxMin/s3_4_16graph_mo.pg, 1, -1 
+Library/Union/setDervConcavity/4-3-52.pg, 1, -1 
+Library/ma122DB/set8/s4_3_27.pg, 1, 4 
+Library/Michigan/Chap2Sec5/Q16.pg, 3, -1 
+Library/ASU-topics/setSecondDerivative/4-3-84.pg, 1, -1 
+Library/CSUOhio/appletDemonstrationProblems/LabelingPoints.pg, 1, -1 
+

@@ -1,0 +1,66 @@
+###/Set_05_HeaderFile.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl",
+
+"unionLists.pl");
+
+BEGIN_TEXT
+
+$PAR $BCENTER
+
+$BBOLD Set 05: The power rule and differentiation $EBOLD
+
+$ECENTER
+
+$HR
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+$HR
+
+Students will be able to:
+
+   \{BeginList("UL")\}
+
+  $ITEM Calculate the derivative of linear and polynomials functions.
+  $ITEM Recognize power functions written in rational or radical form and then implement the power rule to find their derivatives.
+  $ITEM Evaluate derivatives at a point.
+  $ITEM Find the slope and equation of a tangent line of given function.
+  $ITEM Apply the above to cost/revenue/profit applications.
+
+
+  \{EndList("UL")\}
+
+$PAR
+
+$HR
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+$HR
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

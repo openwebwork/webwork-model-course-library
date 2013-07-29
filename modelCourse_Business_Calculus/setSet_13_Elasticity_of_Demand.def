@@ -1,0 +1,14 @@
+
+openDate          = 07/11/2013 at 10:00am EDT
+dueDate           = 01/01/2020 at 07:13pm EST
+answerDate        = 01/08/2020 at 07:00pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/Set_13_HeaderFile.pg
+problemList       = 
+Library/ASU-topics/setElasticity/p5.pg, 1, -1 
+Library/ASU-topics/setElasticity/p3.pg, 1, -1 
+Library/ASU-topics/setElasticity/p11.pg, 1, -1 
+Library/ASU-topics/setElasticity/p10.pg, 1, -1 
+Library/ASU-topics/setElasticity/p9.pg, 1, -1 
+Library/ASU-topics/setElasticity/p8.pg, 1, -1 
+

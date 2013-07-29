@@ -1,0 +1,84 @@
+## DESCRIPTION
+## Algebra 
+## ENDDESCRIPTION
+
+## KEYWORDS('algebra', 'signed numbers -multiplication')
+
+## DBsubject('algebra')
+## Date('01/26/2013')
+## Author('')
+## Institution('Bronx Community College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+
+
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "PGauxiliaryFunctions.pl",
+  "Parser.pl",
+  "MathObjects.pl",
+  "contextLimitedNumeric.pl"
+);
+
+TEXT(&beginproblem);
+
+######################################
+#  Setup
+#  Note: Most of this is to get different denominators
+#        and reduces fractions.
+
+$ad1 = list_random(2,3,5,7,11);  # Part a: 
+$an1 = $ad1 - random(1,$ad1-1,1);
+$num1 = random(-3,-1,1);
+$num2 = random(-5,5,1);
+$num3 = random(-6,-1,1);
+
+@d1 = (4,5,6,9,15,16);                 # Part b: 
+@d2 = (7,8,11,14,25);
+do {$d = $d1[random(0,3,1)];} while ($ad1==$d);
+$n = $d - random(1,$d-1,1);
+($bn1,$bd1) = reduce($n,$d);
+$d = $d2[random(0,3,1)];
+do {
+   $n = $d - random(1,$d-1,1);
+   ($bn2,$bd2) = reduce($n,$d);} 
+while ($bd1==$bd2);
+
+######################################
+#  Main text
+
+BEGIN_TEXT
+Multiply:  (Note: Use fractions not decimals.)
+$PAR
+a) \( ($num1)($num2)($num3) = \) \{ ans_rule(10) \} 
+
+$PAR
+b) \( \frac{$an1}{$ad1} (-\frac{$bn1}{$bd1})(\frac{$bn2}{$bd2}) = \) \{ ans_rule(10) \} 
+
+$BR
+
+END_TEXT
+
+######################################
+#  Answers
+
+Context("LimitedNumeric");
+$ans_a = Real($num1*$num2*$num3);
+ANS($ans_a->cmp);
+
+Context("LimitedNumeric-StrictFraction"); 
+($ans_bn,$ans_bd)= reduce(-$an1*$bn1*$bn2, $ad1*$bd1*$bd2);
+$ans_b = "$ans_bn/$ans_bd";
+if ($ans_bd==1){$ans_b = "$ans_bn";}
+ANS(Compute($ans_b)->cmp);
+
+$showPartialCorrectAnswers = 1;
+
+######################################
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.

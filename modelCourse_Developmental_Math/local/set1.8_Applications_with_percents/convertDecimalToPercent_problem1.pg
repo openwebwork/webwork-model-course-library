@@ -1,0 +1,91 @@
+## DESCRIPTION
+## A problem that asks students to convert a decimal number to its equivalent representation as a number involving a percent symbol.
+## ENDDESCRIPTION
+
+## KEYWORDS('percent')
+
+## DBsubject('College Algebra')
+## DBchapter('Real numbers')
+## DBsection('Conversions to Percents')
+## Author('Sandeep Bhargava')
+## Institution('Humber College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+## Problem1('')
+
+
+########################################################################
+# Initialization
+
+DOCUMENT();
+
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"contextFraction.pl",
+"AnswerFormatHelp.pl",
+);
+
+
+
+########################################################################
+# Setup
+
+# make sure we're in the context we want
+Context("Numeric");
+
+
+$m1 = random(1,9,1);
+$m2 = random(1,9,1);
+$m3 = random(1,9,1);
+$m4 = random(1,9,1);
+
+$decNumber = ($m1 * 0.1) + ($m2 * 0.01) + ($m3 * 0.001) + ($m4 * 0.0001);
+
+$equivPercent = Compute($decNumber*100);
+
+
+
+########################################################################
+# Main Text
+
+TEXT(beginproblem());
+
+Context()->texStrings;
+BEGIN_TEXT
+
+Convert the number \( \ \displaystyle $decNumber \  \) into its equivalent percent.
+$BR
+$BR
+Answer\( = \) \{ ans_rule(10) \} $PERCENT
+$BR
+
+END_TEXT
+Context()->normalStrings;
+
+########################################################################
+# Answer Evaluation
+
+ANS(num_cmp($equivPercent,
+     tol => 0.0001, 
+     tolType => "absolute",
+));
+
+
+########################################################################
+# Solution
+
+Context()->texStrings;
+BEGIN_SOLUTION
+$PAR
+${BUL}Solution:${EUL} The conversion proceeds as follows:
+$BR
+$BR
+\[ \displaystyle $decNumber \ = \ $decNumber \times 100 \, $PERCENT \ = \ $equivPercent \,$PERCENT \]
+END_SOLUTION
+Context()->normalStrings;
+
+ENDDOCUMENT();

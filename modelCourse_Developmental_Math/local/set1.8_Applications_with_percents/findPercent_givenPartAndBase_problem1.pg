@@ -1,0 +1,91 @@
+## DESCRIPTION
+## A problem that asks students to find what percent a given quantity is of another.  
+## ENDDESCRIPTION
+
+## KEYWORDS('percent', 'word problem')
+
+## DBsubject('College Algebra')
+## DBchapter('Fractions')
+## DBsection('Applications of Fractions')
+## Author('Sandeep Bhargava')
+## Institution('Humber College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+## Problem1('')
+
+
+########################################################################
+# Initialization
+
+DOCUMENT();
+
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"contextFraction.pl",
+"AnswerFormatHelp.pl",
+);
+
+
+
+########################################################################
+# Setup
+
+# make sure we're in the context we want
+Context("Numeric");
+
+
+$numerator = list_random(3,7,11,13,17,19);
+
+$denominator = list_random(20,25,50);
+
+$solution = Compute(($numerator/$denominator)*100);
+
+
+
+########################################################################
+# Main Text
+
+TEXT(beginproblem());
+
+Context()->texStrings;
+BEGIN_TEXT
+
+\( $numerator \) kilometres is what percent of \( $denominator \) kilometres?
+$BR
+$BR
+Answer\( = \) \{ ans_rule(10) \} $PERCENT
+$BR
+
+END_TEXT
+Context()->normalStrings;
+
+########################################################################
+# Answer Evaluation
+
+ANS(num_cmp($solution,
+     tol => 0.0001, 
+     tolType => "absolute",
+));
+
+
+########################################################################
+# Solution
+
+Context()->texStrings;
+BEGIN_SOLUTION
+$PAR
+${BUL}Solution:${EUL} \( $numerator \) kilometres is 
+$BR
+$BR
+\[ \displaystyle \frac{$numerator}{$denominator} \times 100 \,$PERCENT \ = \ \frac{$numerator \times 100}{$denominator} \,$PERCENT \ = \ $solution \,$PERCENT \]
+$BR
+$BR
+of \( $denominator \) kilometres.
+END_SOLUTION
+Context()->normalStrings;
+
+ENDDOCUMENT();

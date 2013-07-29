@@ -1,0 +1,25 @@
+
+openDate          = 06/09/2013 at 04:41pm EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/3.4_Intersections-Unions-Compound-Inequalities_Header.pg
+problemList       = 
+Library/CollegeOfIdaho/setAlgebra_04_02_CompoundIneq/42IntAlg_01_CompoundIneq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_02_CompoundIneq/42IntAlg_02_CompoundIneq.pg, 1, -1 
+Library/ASU-topics/setSets/ur_st_1_2.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_2_6_24.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_02_CompoundIneq/42IntAlg_09_CompoundIneq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_02_CompoundIneq/42IntAlg_10_CompoundIneq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_02_CompoundIneq/42IntAlg_11_CompoundIneq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_02_CompoundIneq/42IntAlg_03_CompoundIneq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_02_CompoundIneq/42IntAlg_04_CompoundIneq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_02_CompoundIneq/42IntAlg_05_CompoundIneq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_02_CompoundIneq/42IntAlg_06_CompoundIneq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_02_CompoundIneq/42IntAlg_07_CompoundIneq.pg, 1, -1 
+Library/ASU-topics/setInequalities/p2.pg, 1, -1 
+Library/ASU-topics/setInequalities/srw1_7_23.pg, 1, -1 
+Library/ASU-topics/setInequalities/srw1_7_67.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_2_6_48.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_02_CompoundIneq/42IntAlg_28_CompoundIneq.pg, 1, -1 
+

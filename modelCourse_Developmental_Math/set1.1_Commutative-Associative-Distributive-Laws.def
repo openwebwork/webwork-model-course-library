@@ -1,0 +1,30 @@
+
+openDate          = 06/09/2013 at 01:23pm EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/1.1-Commutative-Associative-Distributive-Laws_Header.pg
+problemList       = 
+local/set1.1_Commutative-Associative-Distributive-Laws/Prob3.pg, 1, -1 
+local/set1.1_Commutative-Associative-Distributive-Laws/Prob4.pg, 1, -1 
+local/set1.1_Commutative-Associative-Distributive-Laws/Prob7.pg, 1, -1 
+local/set1.1_Commutative-Associative-Distributive-Laws/Prob8.pg, 1, -1 
+local/set1.1_Commutative-Associative-Distributive-Laws/Prob10.pg, 1, -1 
+local/set1.1_Commutative-Associative-Distributive-Laws/Prob11.pg, 1, -1 
+local/set1.1_Commutative-Associative-Distributive-Laws/Problem12.pg, 1, -1 
+local/set1.1_Commutative-Associative-Distributive-Laws/Prob13.pg, 1, -1 
+local/set1.1_Commutative-Associative-Distributive-Laws/Prob14.pg, 1, -1 
+local/set1.1_Commutative-Associative-Distributive-Laws/Prob9.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC02S01/ArithmeticProperties03.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC02S01/ArithmeticProperties05.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC02S01/ArithmeticProperties04.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC02S01/ArithmeticProperties06.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC02S01/ArithmeticProperties01.pg, 1, -1 
+local/set1.1_Commutative-Associative-Distributive-Laws/Prob2.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC02S01/ArithmeticProperties02.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Distributive_Law/dlwbrs101.pg, 1, -1 
+Library/FortLewis/Algebra/2-2-Distributive-law/MCH1-2-2-20-Distributive-law.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Distributive_Law/dlwsrs101.pg, 1, -1 
+Library/SDSU/Discrete/IntegersAndRationals/intpropA3.pg, 1, -1 
+Library/SDSU/Discrete/IntegersAndRationals/rationalpropA2.pg, 1, -1 
+

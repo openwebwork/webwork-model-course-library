@@ -1,0 +1,60 @@
+###/set08_Solving_Proportions_and_Applications_Header.pg
+ 
+DOCUMENT();
+ 
+loadMacros(
+ 
+"PG.pl",
+ 
+"PGbasicmacros.pl",
+"unionLists.pl");
+ 
+BEGIN_TEXT
+ 
+$PAR $BCENTER
+ 
+$BBOLD set08_Solving_Proportions_and_Applications  $EBOLD
+ 
+$ECENTER
+ 
+$HR
+ 
+$PAR
+ 
+Due: $BBOLD
+ 
+$formattedDueDate. $EBOLD
+ 
+$PAR
+ 
+$HR
+ 
+Students will be able to:
+ 
+   \{BeginList("UL")\}
+  $ITEM Determine the type of real number they are given
+  $ITEM Simplify radicals some of which contain variables
+  $ITEM Add and subtract radical expressions
+  \{EndList("UL")\}
+ 
+$PAR
+ 
+$HR
+ 
+$PAR
+ 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+ 
+$PAR
+ 
+$HR
+ 
+$PAR
+ 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+ 
+$PAR
+ 
+END_TEXT
+ 
+ENDDOCUMENT();

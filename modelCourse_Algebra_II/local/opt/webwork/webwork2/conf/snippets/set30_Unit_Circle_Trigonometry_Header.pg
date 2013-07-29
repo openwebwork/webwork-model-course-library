@@ -1,0 +1,63 @@
+###/set30_Unit_Circle_Trigonometry_Header.pg
+ 
+DOCUMENT();
+ 
+loadMacros(
+ 
+"PG.pl",
+ 
+"PGbasicmacros.pl",
+"unionLists.pl");
+ 
+BEGIN_TEXT
+ 
+$PAR $BCENTER
+ 
+$BBOLD set30_Unit_Circle_Trigonometry $EBOLD
+ 
+$ECENTER
+ 
+$HR
+ 
+$PAR
+ 
+Due: $BBOLD
+ 
+$formattedDueDate. $EBOLD
+ 
+$PAR
+ 
+$HR
+ 
+Students will be able to:
+ 
+   \{BeginList("UL")\}
+  $ITEM Find coordinates of points on the unit circle
+  $ITEM Evaluate trig functions given radian measures and arc lengths, including special right triangles on the unit circle
+  $ITEM Determine the quadrant in which an arc length terminates
+  $ITEM Find co-terminal angles from 0 to 2Pi
+  $ITEM Evaluate Wrapping function identities
+  $ITEM Convert radians to degrees
+  \{EndList("UL")\}
+ 
+$PAR
+ 
+$HR
+ 
+$PAR
+ 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+ 
+$PAR
+ 
+$HR
+ 
+$PAR
+ 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+ 
+$PAR
+ 
+END_TEXT
+ 
+ENDDOCUMENT();

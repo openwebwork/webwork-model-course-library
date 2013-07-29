@@ -1,0 +1,26 @@
+
+openDate          = 07/27/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set27_Properties_of_LogarithmsHeaderFile.pg
+problemList       = 
+Library/maCalcDB/setAlgebra29LogFunctions/problem2.pg, 1, -1 
+Library/maCalcDB/setAlgebra29LogFunctions/srw4_3_33-36.pg, 1, -1 
+Library/maCalcDB/setAlgebra29LogFunctions/srw4_3_5.pg, 1, -1 
+Library/maCalcDB/setAlgebra29LogFunctions/srw4_3_29.pg, 1, -1 
+Library/maCalcDB/setAlgebra29LogFunctions/srw4_4_1-5.pg, 1, -1 
+Library/maCalcDB/setAlgebra30LogExpEqns/srw4_4_32-34.pg, 1, -1 
+Library/maCalcDB/setAlgebra29LogFunctions/srw4_3_45.pg, 1, -1 
+Library/maCalcDB/setAlgebra29LogFunctions/srw4_3_43.pg, 1, -1 
+Library/maCalcDB/setAlgebra29LogFunctions/srw4_3_41.pg, 1, -1 
+Library/maCalcDB/setAlgebra29LogFunctions/srw4_3_9.pg, 1, -1 
+Library/maCalcDB/setAlgebra29LogFunctions/srw4_4_9.pg, 1, -1 
+Library/maCalcDB/setAlgebra29LogFunctions/srw4_3_7.pg, 1, -1 
+Library/Rochester/setAlgebra29LogFunctions/sw6_4_11.pg, 1, -1 
+Library/maCalcDB/setAlgebra29LogFunctions/srw4_3_3.pg, 1, -1 
+Library/maCalcDB/setAlgebra29LogFunctions/srw4_3_15.pg, 1, -1 
+Library/maCalcDB/setAlgebra29LogFunctions/srw4_3_19.pg, 1, -1 
+Library/maCalcDB/setAlgebra29LogFunctions/srw4_3_25.pg, 1, -1 
+Library/ma117DB/set8/srw4_3_23.pg, 1, -1 
+

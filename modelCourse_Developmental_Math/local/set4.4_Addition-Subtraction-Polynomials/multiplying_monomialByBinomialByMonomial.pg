@@ -1,0 +1,75 @@
+###DESCRIPTION
+## This is a variant of the Library file '[TMPL]/Library/CollegeOfIdaho/setAlgebra_05_02_MultiplyPolynomials/52IntAlg_08_MultPoly.pg'
+## This problems asks students to multiply a monomial with a binomial with a monomial.
+## 
+##ENDDESCRIPTION
+## DBsubject('Intermediate Algebra')
+## DBchapter('Ch 05: Polynomials, Polynomial Functions, and Factoring')
+## DBsection('Multiplication of Polynomials')
+## KEYWORDS('polynomials')
+## TitleText1('Essentials of Intermediate Algebra')
+## EditionText1('1')
+## AuthorText1('Blitzer')
+## Section1('5.2')
+## Problem1('')
+## Author('RA Cruz')
+## Institution('The College of Idaho')
+## Date: 2007/10
+
+DOCUMENT(); # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "contextLimitedPolynomial.pl",
+  "CofIdaho_macros.pl"
+);
+
+TEXT(beginproblem());
+
+######################################
+#  Setup
+
+Context("LimitedPolynomial-Strict");
+
+#----Pick the coefficients
+$a1= random(-9,-1,1);
+($b1,$b0)= (1,random(-5,-1,1));
+$c1 = random(1,5,1);
+
+#----Pick the powers of the monomials
+$e = random(2,3,1);
+
+#----Make the polynomials
+$poly1 = nicestring([$a1],["x^$e"]);
+$poly2 = nicestring([$b1,$b0],["x",""]);
+$poly3 = nicestring([$c1],["x"]);
+
+######################################
+#  Main text
+
+BEGIN_TEXT
+Carry out the following multiplication, writing your final answer ${BITALIC}without${EITALIC} parentheses.
+$BR
+$BR
+  \( $poly1 ( $poly2 ) ( $poly3 ) \)
+$BR
+$BR
+Answer:  \{ ans_rule(40) \} 
+END_TEXT
+
+######################################
+#  Answer
+
+($d1,$d0) = ($a1*$b1*$c1,$a1*$b0*$c1);
+($h1,$h0) = ($e+2,$e+1);
+$ans = Formula("$d1*x^$h1 + $d0*x^$h0")->reduce;
+ANS($ans->cmp); 
+
+$showPartialCorrectAnswers = 1;
+
+######################################
+
+
+COMMENT('MathObject version');
+ENDDOCUMENT();

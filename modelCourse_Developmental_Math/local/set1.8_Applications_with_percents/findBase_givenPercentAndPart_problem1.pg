@@ -1,0 +1,91 @@
+## DESCRIPTION
+## A problem that asks students to find what full amount (i.e., base) a given part is a given percent of.
+## ENDDESCRIPTION
+
+## KEYWORDS('percent')
+
+## DBsubject('College Algebra')
+## DBchapter('Fractions')
+## DBsection('Applications of Fractions')
+## Author('Sandeep Bhargava')
+## Institution('Humber College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+## Problem1('')
+
+
+########################################################################
+# Initialization
+
+DOCUMENT();
+
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"contextFraction.pl",
+"AnswerFormatHelp.pl",
+);
+
+
+
+########################################################################
+# Setup
+
+# make sure we're in the context we want
+Context("Numeric");
+
+
+$whole = random(1,9,1);
+
+$m = list_random(3,5,7,9,11,13,15);
+
+$amount = ($whole + ($m/16))*100;
+
+$rate = list_random(16,32,48,64,80,96);
+
+$part = ($amount*$rate)/100;
+
+
+########################################################################
+# Main Text
+
+TEXT(beginproblem());
+
+Context()->texStrings;
+BEGIN_TEXT
+
+\( $part \) dollars is \( $rate \) $PERCENT of what amount?
+$BR
+$BR
+Answer\( = \) \{ ans_rule(10) \} dollars
+$BR
+
+END_TEXT
+Context()->normalStrings;
+
+########################################################################
+# Answer Evaluation
+
+ANS(num_cmp($amount,
+     tol => 0.0001, 
+     tolType => "absolute",
+));
+
+
+########################################################################
+# Solution
+
+Context()->texStrings;
+BEGIN_SOLUTION
+$PAR
+${BUL}Solution:${EUL} We are looking for the base (i.e., full) amount:
+$BR
+$BR
+\[ \displaystyle \text{amount } \ = \ \frac{$part \text{ dollars}}{$rate $PERCENT} \ = \ \frac{\ \ $part \text{ dollars} \ \ }{\frac{$rate}{100}}  \ = \ $part \text{ dollars} \times \frac{100}{$rate} \ = \ $amount \text{ dollars} \]
+END_SOLUTION
+Context()->normalStrings;
+
+ENDDOCUMENT();

@@ -1,0 +1,14 @@
+
+openDate          = 06/09/2013 at 03:34pm EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/2.2_Solving-Linear-EquationsHeader.pg
+problemList       = 
+Library/NewHampshire/unh_schoolib/Solve_Equation/solnrs101.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Solve_Equation/solsrs102.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Solve_Equation/solsrs103.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Solve_Equation/solsrs301.pg, 1, -1 
+Library/MC/PreAlgebra/setPreAlgebraC02S05/SolveEqAddSubtract01.pg, 1, -1 
+local/set2.2_Solving-Linear-Equations/TwoStepEquation.pg, 1, -1 
+

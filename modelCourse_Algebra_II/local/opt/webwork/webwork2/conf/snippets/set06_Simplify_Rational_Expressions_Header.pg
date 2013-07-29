@@ -1,0 +1,61 @@
+###/set06_Simplify_Rational_Expressions_Header.pg
+ 
+DOCUMENT();
+ 
+loadMacros(
+ 
+"PG.pl",
+ 
+"PGbasicmacros.pl",
+"unionLists.pl");
+ 
+BEGIN_TEXT
+ 
+$PAR $BCENTER
+ 
+$BBOLD set06_Simplify_Rational_Expressions $EBOLD
+ 
+$ECENTER
+ 
+$HR
+ 
+$PAR
+ 
+Due: $BBOLD
+ 
+$formattedDueDate. $EBOLD
+ 
+$PAR
+ 
+$HR
+ 
+Students will be able to:
+ 
+   \{BeginList("UL")\}
+  $ITEM Operate on rational numbers
+  $ITEM Evaluate rational expressions for a given value (functional notation)
+  $ITEM Simplify rational expressions by cancelling any common factors
+  $ITEM Multiply and divide rational expressions
+  \{EndList("UL")\}
+ 
+$PAR
+ 
+$HR
+ 
+$PAR
+ 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+ 
+$PAR
+ 
+$HR
+ 
+$PAR
+ 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+ 
+$PAR
+ 
+END_TEXT
+ 
+ENDDOCUMENT();

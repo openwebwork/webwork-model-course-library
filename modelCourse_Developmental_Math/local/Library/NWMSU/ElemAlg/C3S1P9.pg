@@ -1,0 +1,116 @@
+## DESCRIPTION
+## Inequalities
+## ENDDESCRIPTION
+
+## KEYWORDS('testing solutions')
+
+## DBsubject('Algebra')
+## DBchapter('Equations, Inequalities, & Problem Solving')
+## DBsection('Solving Inequalities')
+## Date('07/24/2013')
+## Author('Mary Shepherd')
+## Institution('Northwest Missouri State University')
+## TitleText1('Elementary & Intermediate Algebra')
+## EditionText1('3rd')
+## AuthorText1('Bittinger, Ellenbogen & Johnson')
+## Section1('2.6')
+## Problem1('9')
+
+
+###########################
+#  Initialization
+
+DOCUMENT();
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"PGchoicemacros.pl",
+"PGgraders.pl",
+);
+
+TEXT(beginproblem());
+
+
+###########################
+#  Setup
+
+Context("Numeric");
+
+$a = non_zero_random(-5,5,1);
+$b = Compute("$a - 1");
+$c = Compute("$a + 3");
+$d =  Compute("$a + 0.01");
+
+# Create and use pop up lists 
+$tf = new_select_list();
+$tf->rf_print_q(~~&pop_up_list_print_q);
+
+# Choices presented to students
+$tf->ra_pop_up_list( [ 
+"No answer" => "?", 
+"Yes"  => "Yes", 
+"No" => "No",
+]);
+
+# Questions and answers
+$tf -> qa ( 
+"\( x = $b \)",
+"No",
+"\( x = $c \)",
+"Yes",
+"\( x = $d \)",
+"Yes",
+);
+
+# How many questions to use
+$tf->choose(3);
+
+
+###########################
+#  Main text
+
+Context()->texStrings;
+BEGIN_TEXT
+Determine whether each number is a solution of \( x > $a\). 
+$BR
+\{ $tf -> print_q() \}
+END_TEXT
+Context()->normalStrings;
+
+
+############################
+#  Answer evaluation
+
+$showPartialCorrectAnswers = 0;
+
+#
+#  Incremental grader
+#
+install_problem_grader(~~&custom_problem_grader_fluid);
+$ENV{'grader_numright'} = [1,2,3];
+$ENV{'grader_scores'} = [0.2,0.4,1];
+$ENV{'grader_message'} = "You can earn " .
+"20% partial credit for 1 correct answer, and " .
+"40% partial credit for 2 correct answers.";
+
+#
+#  All or nothing grader
+#  
+# install_problem_grader(~~&std_problem_grader);
+
+ANS( str_cmp( $tf->ra_correct_ans() ) );
+
+
+############################
+#  Solution
+
+# Context()->texStrings;
+# BEGIN_SOLUTION
+
+# END_SOLUTION
+# Context()->normalStrings;
+
+COMMENT("MathObject version.");
+
+ENDDOCUMENT();

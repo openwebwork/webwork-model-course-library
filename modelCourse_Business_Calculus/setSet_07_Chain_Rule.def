@@ -1,0 +1,16 @@
+
+openDate          = 07/11/2013 at 10:00am EDT
+dueDate           = 01/01/2020 at 07:07pm EST
+answerDate        = 01/08/2020 at 07:00pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/Set_07_HeaderFile.pg
+problemList       = 
+Library/Michigan/Chap3Sec4/Q03.pg, 1, -1 
+Library/Rochester/setDerivatives5ChainRule/s2_5_8_mo.pg, 1, -1 
+Library/Rochester/setDerivatives5ChainRule/s2_5_1.pg, 1, -1 
+Library/Union/setDervChainRule/an3_5_5.pg, 1, -1 
+Library/Union/setDervChainRule/3-6-48.pg, 1, -1 
+Library/Michigan/Chap3Sec4/Q33.pg, 1, -1 
+Library/UCSB/Stewart5_3_5/Stewart5_3_5_49.pg, 1, -1 
+Library/Union/setDervChainRule/an3_5_34.pg, 1, -1 
+

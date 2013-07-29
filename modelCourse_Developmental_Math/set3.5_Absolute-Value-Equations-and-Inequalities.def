@@ -1,0 +1,23 @@
+
+openDate          = 06/09/2013 at 04:45pm EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/3.5_Absolute-Value-Equations-and-Inequalities_Header.pg
+problemList       = 
+Library/CollegeOfIdaho/setAlgebra_04_03_AbsoluteValue/43IntAlg_03_AbsValEq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_03_AbsoluteValue/43IntAlg_09_AbsValEq.pg, 1, -1 
+Library/ASU-topics/setAbsoluteValue/zhu2.pg, , -1 
+Library/ASU-topics/setAbsoluteValue/zhu3.pg, , -1 
+Library/Utah/College_Algebra/set4_Functions_and_Their_Graphs/1050s4p3.pg, 1, -1 
+Library/Utah/College_Algebra/set4_Functions_and_Their_Graphs/1050s4p4.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_03_AbsoluteValue/43IntAlg_19_AbsValIneq.pg, 1, -1 
+Library/ASU-topics/setInequalities/p9.pg, 1, -1 
+Library/Utah/Business_Algebra/set3_Inequalities_and_Linear_Programming/p18.pg, 1, -1 
+Library/Utah/Business_Algebra/set3_Inequalities_and_Linear_Programming/p15.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_04_03_AbsoluteValue/43IntAlg_29_AbsValIneq.pg, 1, -1 
+Library/ASU-topics/setAbsoluteValue/zhu7.pg, , -1 
+Library/ASU-topics/setAbsoluteValue/zhu9.pg, , -1 
+Library/ASU-topics/setAbsoluteValue/zhu10.pg, , -1 
+Library/CollegeOfIdaho/setAlgebra_04_03_AbsoluteValue/43IntAlg_33_AbsValGraph.pg, 1, -1 
+

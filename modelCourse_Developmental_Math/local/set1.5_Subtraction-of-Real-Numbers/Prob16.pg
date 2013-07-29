@@ -1,0 +1,77 @@
+## DESCRIPTION
+## Algebra
+## ENDDESCRIPTION
+
+## KEYWORDS('algebra', 'signed numbers -application')
+
+## DBsubject('algebra')
+## Date('01/26/2013')
+## Author('')
+## Institution('Bronx Community College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+
+
+###########################
+#  Initialization 
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"PGcourse.pl",
+"unionTables.pl",
+"PGauxiliaryFunctions.pl",
+"parserMultiAnswer.pl",
+"parserPopUp.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+);
+
+TEXT(beginproblem());
+
+
+
+Context("Numeric");
+
+######################################
+#  Setup
+
+do {$t1 = random(-5,10,1);} until ($t1 != 1);
+
+do {$t2 = random(-9,-2,1);} until ($t1 > $t2);
+
+do {$t3 = random(-15,15,1);} until ($t3 != 1);
+
+do {$t4 = random(2,15,1);} until (($t4 != 0) && ($t3 + $t4 != 1) );
+
+######################################
+#  Main text
+
+BEGIN_TEXT
+a) $SPACE The temperature dropped from \( $t1 \) degrees to \( $t2 \) degrees. The drop in temperature is \{ ans_rule(10) \} degrees.
+$PAR
+b) $SPACE The temperature is \( $t3 \) degrees. It dropped \( $t4 \) degrees from the temperature two days ago. The temperature two days ago was \{ ans_rule(10) \} degrees. 
+ 
+$BR
+END_TEXT
+
+######################################
+#  Answers
+
+Context("LimitedNumeric");
+
+$ans_a=Real($t1 - $t2)->reduce;
+ANS($ans_a->cmp);
+
+$ans_b=Real($t3 + $t4)->reduce;
+ANS($ans_b->cmp);
+
+$showPartialCorrectAnswers = 1;
+
+######################################
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.

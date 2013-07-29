@@ -1,0 +1,21 @@
+
+openDate          = 06/19/2013 at 09:17pm EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/10.3_Displaying-Summarizing-Quantitative-Data_Header.pg
+problemList       = 
+Library/ASU-topics/setStat/kolossa2.pg, 1, -1 
+Library/CollegeOfIdaho/Intro_to_Statistics/setStatistics_Ch01PicturingDistributionsWithGraphs/01Stats_09_PictDistnsWGraphs/01Stats_09_PictDistnsWGraphs.pg, 1, -1 
+Library/CollegeOfIdaho/Intro_to_Statistics/setStatistics_Ch02DescribingData/02Stats_01_DescrData/02Stats_01_DescrData.pg, 1, -1 
+Library/CollegeOfIdaho/Intro_to_Statistics/setStatistics_Ch02DescribingData/02Stats_04_DescrData.pg, 1, -1 
+Library/CollegeOfIdaho/setStatistics_Ch02DescribingData/02Stats_10_DescrData.pg, 1, -1 
+Library/NAU/setStatistics/skew_dist1.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework01/stat212-HW01-03.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework01/stat212-HW01-04.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework01/stat212-HW01-10.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework01/stat212-HW01-17.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework02/stat212-HW02-04.pg, 1, -1 
+Library/UVA-Stat/setStat212-Homework02/stat212-HW02-05.pg, 1, -1 
+Library/maCalcDB/setStatistics2Measures/ur_stt_2_4.pg, 1, -1 
+

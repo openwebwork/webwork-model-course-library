@@ -1,0 +1,67 @@
+###/set3-Solve-Graph-Linear-Inequalities_01-Solving-Inequalities_Header.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+
+$BBOLD 3-Solve-Graph-Linear-Inequalities_01-Solving-Inequalities $EBOLD </p>
+
+<hr />
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+<hr />
+
+Students will be able to:
+
+<UL>
+
+<li>         Determine whether a number is a solution of an inequality </li>
+
+<li>        Graph inequalities on a number line </li>
+
+<li>        Graph inequalities and write in set builder and interval notation </li>
+
+<li>        Solve inequalities using addition principle </li>
+
+<li>        Solve inequalities using multiplication property </li>
+
+<li>        Solve inequalities using both addition and multiplication property </li>
+
+</UL>
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

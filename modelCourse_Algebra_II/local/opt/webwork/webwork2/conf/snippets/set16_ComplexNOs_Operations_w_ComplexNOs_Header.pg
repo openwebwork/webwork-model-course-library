@@ -1,0 +1,31 @@
+###/set16_ComplexNOs_Operations_w_ComplexNOs_Header.pg
+DOCUMENT();
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"unionLists.pl");
+BEGIN_TEXT
+$PAR $BCENTER
+$BBOLD set16_ComplexNOs_Operations_w_ComplexNOs $EBOLD
+$ECENTER
+$HR
+$PAR
+Due: $BBOLD
+$formattedDueDate. $EBOLD
+$PAR
+$HR
+Students will be able to:
+   \{BeginList("UL")\}
+  $ITEM Add, subtract, multiply and divide complex numbers.
+  \{EndList("UL")\}
+$PAR
+$HR
+$PAR
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+$PAR
+$HR
+$PAR
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+$PAR
+END_TEXT
+ENDDOCUMENT();

@@ -1,0 +1,84 @@
+##KEYWORDS('Evaluate - Absolute values')
+
+##DBsubject('Algebra')
+## DBchapter('Basic Algebra')
+## DBsection('Evaluate')
+## Date('5/29/2013')
+## Author('')
+## Institution('BCC')
+
+########################################################################
+
+DOCUMENT();      
+
+loadMacros(
+   "PGstandard.pl",     # Standard macros for PG language
+   "MathObjects.pl",
+   #"source.pl",        # allows code to be displayed on certain sites.
+   "PGcourse.pl",      # Customization file for the course
+  "unionTables.pl",
+"PGauxiliaryFunctions.pl",
+"parserAssignment.pl",
+"parserMultiAnswer.pl",
+"parserRadioButtons.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"contextFraction.pl"
+);
+
+########################################################################
+
+
+
+install_problem_grader(~~&std_problem_grader);
+
+$showPartialCorrectAnswers = 0;
+
+TEXT(beginproblem());
+
+########################################################################
+
+Context("Numeric");
+
+
+do {
+$a=random(-6,6,1);
+$b=random(-6,6,1);
+$x=random(-6,6,1);
+$y=random(-6,6,1);
+} until (abs($a)!= abs($b)&& abs($a)!=1 && abs($b)!=1 && $x!=1 && $y !=1 && $a *$b < 0 && $x*$y <0 && abs($a * $y + $b *$x) != abs($a * $x - $b *$y) && abs($a * $y + $b *$x) != abs($a * $x + $b *$y));
+
+
+## Insert a question, and all correct answers
+
+$ans= abs($a * $x + $b *$y);
+
+@bogus = ( -abs($a * $x + $b *$y), abs($a * $x - $b *$y), -abs($a * $x - $b *$y),abs($a * $y + $b *$x));
+
+
+
+$mc=new_multiple_choice();
+
+$mc -> qa("", "\(  $ans\)" );
+$mc -> extra(" \(  $bogus[0] \)", " \( $bogus[1] \)"," \( $bogus[2] \)"," \( $bogus[3] \)");
+
+
+
+###########################
+#  Main text
+
+Context()->texStrings;
+BEGIN_TEXT 
+Evaluate
+\[  \left|$a x + $b y \right| \ \  x = $x, y = $y. \]
+
+$BR
+
+\{ $mc -> print_q \}
+\{ $mc -> print_a \}
+$PAR
+END_TEXT
+ANS( radio_cmp( $mc -> correct_ans ));
+
+
+ENDDOCUMENT();

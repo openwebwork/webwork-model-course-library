@@ -1,0 +1,16 @@
+
+openDate          = 06/10/2013 at 01:28pm EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/7.1_Systems-Equations-2-Variables_Header.pg
+problemList       = 
+Library/ASU-topics/setSystems2Variables/beth1.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_03_01_SystemOfLinearEq/31IntAlg_05_LinearSystem.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_03_01_SystemOfLinearEq/31IntAlg_04_LinearSystem.pg, 1, -1 
+Library/TCNJ/TCNJ_LinearSystems/problem11.pg, 1, -1 
+Library/FortLewis/Algebra/5-6-Linear-systems/MCH1-5-6-22-Linear-systems.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_03_01_SystemOfLinearEq/31IntAlg_01_LinearSystem.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_03_01_SystemOfLinearEq/31IntAlg_02_LinearSystem.pg, 1, -1 
+Library/Rochester/setLinearAlgebra1Systems/ur_la_1_6.pg, 1, -1 
+

@@ -1,0 +1,17 @@
+
+openDate          = 07/05/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/Solve_Quadratic_Inequalites_Header.pg
+problemList       = 
+Library/Utah/College_Algebra/set4_Functions_and_Their_Graphs/1050s4p6.pg, 1, -1 
+Library/Utah/College_Algebra/set4_Functions_and_Their_Graphs/1050s4p7.pg, 1, -1 
+Library/Utah/College_Algebra/set4_Functions_and_Their_Graphs/1050s4p8.pg, 1, -1 
+Library/maCalcDB/setAlgebra13Inequalities/ur_ab_7_2.pg, 1, -1 
+Library/Union/setAlgebraInequalities/srw1_7_25.pg, 1, -1 
+Library/ASU-topics/setContinuity/4-1-35.pg, 1, -1 
+Library/ASU-topics/setInequalities/zhu3.pg, 1, -1 
+Library/ASU-topics/setInequalities/p11.pg, 1, -1 
+Library/ASU-topics/setInequalities/zhu1.pg, 1, -1 
+

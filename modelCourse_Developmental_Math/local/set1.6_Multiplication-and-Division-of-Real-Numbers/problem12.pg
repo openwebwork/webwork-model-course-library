@@ -1,0 +1,67 @@
+## DESCRIPTION
+## Algebra 
+## ENDDESCRIPTION
+
+## KEYWORDS('algebra', 'signed numbers -multiplication')
+
+## DBsubject('algebra')
+## Date('01/26/2013')
+## Author('')
+## Institution('Bronx Community College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+
+
+###########################
+#  Initialization 
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "contextLimitedNumeric.pl"
+);
+
+TEXT(&beginproblem);
+
+######################################
+#  Setup
+
+$a1 = random(2,13,1);
+$a2 = random(-13,-2,1);
+
+do { $b1 = random(-10,-2,1);} until ($b1 != $a2);
+$b2 = random(-12,-2,1);
+######################################
+#  Main text
+
+BEGIN_TEXT
+Multiply as indicated:  
+$PAR
+a) \( $a1($a2) = \)  \{ ans_rule(10) \} 
+$PAR
+b) \( ($b1)($b2) = \)  \{ ans_rule(10) \} 
+$BR
+
+END_TEXT
+
+######################################
+#  Answers
+
+Context("LimitedNumeric");
+
+$ans_a=Real($a1 * $a2)->reduce;
+&ANS($ans_a->cmp);
+
+$ans_b=Real($b1 * $b2)->reduce;
+&ANS($ans_b->cmp);
+
+$showPartialCorrectAnswers = 1;
+
+######################################
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.

@@ -1,0 +1,23 @@
+
+openDate          = 06/10/2013 at 09:36am EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/4.7_Polynomials-Several-Variables_Header.pg
+problemList       = 
+local/set4.7_Polynomials-Several-Variables/multiplying_two_multivariableMonomials.pg, 1, -1 
+Library/Utah/College_Algebra/set2_Functions_and_Their_Graphs/1050s2p7.pg, 1, -1 
+Library/FortLewis/Algebra/1-1-Expressions/MCH1-1-1-06-Expressions.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_01_AlgebraicExpressions/11IntAlg_04_AlgebraicExpressions.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_01_AlgebraicExpressions/11IntAlg_06_AlgebraicExpressions.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_07_Polynomial.pg, 1, -1 
+Library/FortLewis/Algebra/1-1-Expressions/MCH1-1-1-28-Expressions.pg, 1, -1 
+local/set4.4_Addition-Subtraction-Polynomials/combiningLikeTerms_problem2.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_18_PolyAddSub.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_22_PolyAddSub.pg, 1, -1 
+local/set4.4_Addition-Subtraction-Polynomials/multiplying_monomialByMonomial_problem1.pg, 1, -1 
+local/set4.4_Addition-Subtraction-Polynomials/multiplying_monomialByPolynomial_problem2.pg, 1, -1 
+local/set4.4_Addition-Subtraction-Polynomials/multiplying_monomialByPolynomial_problem4.pg, 1, -1 
+local/set4.4_Addition-Subtraction-Polynomials/multiplying_monomialByPolynomial_problem6.pg, 1, -1 
+local/set4.4_Addition-Subtraction-Polynomials/multiplying_monomialByPolynomial_problem2.pg, 1, -1 
+

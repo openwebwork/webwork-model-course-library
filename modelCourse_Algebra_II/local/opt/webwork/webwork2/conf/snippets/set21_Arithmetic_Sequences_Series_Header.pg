@@ -1,0 +1,65 @@
+###/set21_Arithmetic_Sequences_Series_Header.pg
+ 
+DOCUMENT();
+ 
+loadMacros(
+ 
+"PG.pl",
+ 
+"PGbasicmacros.pl",
+"unionLists.pl");
+ 
+BEGIN_TEXT
+ 
+$PAR $BCENTER
+ 
+$BBOLD set21_Arithmetic_Sequences_Series $EBOLD
+ 
+$ECENTER
+ 
+$HR
+ 
+$PAR
+ 
+Due: $BBOLD
+ 
+$formattedDueDate. $EBOLD
+ 
+$PAR
+ 
+$HR
+ 
+Students will be able to:
+ 
+   \{BeginList("UL")\}
+  $ITEM Find the next term in an arithmetic sequence
+  $ITEM Determine whether or not a sequence is an arithmetic sequence
+  $ITEM Find the sum of an arithmetic sequence
+  $ITEM Find an arithmetic mean
+  $ITEM Use sigma notation
+  $ITEM Find partial sums of an arithmetic sequence
+  $ITEM Able to use the Gauss trick to summing numbers
+  $ITEM Applications of arithmetic sequences
+  \{EndList("UL")\}
+ 
+$PAR
+ 
+$HR
+ 
+$PAR
+ 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+ 
+$PAR
+ 
+$HR
+ 
+$PAR
+ 
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+ 
+$PAR
+ 
+END_TEXT
+ 
+ENDDOCUMENT();

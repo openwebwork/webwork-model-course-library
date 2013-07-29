@@ -1,0 +1,29 @@
+
+openDate          = 07/21/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set21_Arithmetic_Sequences_Series_Header.pg
+problemList       = 
+Library/maCalcDB/setAlgebra36SeqSeries/srw10_2_13.pg, 1, -1 
+Library/maCalcDB/setAlgebra36SeqSeries/srw10_2_9.pg, 1, -1 
+Library/Rochester/setAlgebra36SeqSeries/ur_sq_4_2.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_14_1_46.pg, 1, -1 
+Library/Rochester/setAlgebra36SeqSeries/srw10_2_29.pg, 1, -1 
+Library/Rochester/setAlgebra36SeqSeries/srw10_2_27.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_14_1_36.pg, 1, -1 
+Library/Rochester/setAlgebra36SeqSeries/srw10_2_5.pg, 1, -1 
+Library/Rochester/setAlgebra36SeqSeries/ur_sq_4_9.pg, 1, -1 
+Library/Rochester/setAlgebra36SeqSeries/sequence3.pg, 1, -1 
+Library/Rochester/setAlgebra36SeqSeries/srw10_2_1.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_14_1_4.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Summation_of_Finite_Sequences/sfsnne403.pg, 1, -1 
+Library/ma117DB/set13/srw10_1_47.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_14_1_68.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_14_1_52.pg, 1, -1 
+Library/Rochester/setAlgebra36SeqSeries/srw10_2_39.pg, 1, -1 
+Library/maCalcDB/setAlgebra36SeqSeries/srw10_1_33.pg, 1, -1 
+Library/NewHampshire/unh_schoolib/Summation_of_Finite_Sequences/sfssne301.pg, 1, -1 
+Library/UMN/algebraKaufmannSchwitters/ks_14_3_23.pg, 1, -1 
+Library/maCalcDB/setAlgebra36SeqSeries/superball.pg, 1, -1 
+

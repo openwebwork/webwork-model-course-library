@@ -1,0 +1,24 @@
+
+openDate          = 07/13/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set13_Finding_Domain_and_Range_Header.pg
+problemList       = 
+Library/Utah/College_Algebra/set5_Functions_and_Their_Graphs/1050s5p8.pg, 1, -1 
+Library/Utah/College_Algebra/set5_Functions_and_Their_Graphs/1050s5p13.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set5_Graphs_and_Functions/s5p39.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap2Sec2/Q12.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap2Sec2/Connally3-2-2-19-Domain-range.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap2Sec2/Connally3-2-2-06-Domain-range.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set5_Graphs_and_Functions/s5p40.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap2Sec2/Q16.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set5_Graphs_and_Functions/s5p41.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap2Sec2/Q14.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap2Sec2/Q13.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_02_01_IntroFunctions/21IntAlg_11_function.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_02_01_IntroFunctions/21IntAlg_10_function.pg, 1, -1 
+Library/FortLewis/Algebra/8-1-Domain-range/MCH1-8-1-14-Domain-range.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap2Sec2/Q29.pg, 1, -1 
+Library/LoyolaChicago/Precalc/Chap2Sec2/Connally3-2-2-31ab-Domain-range.pg, 1, -1 
+

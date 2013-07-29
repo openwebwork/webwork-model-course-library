@@ -1,0 +1,90 @@
+## DESCRIPTION
+## A problem that asks students to apply the associative law of addition
+## involving integers, including negative integers.
+## ENDDESCRIPTION
+
+## KEYWORDS('associative law of addition, tmat100')
+
+## DBsubject('College Algebra')
+## DBchapter('Order of operations')
+## DBsection('Associative Law of Addition')
+## Author('Sandeep Bhargava')
+## Institution('Humber College')
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+## Problem1('')
+
+
+########################################################################
+# Initialization
+
+DOCUMENT();
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+);
+
+
+########################################################################
+# Setup
+
+# make sure we're in the context we want
+Context("Numeric");
+
+$gamma = random(1,9,1);
+$m = random(2,6,1);
+$beta = $gamma + $m;
+$n = random(5,15,1);
+$alpha = $beta + $gamma + $n;
+
+$alphaMinusBeta = $alpha - $beta;
+$minusBetaMinusGamma = -$beta - $gamma;
+$soln = $alpha - $beta - $gamma;
+
+########################################################################
+# Main Text
+
+TEXT(beginproblem());
+
+Context()->texStrings;
+BEGIN_TEXT
+
+Compute the value of
+$PAR
+\[ $alpha - $beta - $gamma \]
+$PAR
+Answer = \{ans_rule(15)\} $BR
+
+END_TEXT
+Context()->normalStrings;
+
+########################################################################
+# Answer Evaluation
+
+ANS(num_cmp($soln, mode => 'strict'));
+
+
+########################################################################
+# Solution
+
+Context()->texStrings;
+BEGIN_SOLUTION
+$PAR
+${BUL}Solution:${EUL}  We begin by recognizing that ${BITALIC}subtraction can be viewed as addition${EITALIC}:
+$PAR
+\[ $alpha - $beta - $gamma = $alpha + (-$beta) + (-$gamma) \]
+$PAR
+Now we can use the ${BBOLD}associative law of addition${EBOLD} (which says that we can add these numbers in any order we wish) to evaluate the expression:
+$PAR
+\[ $alpha + (-$beta) + (-$gamma) = \Big( $alpha + (-$beta) \Big) + (-$gamma) = $alphaMinusBeta + (-$gamma) = $soln \]
+$PAR
+Notice that we could have added the last two terms first and still have arrived at the same answer:
+$PAR
+\[ $alpha + (-$beta) + (-$gamma) = $alpha + \Big( (-$beta) + (-$gamma) \Big) = $alpha + ($minusBetaMinusGamma) = $soln \]
+END_SOLUTION
+Context()->normalStrings;
+
+ENDDOCUMENT();

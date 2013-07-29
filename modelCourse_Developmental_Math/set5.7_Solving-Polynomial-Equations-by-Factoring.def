@@ -1,0 +1,22 @@
+
+openDate          = 06/10/2013 at 10:23am EDT
+dueDate           = 12/31/2013 at 10:59pm EST
+answerDate        = 12/31/2013 at 10:59pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/5.7_Solving-Polynomial-Equations-by-Factoring_Header.pg
+problemList       = 
+Library/CollegeOfIdaho/setAlgebra_05_07_PolyEqAndApplications/57IntAlg_11_PolyEq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_07_PolyEqAndApplications/57IntAlg_09_PolyEq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_07_PolyEqAndApplications/57IntAlg_02_PolyEq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_07_PolyEqAndApplications/57IntAlg_16_PolyEq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_07_PolyEqAndApplications/57IntAlg_23_PolyEq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_07_PolyEqAndApplications/57IntAlg_12_PolyEq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_07_PolyEqAndApplications/57IntAlg_22_PolyEq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_07_PolyEqAndApplications/57IntAlg_03_PolyEq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_07_PolyEqAndApplications/57IntAlg_15_PolyEq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_07_PolyEqAndApplications/57IntAlg_13_PolyEq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_07_PolyEqAndApplications/57IntAlg_14_PolyEq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_07_PolyEqAndApplications/57IntAlg_25_PolyEq.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_07_PolyEqAndApplications/57IntAlg_21_PolyEq.pg, 1, -1 
+Library/FortLewis/Algebra/9-4-Factoring-quadratics/MCH1-9-4-06-Factoring-quadratics.pg, 1, -1 
+

@@ -1,0 +1,22 @@
+
+openDate          = 07/11/2013 at 10:00am EDT
+dueDate           = 01/01/2020 at 07:04pm EST
+answerDate        = 01/08/2020 at 07:00pm EST
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/Set_04_HeaderFile.pg
+problemList       = 
+Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.1_Definition_of_the_Derivative/3.1.23.pg, 1, -1 
+Library/ASU-topics/setRateChange/di1.pg, 1, -1 
+Library/Rochester/setLimitsRates6Rates/ur_lr_6_2.pg, 1, -1 
+Library/ASU-topics/setRateChange/mel1.pg, 1, -1 
+Library/ASU-topics/setRateChange/s1_1_5.pg, 1, -1 
+Library/UCSB/Stewart5_3_3/Stewart5_3_3_24.pg, 1, -1 
+Library/ASU-topics/setRateChange/3-3-19.pg, 1, -1 
+Library/UVA-Stew5e/setUVA-Stew5e-C02S07-TansVelsRates/2-7-25.pg, 1, -1 
+Library/ASU-topics/setDerivativeFunction/3-3-05.pg, 1, -1 
+Library/Rochester/setDerivatives1/ur_dr_1_4.pg, 1, -1 
+Library/Rochester/setDerivatives1/ur_dr_1_5.pg, 1, -1 
+Library/Rochester/setDerivatives1/ur_dr_1_6.pg, 1, -1 
+Library/Rochester/setDerivatives1/nsc2_1_5.pg, 1, -1 
+Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.1_Definition_of_the_Derivative/3.1.51.pg, 1, -1 
+

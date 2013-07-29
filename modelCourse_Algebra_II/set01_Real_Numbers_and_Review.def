@@ -1,0 +1,33 @@
+
+openDate          = 07/01/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/Real_Numbers_and_Review_Header.pg
+problemList       = 
+Library/Utah/Quantitative_Analysis/set1_Preview/prob4.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set3_Linear_Equations_and_Inequalities/s3p3.pg, 1, -1 
+Library/Utah/Quantitative_Analysis/set1_Preview/prob12.pg, 1, -1 
+Library/Utah/Quantitative_Analysis/set1_Preview/prob2.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set3_Linear_Equations_and_Inequalities/s3p18.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set3_Linear_Equations_and_Inequalities/s3p16.pg, 1, -1 
+Library/ma117DB/set1/srw1_1_24.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set3_Linear_Equations_and_Inequalities/s3p1.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set3_Linear_Equations_and_Inequalities/s3p21.pg, 1, -1 
+Library/Utah/College_Algebra/set1_Preview/1050s1p18.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_02_OperationsWithRealNumbers/12IntAlg_15_OperationsWithReals.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_02_OperationsWithRealNumbers/12IntAlg_17_OperationsWithReals.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_01_02_OperationsWithRealNumbers/12IntAlg_12_OperationsWithReals.pg, 1, -1 
+Library/SDSU/Discrete/IntegersAndRationals/intpropA3.pg, 1, -1 
+Library/SDSU/Discrete/IntegersAndRationals/rationalpropA1.pg, 1, -1 
+Library/SDSU/Discrete/IntegersAndRationals/intpropA2.pg, 1, -1 
+Library/SDSU/Discrete/IntegersAndRationals/rationalpropA2.pg, 1, -1 
+Library/SDSU/Discrete/IntegersAndRationals/intpropA1.pg, 1, -1 
+Library/maCalcDB/setAlgebra01RealNumbers/sw1_2_12.pg, 1, -1 
+Library/Rochester/setAlgebra01RealNumbers/sw1_2_9.pg, 1, -1 
+Library/Utah/Business_Algebra/set1_Preview/p29.pg, 1, -1 
+Library/FortLewis/Algebra/2-1-Reordering-and-regrouping/MCH1-2-1-01-06all-Reordering-and-regrouping.pg, 1, -1 
+Library/FortLewis/Algebra/2-1-Reordering-and-regrouping/MCH1-2-1-07-10all-Reordering-and-regrouping.pg, 1, -1 
+Library/FortLewis/Algebra/2-1-Reordering-and-regrouping/MCH1-2-1-18-Reordering-and-regrouping.pg, 1, -1 
+Library/Utah/Trigonometry/set2_Algebra/s2p1.pg, 1, -1 
+

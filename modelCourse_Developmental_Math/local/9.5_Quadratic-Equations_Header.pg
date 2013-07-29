@@ -1,0 +1,65 @@
+###/set9-Quadratic-Equations_05-Quadratic-Equations_Header.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl");
+
+BEGIN_TEXT
+
+<p align="center">
+
+$BBOLD 9-Quadratic-Equations_05-Quadratic-Equations $EBOLD </p>
+
+<hr />
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+<hr />
+
+Students will be able to:
+
+<UL>
+
+<li>         Solve quadratic equations using the principle of square roots </li>
+
+<li>        Complete the square </li>
+
+<li>        Solve quadratic equations by completing the square </li>
+
+<li>        Find x-intercepts of graphs of quadratic functions </li>
+
+<li>        Solve word problems involving quadratic equations </li>
+
+</UL>
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+<hr />
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();

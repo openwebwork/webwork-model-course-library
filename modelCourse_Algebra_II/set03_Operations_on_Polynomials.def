@@ -1,0 +1,36 @@
+
+openDate          = 07/03/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/Operations_on_Polynomials_Header.pg
+problemList       = 
+Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_07_Polynomial.pg, 1, -1 
+Library/MC/Algebra/IdentifyGeneralPolynomialFeatures.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_04_Polynomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_09_Polynomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_10_Polynomial.pg, 1, -1 
+Library/ma117DB/set1b/srw1_3_1.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_20_PolyAddSub.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set3_Linear_Equations_and_Inequalities/s3p35.pg, 1, -1 
+Library/Rochester/setAlgebra03Expressions/lhp3_62.pg, 1, -1 
+Library/Rochester/setAlgebra03Expressions/lhp3_58.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set3_Linear_Equations_and_Inequalities/s3p31.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set3_Linear_Equations_and_Inequalities/s3p34.pg, 1, -1 
+Library/Utah/College_Algebra/set2_Functions_and_Their_Graphs/1050s2p9.pg, 1, -1 
+Library/Utah/Trigonometry/set2_Algebra/s2p5.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_01_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_08_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_05_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_05_FactoringSpecialForms/55IntAlg_01_FactorSpecial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_06_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_18_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_24_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_29_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_17_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_05_FactoringSpecialForms/55IntAlg_05_FactorSpecial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_26_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_05_FactoringSpecialForms/55IntAlg_10_FactorSpecial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_30_FactorTrinomial.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_05_04_FactoringTrinomials/54IntAlg_31_FactorTrinomial.pg, 1, -1 
+

@@ -1,0 +1,25 @@
+
+openDate          = 07/06/2013 at 04:33pm EDT
+dueDate           = 07/17/2018 at 04:33pm EDT
+answerDate        = 07/18/2018 at 04:33pm EDT
+paperHeaderFile   = defaultHeader
+screenHeaderFile  = local/opt/webwork/webwork2/conf/snippets/set06_Simplify_Rational_Expressions_Header.pg
+problemList       = 
+Library/Utah/Intermediate_Algebra/set2_Fundamentals_of_Algebra/prod.pg, 1, -1 
+Library/Rochester/setAlgebra01RealNumbers/sw1_2_15a.pg, 1, -1 
+Library/Utah/Intermediate_Algebra/set2_Fundamentals_of_Algebra/s2p11.pg, 1, -1 
+Library/Rochester/setAlgebra01RealNumbers/sw1_2_13a.pg, 1, -1 
+Library/Rochester/setAlgebra01RealNumbers/sw1_2_15b.pg, 1, -1 
+Library/Rochester/setAlgebra01RealNumbers/sw1_2_11.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_02_MultDivRatExp.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_03_MultDivRatExp.pg, 1, -1 
+Library/maCalcDB/setAlgebra05RationalExpressions/srw1_4_1.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_11_MultDivRatExp.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_10_MultDivRatExp.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_20_MultDivRatExp.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_21_MultDivRatExp.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_06_02_AddSubRationalExpressions/62IntAlg_30_Review_Exponents.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_27_MultDivRatExp.pg, 1, -1 
+Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_24_MultDivRatExp.pg, 1, -1 
+Library/FortLewis/Algebra/1-2-Equations/MCH1-1-2-10-18even-Equations.pg, 1, -1 
+

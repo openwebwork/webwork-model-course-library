@@ -1,0 +1,67 @@
+###/Set_11_HeaderFile.pg
+
+DOCUMENT();
+
+loadMacros(
+
+"PG.pl",
+
+"PGbasicmacros.pl",
+
+"unionLists.pl");
+
+BEGIN_TEXT
+
+$PAR $BCENTER
+
+$BBOLD Set 11: Differentiation and properties of curves $EBOLD
+
+$ECENTER
+
+$HR
+
+$PAR
+
+Due: $BBOLD
+
+$formattedDueDate. $EBOLD
+
+$PAR
+
+$HR
+
+Students will be able to:
+
+   \{BeginList("UL")\}
+
+  $ITEM Determine intervals of increasing/decreasing behavior by analyzing the sign of the derivative.
+  $ITEM Identify locations and values of relative maxima and minima.
+  $ITEM Determine intervals of concavity by using the second derivative.
+  $ITEM Identify locations of inflection points.
+  $ITEM Draw conclusion about signs of derivatives by looking at the graph of a function.
+  $ITEM Apply the above to mathematical models involving cost/revenue/profit.
+
+
+  \{EndList("UL")\}
+
+$PAR
+
+$HR
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Available_Functions!,"Functions and symbols that WeBWorK understands.") \}
+
+$PAR
+
+$HR
+
+$PAR
+
+\{ htmlLink(qq!http://webwork.maa.org/wiki/Student_Information!,"Links to some useful WeBWorK pages for students ") \}
+
+$PAR
+
+END_TEXT
+
+ENDDOCUMENT();
