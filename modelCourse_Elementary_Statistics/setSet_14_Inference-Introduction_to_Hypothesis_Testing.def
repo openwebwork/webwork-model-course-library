@@ -2,10 +2,8 @@ setNumber=Set_14_Inference-Introduction_to_Hypothesis_Testing
 openDate          = 01/01/2012 at 08:00am MST
 dueDate           = 01/01/2020 at 05:00pm MST
 answerDate        = 01/01/2020 at 05:00pm MST
-paperHeaderFile = setSet_14_Inference-Introduction_to_Hypothesis_Testing
-_Header.pg
-screenHeaderFile = setSet_14_Inference-Introduction_to_Hypothesis_Testing
-_Header.pg
+paperHeaderFile = setSet_14_Inference-Introduction_to_Hypothesis_Testing_Header.pg
+screenHeaderFile = setSet_14_Inference-Introduction_to_Hypothesis_Testing_Header.pg
 problemList =
 Library/CollegeOfIdaho/setStatistics_Ch14InferenceIntro/14Stats_07_InferenceIntro.pg,      3, 3
 Library/CollegeOfIdaho/setStatistics_Ch14InferenceIntro/14Stats_08_InferenceIntro.pg,      3, 3
