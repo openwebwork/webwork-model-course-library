@@ -1,13 +1,13 @@
 openDate          = 09/01/2013 at 12:00am EDT
-dueDate           = 12/31/2013 at 12:00am EDT
-answerDate        = 12/31/2013 at 12:00am EDT
+dueDate           = 12/31/2023 at 12:00am EDT
+answerDate        = 12/31/2023 at 12:00am EDT
 paperHeaderFile   = defaultHeader
 screenHeaderFile  = defaultHeader
 problemList       = 
-Library/UMass-Amherst/AbstractAlgebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials1.pg, 1, -1 
-Library/UMass-Amherst/AbstractAlgebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials2.pg, 1, -1 
-Library/UMass-Amherst/AbstractAlgebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials3.pg, 1, -1 
-Library/UMass-Amherst/AbstractAlgebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials4.pg, 1, -1 
-Library/UMass-Amherst/AbstractAlgebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials5.pg, 1, -1 
-Library/UMass-Amherst/AbstractAlgebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials6.pg, 1, -1 
-Library/UMass-Amherst/AbstractAlgebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials7.pg, 1, -1 
+Library/UMass-Amherst/Abstract-Algebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials4.pg, 1, -1 
+Library/UMass-Amherst/Abstract-Algebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials7.pg, 1, -1 
+Library/UMass-Amherst/Abstract-Algebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials1.pg, 1, -1 
+Library/UMass-Amherst/Abstract-Algebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials2.pg, 1, -1 
+Library/UMass-Amherst/Abstract-Algebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials5.pg, 1, -1 
+Library/UMass-Amherst/Abstract-Algebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials3.pg, 1, -1 
+Library/UMass-Amherst/Abstract-Algebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials6.pg, 1, -1 
