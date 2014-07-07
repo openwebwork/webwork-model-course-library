@@ -1,0 +1,14 @@
+This model set of homework assignments is for a generic Introduction to Abstract Algebra course which is not tied to any particular textbook.  It is expected that with some modification, this can be adapted to many formats of Abstract Algebra courses.   
+
+Note:  Here are the default notation for some of the standard finite groups:
+
+    cyclic group of order n:       Z_n
+  
+    dihedral group of order n:     D_n
+
+    quaternion group (of order 8): Q_8
+
+However, instructors can change these notations (e.g. Z_n to C_n, D_n to D_{2n}) by modifying the file
+
+    algebraMacros.pl
+
